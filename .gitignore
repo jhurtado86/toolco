@@ -1,3 +1,24 @@
 node_modules/
 temporary screenshots/
 .DS_Store
+
+# Hero video: raw camera/source clips + trim previews never get committed — only the compressed web versions + poster
+brand_assets/*.MOV
+brand_assets/*.mov
+brand_assets/*-trim-preview.*
+brand_assets/*-raw.*
+
+# Cornwell flyer artwork dropped into brand_assets — copyrighted, never served or committed (CLAUDE.md IP guardrail)
+brand_assets/poster.png
+
+# Raw social/camera originals of the photo batch (Kim-shot, Facebook-named) — only the optimized, renamed web exports get committed
+brand_assets/*_n.jpg
+brand_assets/home.jpg
+brand_assets/home1.JPEG
+brand_assets/home2.jpg
+brand_assets/home2.webp
+# Do-not-place (excluded types: other dealer identity / competitor branding + plate / MA patch) — never served or committed
+brand_assets/home3.jpg
+
+# RETIRED by client decision — never place this photo again (kept on disk, not served/committed)
+brand_assets/torque-wrench-set.jpg

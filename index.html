@@ -3,57 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Services in [City] | Your Business Name</title>
-  <meta name="description" content="Professional home services in [City], [ST] and across the [Region]. Same-day appointments, free estimates, and clear, upfront pricing. Call (555) 000-0000." />
-  <meta name="keywords" content="home services [City] [ST], home services [City], local home services [Region], home services near me [City], [City 2] home services, professional home services [Region], Your Business Name [City]" />
+  <title>Mobile Cornwell Tool Dealer in Edinburg, TX | Tool Co</title>
+  <meta name="description" content="Tool Co is an authorized Cornwell Quality Tools dealer running a mobile tool truck to shops in Edinburg, Pharr, San Juan, Alamo & Weslaco. Get on the route." />
+  <meta name="keywords" content="mobile tool dealer Edinburg TX, Cornwell tools Rio Grande Valley, Cornwell dealer Edinburg, tool truck Pharr TX, mobile tool service Weslaco, tool financing Hidalgo County, Tool Co Cornwell" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <link rel="canonical" href="https://yourbusiness.com/" />
+  <link rel="canonical" href="https://www.toolcorgv.com/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Home Services in [City] | Your Business Name" />
-  <meta property="og:description" content="Professional home services across [City] &amp; the [Region]. Same-day appointments, free estimates, and mobile service to your door. Call (555) 000-0000." />
-  <meta property="og:url" content="https://yourbusiness.com/" />
+  <meta property="og:title" content="Mobile Cornwell Tool Dealer in Edinburg, TX | Tool Co" />
+  <meta property="og:description" content="Authorized Cornwell Quality Tools dealer running a mobile tool truck to commercial shops across Edinburg &amp; the Rio Grande Valley. Financing available. Get on the route." />
+  <meta property="og:url" content="https://www.toolcorgv.com/" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://placehold.co/1200x630" /><!-- PLACEHOLDER: brand_assets/og-image.jpg does not exist yet — create 1200×630 social share image before launch -->
+  <meta property="og:image" content="https://placehold.co/1200x630" /><!-- PLACEHOLDER: brand_assets/og-image.jpg does not exist yet — [NEEDS INPUT — create 1200×630 social share image before launch] -->
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:site_name" content="Your Business Name" />
+  <meta property="og:site_name" content="Tool Co — Authorized Cornwell Dealer" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Home Services in [City] | Your Business Name" />
-  <meta name="twitter:description" content="Professional home services across [City] &amp; the [Region]. Same-day appointments, free estimates, and clear, upfront pricing. Call (555) 000-0000." />
+  <meta name="twitter:title" content="Mobile Cornwell Tool Dealer in Edinburg, TX | Tool Co" />
+  <meta name="twitter:description" content="Authorized Cornwell Quality Tools dealer running a mobile tool truck to commercial shops across Edinburg &amp; the Rio Grande Valley. Get on the route." />
   <meta name="twitter:image" content="https://placehold.co/1200x630" /><!-- PLACEHOLDER: same 1200×630 image -->
+
+  <!-- [NEEDS INPUT — favicon: export a square icon from the logo's mascot roundel; none shipped yet] -->
+
+  <!-- GHL EXTERNAL TRACKING SCRIPT (site-wide, shared head) -->
+  <script src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_4cfa8e42c7bd4049b28228542b84a8f7"></script>
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/brand.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;0,700;0,800;1,800&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            /* Semantic palette — values resolve from /brand.css tokens */
+            /* Semantic palette — values resolve from /brand.css tokens (logo-locked) */
             primary: { DEFAULT: 'var(--color-primary)', mid: 'var(--color-primary-mid)' },
-            accent:  { DEFAULT: 'var(--color-accent)', deep: 'var(--color-accent-deep)' },
+            accent:  { DEFAULT: 'var(--color-accent)', deep: 'var(--color-accent-deep)', bright: 'var(--color-accent-bright)' },
+            tint:    'var(--color-tint)',
+            silver:  'var(--color-silver)',
             dark:    { DEFAULT: 'var(--color-dark)', 3: 'var(--color-dark-3)' },
             ink:     'var(--color-ink)',
             muted:   { DEFAULT: 'var(--color-muted)', light: 'var(--color-muted-light)' },
             line:    'var(--color-line)',
             bg:      { DEFAULT: 'var(--color-bg)', 2: 'var(--color-bg-2)' },
-            rating:  'var(--color-rating)',
           },
           fontFamily: {
             display: ['Barlow', 'sans-serif'],
             body:    ['Nunito', 'sans-serif'],
           },
           boxShadow: {
-            'card':    '0 2px 8px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04)',
-            'card-lg': '0 8px 32px rgba(0,0,0,0.10), 0 2px 6px rgba(0,0,0,0.05)',
+            'card':    '0 2px 8px rgba(var(--color-dark-rgb),0.06), 0 1px 2px rgba(var(--color-dark-rgb),0.04)',
+            'card-lg': '0 8px 32px rgba(var(--color-dark-rgb),0.10), 0 2px 6px rgba(var(--color-dark-rgb),0.05)',
             'glow':    '0 0 28px rgba(var(--color-dark-rgb),0.16)',
             'cta':     '0 4px 20px rgba(var(--color-accent-rgb),0.30)',
           },
@@ -65,13 +71,14 @@
   </script>
 
   <style>
-    /* Color tokens live in /brand.css (single source of truth). */
+    /* Color tokens live in /brand.css (single source of truth — logo-locked). */
 
     *, *::before, *::after { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body { font-family: 'Nunito', sans-serif; background: var(--color-bg); color: var(--color-ink); }
     h1,h2,h3,h4 { font-family: 'Barlow', sans-serif; }
 
+    /* ── Section surfaces (light / light-tint / dark) ── */
     .section-dark { background: var(--color-bg); }
     .section-mid  {
       background:
@@ -92,59 +99,41 @@
       content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
       background: var(--wash, transparent);
     }
-    .wash-navy-tr  { --wash: radial-gradient(ellipse 55% 48% at 100% 0%,   rgba(var(--color-dark-rgb), 0.06) 0%, transparent 60%); }
-    .wash-navy-br  { --wash: radial-gradient(ellipse 55% 48% at 100% 100%, rgba(var(--color-dark-rgb), 0.06) 0%, transparent 60%); }
-    .wash-navy-bl  { --wash: radial-gradient(ellipse 55% 48% at 0% 100%,   rgba(var(--color-dark-rgb), 0.06) 0%, transparent 60%); }
-    .wash-ember-tl { --wash: radial-gradient(ellipse 55% 48% at 0% 0%,     rgba(var(--color-accent-rgb), 0.05) 0%, transparent 60%); }
-    .wash-ember-tr { --wash: radial-gradient(ellipse 55% 48% at 100% 0%,   rgba(var(--color-accent-rgb), 0.05) 0%, transparent 60%); }
+    .wash-navy-tr   { --wash: radial-gradient(ellipse 55% 48% at 100% 0%,   rgba(var(--color-dark-rgb), 0.06) 0%, transparent 60%); }
+    .wash-navy-br   { --wash: radial-gradient(ellipse 55% 48% at 100% 100%, rgba(var(--color-dark-rgb), 0.06) 0%, transparent 60%); }
+    .wash-navy-bl   { --wash: radial-gradient(ellipse 55% 48% at 0% 100%,   rgba(var(--color-dark-rgb), 0.06) 0%, transparent 60%); }
+    .wash-accent-tl { --wash: radial-gradient(ellipse 55% 48% at 0% 0%,     rgba(var(--color-accent-rgb), 0.09) 0%, transparent 60%); }
+    .wash-accent-tr { --wash: radial-gradient(ellipse 55% 48% at 100% 0%,   rgba(var(--color-accent-rgb), 0.09) 0%, transparent 60%); }
 
-    /* ---- Insurance section: deep-navy treatment (page rhythm) ---- */
-    #insurance.dark-section {
-      background:
-        radial-gradient(ellipse 90% 70% at 12% 0%,   rgba(var(--color-dark-rgb), 0.20) 0%, transparent 55%),
-        radial-gradient(ellipse 85% 65% at 100% 100%, rgba(var(--color-accent-rgb), 0.08) 0%, transparent 52%),
-        var(--color-dark);
-    }
-    #insurance .area-card {
-      background: linear-gradient(135deg, rgba(255,255,255,0.055) 0%, rgba(255,255,255,0.02) 100%), rgba(var(--color-dark-rgb), 0.45);
-      border: 1px solid rgba(255,255,255,0.10);
-      box-shadow: 0 1px 3px rgba(0,0,0,0.30), 0 20px 50px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.06);
-    }
-    #insurance .area-card > .text-center span { color: var(--color-muted-light) !important; }
-    #insurance .area-card p { color: var(--color-muted-light) !important; }
-    #insurance .insurer-pill {
-      background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.16); color: var(--color-line);
-    }
-    #insurance .insurer-pill:hover {
-      background: rgba(255,255,255,0.12); border-color: rgba(var(--color-accent-rgb), 0.45); transform: translateY(-1px);
-    }
-
-    /* ---- Reviews section: deep-navy treatment (page rhythm) ---- */
-    #reviews.dark-section {
-      background:
-        radial-gradient(ellipse 80% 60% at 12% 6%, rgba(var(--color-accent-rgb), 0.07) 0%, transparent 50%),
-        var(--color-dark);
-    }
-    #reviews .area-card {
-      background: linear-gradient(135deg, rgba(255,255,255,0.055) 0%, rgba(255,255,255,0.02) 100%), rgba(var(--color-dark-rgb), 0.45) !important;
-      border-color: rgba(255,255,255,0.10) !important;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.30), 0 20px 50px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.06);
-    }
+    /* Dark sections get a sky-blue corner glow + grain so navy never reads flat */
+    .dark-section.atmo::before { opacity: 0.07; }
+    .dark-glow-tl { --wash: radial-gradient(ellipse 70% 60% at 0% 0%,     rgba(var(--color-accent-rgb), 0.14) 0%, transparent 55%); }
+    .dark-glow-br { --wash: radial-gradient(ellipse 70% 60% at 100% 100%, rgba(var(--color-accent-rgb), 0.12) 0%, transparent 55%); }
 
     .dark-section .text-white        { color: var(--color-bg) !important; }
-    .dark-section .text-muted  { color: var(--color-muted-light) !important; }
+    .dark-section .text-muted        { color: var(--color-muted-light) !important; }
     .dark-section .btn-outline       { color: var(--color-bg); border-color: rgba(255,255,255,0.28); }
-    .dark-section .btn-outline:hover { border-color: rgba(255,255,255,0.60); background: rgba(255,255,255,0.06); }
+    .dark-section .btn-outline:hover { border-color: rgba(var(--color-accent-bright-rgb),0.70); background: rgba(255,255,255,0.06); }
+    .dark-section .btn-outline:focus-visible { outline-color: var(--color-accent-bright); }
     .dark-section .divider           { background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent); }
-    .dark-section .section-title-accent { background: linear-gradient(90deg, transparent 0%, var(--color-accent) 25%, var(--color-accent) 75%, transparent 100%); }
+    .dark-section .section-title-accent { background: linear-gradient(90deg, transparent 0%, var(--color-accent-bright) 25%, var(--color-accent-bright) 75%, transparent 100%); }
     .dark-section .link-arrow        { color: var(--color-accent-bright); }
-    .dark-section .link-arrow:hover  { color: var(--color-line); }
+    .dark-section .link-arrow:hover  { color: var(--color-bg); }
+    .dark-section .link-arrow:focus-visible { outline-color: var(--color-accent-bright); }
+    .dark-section .eyebrow           { color: var(--color-accent-bright); }
 
     .section-dark .text-white,
-    .section-mid  .text-white       { color: var(--color-ink); }
+    .section-mid  .text-white        { color: var(--color-ink); }
     .section-dark .text-muted,
-    .section-mid  .text-muted { color: var(--color-muted); }
-    .hero-bg .text-muted      { color: var(--color-muted-light); }
+    .section-mid  .text-muted        { color: var(--color-muted); }
+    .hero-bg .text-muted             { color: var(--color-muted-light); }
+
+    /* Eyebrow — Barlow, tracked caps. On light it uses accent-deep (the sky accent fails 4.5:1 on white). */
+    .eyebrow {
+      font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      color: var(--color-accent-deep); margin-bottom: 14px;
+    }
 
     .divider {
       height: 1px;
@@ -157,25 +146,11 @@
       background: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, transparent 100%);
     }
 
-    .nav-wordmark {
-      font-family: 'Barlow', sans-serif;
-      font-weight: 800; font-size: 24px;
-      letter-spacing: -0.02em; color: var(--color-bg); line-height: 1;
-      transition: color 0.25s cubic-bezier(0.4,0,0.2,1);
-    }
-    #navbar.scrolled .nav-wordmark { color: var(--color-ink); }
-
-    /* Nav bar + logo sizing — driven by --nav-height / --nav-logo-height /
-       --footer-logo-height in brand.css (size the nav off the client logo). */
+    /* ── Nav bar + logo sizing — driven by --nav-height / --nav-logo-height /
+       --footer-logo-height in brand.css (sized off the client logo). ── */
     #navbar .nav-row { height: var(--nav-height); }
     .nav-logo    { height: var(--nav-logo-height); width: auto; display: block; }
     .footer-logo { height: var(--footer-logo-height); width: auto; display: block; }
-
-    .footer-wordmark {
-      font-family: 'Barlow', sans-serif;
-      font-weight: 800; font-size: 28px;
-      letter-spacing: -0.02em; color: var(--color-bg); line-height: 1;
-    }
 
     #navbar {
       position: fixed; top: 0; left: 0; right: 0; z-index: 50;
@@ -185,21 +160,21 @@
                   border-color 0.40s cubic-bezier(0.4,0,0.2,1),
                   box-shadow 0.40s cubic-bezier(0.4,0,0.2,1);
     }
-    #navbar .text-muted          { color: rgba(255,255,255,0.68) !important; }
+    #navbar .text-muted                { color: rgba(255,255,255,0.72) !important; }
     #navbar .hover\:text-white:hover   { color: rgba(255,255,255,1) !important; }
-    #navbar #hamburger                 { color: rgba(255,255,255,0.80) !important; border-color: rgba(255,255,255,0.18) !important; }
-    #mobile-menu                       { background: rgba(var(--color-dark-rgb), 0.96); backdrop-filter: blur(18px); }
-    #mobile-menu a.mobile-nav-link     { color: rgba(255,255,255,0.68) !important; }
+    #navbar #hamburger                 { color: rgba(255,255,255,0.85) !important; border-color: rgba(255,255,255,0.18) !important; }
+    #mobile-menu                       { background: rgba(var(--color-dark-rgb), 0.96); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
+    #mobile-menu a.mobile-nav-link     { color: rgba(255,255,255,0.72) !important; }
     #mobile-menu a.mobile-nav-link:hover { color: rgba(255,255,255,1) !important; background: rgba(255,255,255,0.06) !important; }
     #mobile-menu                       { border-top-color: rgba(255,255,255,0.08) !important; }
 
     #navbar.scrolled {
-      background: rgba(255,255,255,0.72);
+      background: rgba(255,255,255,0.80);
       backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px);
-      border-bottom-color: rgba(var(--color-dark-rgb), 0.07);
-      box-shadow: 0 1px 24px rgba(0,0,0,0.06);
+      border-bottom-color: rgba(var(--color-dark-rgb), 0.08);
+      box-shadow: 0 1px 24px rgba(var(--color-dark-rgb), 0.08);
     }
-    #navbar.scrolled .text-muted         { color: var(--color-muted) !important; }
+    #navbar.scrolled .text-muted               { color: var(--color-muted) !important; }
     #navbar.scrolled .hover\:text-white:hover  { color: var(--color-ink) !important; }
     #navbar.scrolled #hamburger                { color: var(--color-ink) !important; border-color: rgba(var(--color-dark-rgb), 0.16) !important; }
     #navbar.scrolled #mobile-menu              { background: var(--color-bg); }
@@ -210,12 +185,15 @@
     .nav-link { position: relative; }
     .nav-link::after {
       content: ''; position: absolute; bottom: -2px; left: 0;
-      width: 0; height: 2px; background: var(--color-accent);
+      width: 0; height: 2px; background: var(--color-accent-bright);
       transition: width 0.25s cubic-bezier(0.4,0,0.2,1);
     }
     .nav-link:hover::after { width: 100%; }
+    .nav-link:focus-visible { outline: 2px solid var(--color-accent-bright); outline-offset: 4px; border-radius: 4px; }
+    #navbar.scrolled .nav-link::after { background: var(--color-accent-deep); }
+    #navbar.scrolled .nav-link:focus-visible { outline-color: var(--color-accent-deep); }
 
-    /* ── Services dropdown (desktop) ── */
+    /* ── Dropdowns (desktop) ── */
     .nav-dropdown { position: relative; height: var(--nav-height); display: flex; align-items: center; }
     .nav-dropdown-trigger { display: inline-flex; align-items: center; gap: 5px; }
     .nav-dropdown-trigger .nav-chev { transition: transform 0.25s cubic-bezier(0.4,0,0.2,1); }
@@ -241,10 +219,11 @@
     .nav-dropdown-menu a {
       display: block; padding: 10px 14px; border-radius: 9px;
       font-size: 14px; font-weight: 500; line-height: 1.3; white-space: nowrap;
-      color: rgba(255,255,255,0.70);
+      color: rgba(255,255,255,0.72);
       transition: color 0.15s cubic-bezier(0.4,0,0.2,1), background 0.15s cubic-bezier(0.4,0,0.2,1);
     }
     .nav-dropdown-menu a:hover { color: var(--color-bg); background: rgba(255,255,255,0.07); }
+    .nav-dropdown-menu a:focus-visible { outline: 2px solid var(--color-accent-bright); outline-offset: -2px; }
     .nav-dropdown-menu a[aria-current="page"] { color: var(--color-bg); font-weight: 700; background: rgba(var(--color-accent-rgb), 0.16); }
     #navbar.scrolled .nav-dropdown-menu {
       background: rgba(255,255,255,0.98); border-color: rgba(var(--color-dark-rgb), 0.08);
@@ -252,16 +231,18 @@
     }
     #navbar.scrolled .nav-dropdown-menu a { color: var(--color-muted); }
     #navbar.scrolled .nav-dropdown-menu a:hover { color: var(--color-ink); background: rgba(var(--color-dark-rgb), 0.04); }
+    #navbar.scrolled .nav-dropdown-menu a:focus-visible { outline-color: var(--color-accent-deep); }
     #navbar.scrolled .nav-dropdown-menu a[aria-current="page"] { color: var(--color-ink); background: rgba(var(--color-accent-rgb), 0.12); }
 
-    /* ── Services dropdown (mobile) ── */
+    /* ── Dropdowns (mobile) ── */
     .mobile-services-toggle {
       display: flex; align-items: center; justify-content: space-between; width: 100%;
       background: none; border: none; cursor: pointer; font: inherit; text-align: left;
-      color: rgba(255,255,255,0.68);
+      color: rgba(255,255,255,0.72);
       transition: color 0.15s cubic-bezier(0.4,0,0.2,1), background 0.15s cubic-bezier(0.4,0,0.2,1);
     }
     .mobile-services-toggle:hover { color: var(--color-bg); background: rgba(255,255,255,0.06); }
+    .mobile-services-toggle:focus-visible { outline: 2px solid var(--color-accent-bright); outline-offset: -2px; }
     .mobile-services-toggle .nav-chev { transition: transform 0.25s cubic-bezier(0.4,0,0.2,1); flex-shrink: 0; }
     .mobile-services-toggle[aria-expanded="true"] .nav-chev { transform: rotate(180deg); }
     .mobile-services-submenu {
@@ -272,7 +253,7 @@
     .mobile-services-submenu.open { display: flex; }
     .mobile-services-submenu a {
       padding: 9px 12px; border-radius: 8px; font-size: 14px; font-weight: 500;
-      color: rgba(255,255,255,0.58);
+      color: rgba(255,255,255,0.62);
       transition: color 0.15s cubic-bezier(0.4,0,0.2,1), background 0.15s cubic-bezier(0.4,0,0.2,1);
     }
     .mobile-services-submenu a:hover { color: var(--color-bg); background: rgba(255,255,255,0.06); }
@@ -283,42 +264,132 @@
     #navbar.scrolled .mobile-services-submenu a { color: var(--color-muted); }
     #navbar.scrolled .mobile-services-submenu a:hover { color: var(--color-ink); background: rgba(var(--color-dark-rgb), 0.04); }
 
+    /* ── Hero ── */
     .hero-bg { background: var(--color-dark); }
+    /* Overlay measured against the wired footage (text-zone 90th-pct luma): template values left the
+       mobile text zone at 4.4:1 for white text. Vertical band 0.80/0.50/0.44/0.82 + left radial 0.90
+       (desktop keeps the footage visible on the right); phones add a flat 0.22 scrim on top. */
+    .hero-overlay {
+      position: absolute; inset: 0; z-index: 1; pointer-events: none;
+      background:
+        linear-gradient(180deg, rgba(var(--color-dark-rgb), 0.80) 0%, rgba(var(--color-dark-rgb), 0.50) 25%, rgba(var(--color-dark-rgb), 0.44) 65%, rgba(var(--color-dark-rgb), 0.82) 100%),
+        radial-gradient(ellipse 72% 110% at 0% 50%, rgba(var(--color-dark-rgb), 0.90) 0%, transparent 68%);
+    }
+    @media (max-width: 1023px) {
+      .hero-overlay { box-shadow: inset 0 0 0 100vmax rgba(var(--color-dark-rgb), 0.22); }
+    }
     .hero-vignette {
       background: radial-gradient(ellipse 120% 100% at 50% 50%, transparent 35%, rgba(0,0,0,0.50) 100%);
       pointer-events: none;
     }
-    .hero-bg .btn-outline { color: rgba(255,255,255,0.88); border-color: rgba(255,255,255,0.20); }
-    .hero-bg .btn-outline:hover { border-color: rgba(var(--color-accent-rgb), 0.50); background: rgba(var(--color-dark-rgb), 0.14); transform: translateY(-2px); }
-    @media (max-width: 767px) { .hero-text-block h1 { font-size: 2.15rem !important; } }
+    .hero-bg .btn-outline { color: rgba(255,255,255,0.90); border-color: rgba(255,255,255,0.24); }
+    .hero-bg .btn-outline:hover { border-color: rgba(var(--color-accent-bright-rgb), 0.70); background: rgba(var(--color-dark-rgb), 0.18); transform: translateY(-2px); }
+    .hero-bg .btn-outline:focus-visible { outline-color: var(--color-accent-bright); }
+    .hero-bg .eyebrow { color: var(--color-accent-bright); }
+    .hero-h1-accent { display: block; color: var(--color-accent-bright); font-style: italic; font-weight: 800; }
+    @media (max-width: 767px) { .hero-text-block h1 { font-size: 2.25rem !important; } }
+    @media (max-width: 479px) { .hero-ctas > a { width: 100%; justify-content: center; } }
 
+    /* HERO VIDEO SLOT — homepage only. Hidden until a <source> exists (JS adds .is-live);
+       the static hero-background <img> beneath it stays the LCP + reduced-motion fallback. */
+    .hero-video {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; object-position: center center; z-index: 0;
+      display: none;
+    }
+    .hero-video.is-live { display: block; }
+
+    /* ── THE ROUTE STRIP (hero signature) — an ordered list of the five stops,
+       drawn as one line. Order is GEOGRAPHIC (home base, then east along I-2 / US-83),
+       not a delivery schedule. Vertical on phones, horizontal from 640px up. ── */
+    .route-block {
+      border-top: 1px solid rgba(var(--color-silver-rgb), 0.30);
+      padding-top: 22px;
+    }
+    .route-strip { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+    .route-stop { position: relative; display: flex; align-items: center; gap: 14px; padding: 7px 0; }
+    .route-stop::before {
+      content: ""; position: absolute; left: 7px; top: 0; bottom: 0; width: 2px;
+      background: rgba(var(--color-accent-bright-rgb), 0.45);
+    }
+    .route-stop:first-child::before { top: 50%; }
+    .route-stop:last-child::before  { bottom: 50%; }
+    .route-dot {
+      position: relative; z-index: 1; flex-shrink: 0;
+      width: 16px; height: 16px; border-radius: 50%;
+      border: 2px solid var(--color-accent-bright);
+      background: rgba(var(--color-dark-rgb), 0.92);
+      box-shadow: 0 0 0 4px rgba(var(--color-accent-bright-rgb), 0.14);
+    }
+    .route-stop--home .route-dot {
+      background: var(--color-accent-bright);
+      box-shadow: 0 0 0 5px rgba(var(--color-accent-bright-rgb), 0.22), 0 0 20px rgba(var(--color-accent-rgb), 0.60);
+    }
+    .route-label { display: block; }
+    .route-name {
+      display: block;
+      font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 15px; line-height: 1.15;
+      color: var(--color-bg); text-shadow: 0 1px 8px rgba(0,0,0,0.45);
+    }
+    .route-tag {
+      display: block; margin-top: 3px;
+      font-family: 'Barlow', sans-serif; font-size: 10.5px; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent-bright);
+    }
+    @media (min-width: 640px) {
+      .route-strip { flex-direction: row; align-items: flex-start; }
+      .route-stop { flex: 1 1 0; flex-direction: column; align-items: flex-start; gap: 12px; padding: 0; }
+      .route-stop::before { left: 8px; right: -8px; top: 7px; bottom: auto; height: 2px; width: auto; }
+      .route-stop:first-child::before { top: 7px; }
+      .route-stop:last-child::before  { display: none; }
+    }
+
+    /* ── Buttons ──
+       .btn-primary = navy on light (CLAUDE.md: primary buttons use --color-primary).
+       On dark surfaces (hero, dark sections, transparent nav) it flips to the logo's
+       own pairing: sky-blue fill + navy text (4.8:1) — white-on-sky would fail (2.6:1). */
     .btn-primary {
-      background: var(--color-accent); color: var(--color-bg);
+      background: var(--color-primary); color: var(--color-bg);
       font-weight: 700; border-radius: 8px; padding: 14px 28px; font-size: 15px;
       letter-spacing: 0.01em;
-      box-shadow: 0 4px 18px rgba(var(--color-accent-rgb), 0.30);
+      box-shadow: 0 4px 18px rgba(var(--color-dark-rgb), 0.28);
       transition: transform 0.18s cubic-bezier(0.4,0,0.2,1),
                   box-shadow 0.18s cubic-bezier(0.4,0,0.2,1),
                   background 0.18s cubic-bezier(0.4,0,0.2,1);
       display: inline-flex; align-items: center; gap: 8px;
     }
-    .btn-primary:hover  { background: var(--color-accent-deep); transform: translateY(-2px); box-shadow: 0 8px 26px rgba(var(--color-accent-rgb), 0.38); }
-    .btn-primary:active { transform: translateY(0); box-shadow: 0 2px 10px rgba(var(--color-accent-rgb), 0.22); }
-    .btn-primary:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+    .btn-primary:hover  { background: var(--color-primary-mid); transform: translateY(-2px); box-shadow: 0 8px 26px rgba(var(--color-dark-rgb), 0.34); }
+    .btn-primary:active { transform: translateY(0); box-shadow: 0 2px 10px rgba(var(--color-dark-rgb), 0.22); }
+    .btn-primary:focus-visible { outline: 2px solid var(--color-accent-deep); outline-offset: 3px; }
+
+    .hero-bg .btn-primary, .dark-section .btn-primary, #navbar:not(.scrolled) .btn-primary {
+      background: var(--color-accent); color: var(--color-primary);
+      box-shadow: 0 4px 18px rgba(var(--color-accent-rgb), 0.32);
+    }
+    .hero-bg .btn-primary:hover, .dark-section .btn-primary:hover, #navbar:not(.scrolled) .btn-primary:hover {
+      background: var(--color-accent-bright); box-shadow: 0 8px 26px rgba(var(--color-accent-rgb), 0.42);
+    }
+    .hero-bg .btn-primary:active, .dark-section .btn-primary:active, #navbar:not(.scrolled) .btn-primary:active {
+      background: var(--color-accent); box-shadow: 0 2px 10px rgba(var(--color-accent-rgb), 0.26);
+    }
+    .hero-bg .btn-primary:focus-visible, .dark-section .btn-primary:focus-visible, #navbar:not(.scrolled) .btn-primary:focus-visible {
+      outline-color: var(--color-accent-bright);
+    }
 
     .btn-outline {
       background: transparent; color: var(--color-ink);
-      font-weight: 600; border: 1.5px solid rgba(var(--color-dark-rgb), 0.22);
+      font-weight: 600; border: 1.5px solid rgba(var(--color-dark-rgb), 0.24);
       border-radius: 8px; padding: 13px 28px; font-size: 15px;
       transition: transform 0.18s cubic-bezier(0.4,0,0.2,1),
                   border-color 0.18s cubic-bezier(0.4,0,0.2,1),
                   background 0.18s cubic-bezier(0.4,0,0.2,1);
       display: inline-flex; align-items: center; gap: 8px;
     }
-    .btn-outline:hover  { border-color: var(--color-accent); background: rgba(var(--color-dark-rgb), 0.05); transform: translateY(-2px); }
+    .btn-outline:hover  { border-color: var(--color-accent-deep); background: rgba(var(--color-dark-rgb), 0.05); transform: translateY(-2px); }
     .btn-outline:active { transform: translateY(0); }
-    .btn-outline:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+    .btn-outline:focus-visible { outline: 2px solid var(--color-accent-deep); outline-offset: 3px; }
 
+    /* ── Cards (icon-free) ── */
     .service-card {
       background: var(--color-bg); border: 1px solid rgba(var(--color-dark-rgb), 0.07); border-radius: 16px; padding: 30px;
       box-shadow: 0 1px 2px rgba(var(--color-dark-rgb), 0.05), 0 6px 18px rgba(var(--color-dark-rgb), 0.10), 0 16px 40px rgba(var(--color-dark-rgb), 0.09), 0 0 0 1px rgba(var(--color-dark-rgb), 0.05);
@@ -328,35 +399,30 @@
     }
     .service-card:hover {
       transform: translateY(-6px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 20px 48px rgba(var(--color-dark-rgb), 0.13), 0 0 0 1.5px rgba(var(--color-dark-rgb), 0.20);
+      box-shadow: 0 4px 12px rgba(var(--color-dark-rgb),0.06), 0 20px 48px rgba(var(--color-dark-rgb), 0.13), 0 0 0 1.5px rgba(var(--color-dark-rgb), 0.20);
       border-color: transparent;
     }
-    .service-card:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+    .service-card:active { transform: translateY(-2px); }
+    .service-card:focus-visible { outline: 2px solid var(--color-accent-deep); outline-offset: 3px; }
 
     .feature-card {
       background: var(--color-bg); border: 1px solid rgba(var(--color-dark-rgb), 0.07); border-radius: 16px; padding: 28px 24px;
       box-shadow: 0 1px 2px rgba(var(--color-dark-rgb), 0.05), 0 6px 18px rgba(var(--color-dark-rgb), 0.09), 0 16px 38px rgba(var(--color-dark-rgb), 0.08);
       transition: transform 0.24s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.24s cubic-bezier(0.4,0,0.2,1);
     }
-    .feature-card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 16px 36px rgba(var(--color-dark-rgb), 0.11); }
+    .feature-card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(var(--color-dark-rgb),0.06), 0 16px 36px rgba(var(--color-dark-rgb), 0.11); }
 
-    /* Dark-card treatment for feature-cards placed on a dark section (e.g. How It Works). */
-    #how-it-works .feature-card {
-      background: linear-gradient(135deg, rgba(255,255,255,0.055) 0%, rgba(255,255,255,0.02) 100%), rgba(var(--color-dark-rgb), 0.45);
+    /* Translucent dark-card treatment for cards placed on a dark section. */
+    .dark-section .feature-card,
+    .dark-section .area-card {
+      background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%), rgba(var(--color-dark-3-rgb), 0.55);
       border: 1px solid rgba(255,255,255,0.10);
       box-shadow: 0 1px 3px rgba(0,0,0,0.30), 0 20px 50px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.06);
     }
 
-    .insurer-pill {
-      background: rgba(var(--color-dark-rgb), 0.07); border: 1px solid rgba(var(--color-dark-rgb), 0.16);
-      border-radius: 100px; padding: 8px 20px; font-size: 14px; font-weight: 600;
-      color: var(--color-accent); display: inline-flex; align-items: center;
-      transition: background 0.18s, border-color 0.18s, transform 0.18s cubic-bezier(0.34,1.56,0.64,1);
-    }
-    .insurer-pill:hover { background: rgba(var(--color-dark-rgb), 0.14); border-color: rgba(var(--color-dark-rgb), 0.30); transform: translateY(-1px); }
     .section-title-accent {
       display: inline-block; width: 64px; height: 3px;
-      background: linear-gradient(90deg, transparent 0%, var(--color-accent) 25%, var(--color-accent) 75%, transparent 100%);
+      background: linear-gradient(90deg, transparent 0%, var(--color-accent-deep) 25%, var(--color-accent-deep) 75%, transparent 100%);
       border-radius: 2px; margin-bottom: 12px;
     }
     .icon-wrap {
@@ -369,22 +435,158 @@
     }
     .link-arrow {
       display: inline-flex; align-items: center; gap: 6px;
-      font-size: 14px; font-weight: 600; color: var(--color-accent);
+      font-size: 14px; font-weight: 600; color: var(--color-accent-deep);
       transition: color 0.18s cubic-bezier(0.4,0,0.2,1), gap 0.18s cubic-bezier(0.4,0,0.2,1);
     }
-    .link-arrow:hover { color: var(--color-accent-deep); gap: 10px; }
-    .link-arrow:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; border-radius: 4px; }
+    .link-arrow:hover { color: var(--color-primary); gap: 10px; }
+    .link-arrow:focus-visible { outline: 2px solid var(--color-accent-deep); outline-offset: 2px; border-radius: 4px; }
 
     .area-card {
       background: linear-gradient(135deg, rgba(var(--color-dark-rgb), 0.04) 0%, rgba(var(--color-dark-rgb), 0.015) 100%), var(--color-bg);
       border: 1px solid rgba(var(--color-dark-rgb), 0.12); border-radius: 18px; padding: 36px 40px;
       box-shadow: 0 1px 3px rgba(var(--color-dark-rgb), 0.05), 0 10px 28px rgba(var(--color-dark-rgb), 0.10), 0 22px 56px rgba(var(--color-dark-rgb), 0.09), 0 0 0 1px rgba(var(--color-dark-rgb), 0.06);
     }
+    @media (max-width: 639px) { .area-card { padding: 28px 22px; } }
     .area-dot {
       width: 8px; height: 8px; border-radius: 50%;
       background: linear-gradient(135deg, var(--color-accent), var(--color-accent-deep));
-      box-shadow: 0 0 6px rgba(var(--color-dark-rgb), 0.40); flex-shrink: 0;
+      box-shadow: 0 0 6px rgba(var(--color-accent-rgb), 0.50); flex-shrink: 0;
     }
+
+    /* Check-list rows (light + dark) */
+    .check-row { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; line-height: 1.6; color: var(--color-muted); }
+    .check-row svg { margin-top: 2px; flex-shrink: 0; stroke: var(--color-accent-deep); }
+    .dark-section .check-row { color: var(--color-muted-light); }
+    .dark-section .check-row svg { stroke: var(--color-accent-bright); }
+
+    /* Fold-in pills ("also handled on the route") */
+    .foldin-pill {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 9px 16px; border-radius: 100px;
+      background: rgba(var(--color-dark-rgb), 0.05); border: 1px solid rgba(var(--color-dark-rgb), 0.14);
+      font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 14px; color: var(--color-primary);
+      transition: transform 0.18s cubic-bezier(0.34,1.56,0.64,1), background 0.18s cubic-bezier(0.4,0,0.2,1), border-color 0.18s cubic-bezier(0.4,0,0.2,1);
+    }
+    .foldin-pill:hover { background: rgba(var(--color-dark-rgb), 0.09); border-color: rgba(var(--color-dark-rgb), 0.28); transform: translateY(-1px); }
+    .foldin-pill:active { transform: translateY(0); }
+    .foldin-pill:focus-visible { outline: 2px solid var(--color-accent-deep); outline-offset: 3px; }
+
+    /* ── FAQ accordion — dark variant on the homepage (translucent cards) ── */
+    .faq-item {
+      border-radius: 16px; overflow: hidden;
+      background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%), rgba(var(--color-dark-3-rgb), 0.55);
+      border: 1px solid rgba(255,255,255,0.10);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.26), 0 14px 36px rgba(0,0,0,0.30);
+    }
+    .faq-item summary {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      padding: 20px 28px; cursor: pointer; user-select: none; list-style: none;
+      font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 1.125rem; color: var(--color-bg);
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary:hover { background: rgba(255,255,255,0.03); }
+    .faq-item summary:focus-visible { outline: 2px solid var(--color-accent-bright); outline-offset: -3px; border-radius: 14px; }
+    .faq-item .faq-body {
+      padding: 0 28px 24px; font-size: 0.95rem; line-height: 1.75; color: var(--color-muted-light);
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .faq-item .faq-body > div { padding-top: 16px; }
+    .faq-chevron { stroke: var(--color-accent-bright); transition: transform 0.22s cubic-bezier(0.4,0,0.2,1); }
+    details[open] .faq-chevron { transform: rotate(180deg); }
+
+    /* GHL "Website Form" container — the embed iframe is height:100%, so the wrapper carries a defined height
+       (data-height 697); the iframe also gets an explicit min-height so it can never collapse before form_embed.js runs. */
+    .ghl-form-wrap { min-height: 697px; height: 697px; display: block; }
+    .ghl-form-wrap iframe { display: block; width: 100%; height: 100%; min-height: 697px; border: 0; }
+
+    /* ── Inside-the-truck video feature (dark) — one 16:9 stage in the photo-frame's radius/shadow language ── */
+    .truck-feature { margin: 0; }
+    .truck-stage {
+      position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden;
+      border-radius: 16px; background: var(--color-dark-3);
+      border: 1px solid rgba(255,255,255,0.10);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.30), 0 30px 70px -20px rgba(0,0,0,0.60),
+                  0 0 0 1px rgba(var(--color-accent-rgb), 0.08), inset 0 1px 0 rgba(255,255,255,0.06);
+    }
+    .truck-video, .video-poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
+    .video-poster { display: none; }
+    /* Lazy section video inside a standard .photo-frame (areas slot): fills the uniform 4:3 frame, cover-cropped */
+    .photo-frame > .lazy-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
+    .truck-stage::after {   /* thin navy edge wash so the stage sits into the section instead of floating as a bright rectangle */
+      content: ""; position: absolute; inset: 0; pointer-events: none; border-radius: inherit;
+      background: radial-gradient(ellipse 120% 100% at 50% 50%, transparent 55%, rgba(var(--color-dark-rgb), 0.35) 100%);
+    }
+    .video-toggle {
+      position: absolute; right: 14px; bottom: 14px; z-index: 2;
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 8px 12px 8px 10px; border-radius: 100px;
+      background: rgba(var(--color-dark-rgb), 0.72); color: var(--color-bg);
+      border: 1px solid rgba(255,255,255,0.22); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+      font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+      cursor: pointer;
+      transition: transform 0.18s cubic-bezier(0.34,1.56,0.64,1), background 0.18s cubic-bezier(0.4,0,0.2,1), border-color 0.18s cubic-bezier(0.4,0,0.2,1);
+    }
+    .video-toggle:hover { background: rgba(var(--color-dark-rgb), 0.90); border-color: rgba(var(--color-accent-bright-rgb), 0.70); transform: translateY(-1px); }
+    .video-toggle:active { transform: translateY(0); }
+    .video-toggle:focus-visible { outline: 2px solid var(--color-accent-bright); outline-offset: 3px; }
+    .video-toggle .video-icon-play { display: none; }
+    .video-toggle[aria-pressed="true"] .video-icon-pause { display: none; }
+    .video-toggle[aria-pressed="true"] .video-icon-play { display: block; }
+    .truck-caption {
+      display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px;
+      padding: 18px 6px 0; color: var(--color-muted-light); font-size: 14px; line-height: 1.6;
+    }
+    .truck-caption-eyebrow {
+      font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase;
+      color: var(--color-accent-bright); white-space: nowrap;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .lazy-video { display: none; }
+      .video-poster { display: block; }
+      .video-toggle { display: none; }
+    }
+
+    /* ── Split sections: the photo column takes 13/24 of the row (either side) so content photos run larger;
+       the text column keeps a ~60-character measure. Stacks text-first below lg. ── */
+    .split-grid { display: grid; grid-template-columns: 1fr; gap: 48px; align-items: center; }
+    @media (min-width: 1024px) {
+      .split-grid { grid-template-columns: minmax(0, 11fr) minmax(0, 13fr); gap: 64px; }
+      .split-grid--photo-left { grid-template-columns: minmax(0, 13fr) minmax(0, 11fr); }
+    }
+
+    /* ── Areas: text column + portrait media column. The media column is capped so a 3:4 portrait
+       lands near the height of the heading + five-city list; text stacks first on small screens. ── */
+    .areas-grid { display: grid; grid-template-columns: 1fr; gap: 48px; align-items: center; }
+    @media (min-width: 1024px) { .areas-grid { grid-template-columns: minmax(0, 1fr) 440px; gap: 64px; } }
+    .areas-media-col { width: 100%; max-width: 440px; margin: 0 auto; }
+    @media (min-width: 1024px) { .areas-media-col { margin: 0; } }
+    .photo-frame--portrait > .lazy-video, .photo-frame--portrait > .video-poster { object-position: center top; }
+    .areas-media-caption { margin-top: 12px; font-size: 13px; line-height: 1.55; color: var(--color-muted); }
+
+    /* Five cities as plain styled text: hairline rows, no box. */
+    .city-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--color-line); }
+    .city-row { display: grid; grid-template-columns: 1fr; gap: 4px 20px; padding: 13px 0; border-bottom: 1px solid var(--color-line); }
+    @media (min-width: 640px) { .city-row { grid-template-columns: 172px minmax(0, 1fr); align-items: baseline; } }
+    .city-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+    .city-name {
+      font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 1.2rem; letter-spacing: -0.01em; line-height: 1.2;
+      color: var(--color-ink); text-decoration: none;
+      transition: color 0.15s cubic-bezier(0.4,0,0.2,1);
+    }
+    .city-name:hover { color: var(--color-accent-deep); text-decoration: underline; text-underline-offset: 4px; }
+    .city-name:focus-visible { outline: 2px solid var(--color-accent-deep); outline-offset: 3px; border-radius: 3px; }
+    .city-tag {
+      font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--color-accent-deep);
+    }
+    .city-note { margin: 0; font-size: 14px; line-height: 1.55; color: var(--color-muted); }
+
+    /* ── Catalog feature card (dark) ── */
+    .catalog-note {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 13px; color: var(--color-muted-light);
+    }
+    .catalog-note svg { stroke: var(--color-accent-bright); flex-shrink: 0; }
 
     #mobile-menu {
       display: none;
@@ -400,27 +602,15 @@
     }
     .fade-up.visible { opacity: 1; transform: translateY(0); }
 
-    .phone-pulse { position: relative; }
-    .phone-pulse::after {
-      content: ""; position: absolute; inset: -3px; border-radius: 11px;
-      border: 2px solid rgba(var(--color-accent-rgb), 0.45);
-      opacity: 0; pointer-events: none;
-      animation: pulse-ring 2.5s cubic-bezier(0.4,0,0.6,1) infinite;
-    }
-    @keyframes pulse-ring {
-      0%        { transform: scale(0.98); opacity: 0.55; }
-      70%, 100% { transform: scale(1.15); opacity: 0; }
-    }
-
     @media (min-width: 1024px) {
       .hero-outer {
         max-width: none !important; margin-left: 0 !important; margin-right: 0 !important;
         padding-left: clamp(48px, 5vw, 96px) !important; padding-right: 0 !important;
       }
-      .hero-text-block { max-width: 600px !important; }
+      .hero-text-block { max-width: 680px !important; }
     }
 
-    /* ── Skip link, anchor offset, FAQ chevron, reduced motion ── */
+    /* ── Skip link, anchor offset, reduced motion ── */
     .skip-link {
       position: absolute; top: 0; left: -9999px; z-index: 100;
       background: var(--color-bg); color: var(--color-ink);
@@ -429,73 +619,54 @@
     }
     .skip-link:focus { left: 0; }
     section[id] { scroll-margin-top: calc(var(--nav-height) + 8px); }
-    .faq-chevron { transition: transform 0.22s cubic-bezier(0.4,0,0.2,1); }
-    details[open] .faq-chevron { transform: rotate(180deg); }
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
-      .phone-pulse::after { animation: none; opacity: 0; }
       .fade-up { opacity: 1; transform: none; transition: none; }
+      .hero-video.is-live { display: none; }
     }
 
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: var(--color-bg-2); }
     ::-webkit-scrollbar-thumb { background: var(--color-line); border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: var(--color-accent); }
+    ::-webkit-scrollbar-thumb:hover { background: var(--color-accent-deep); }
   </style>
 
-  <!-- Homepage business schema. Set [BUSINESS @TYPE] to the trade's schema.org type — e.g. AutoRepair, HVACBusiness, PlumbingBusiness, RoofingContractor; fall back to LocalBusiness only if no specific subtype fits. -->
-  <!-- REMOVE this PostalAddress block (the "address" property in the JSON-LD below) entirely for service-area clients with no public address. -->
+  <!-- Homepage business schema — [DEALER-BUILD] service-area LocalBusiness.
+       Deliberately OMITTED: PostalAddress (no public address), priceRange (no pricing published),
+       aggregateRating (no reviews yet), geo (no address).
+       [DECIDE — plain LocalBusiness vs a closer subtype; never Store (implies a walk-in location).]
+       [NEEDS INPUT — telephone: GHL tracking number; +19564507963 is a placeholder. LAUNCH-BLOCKER.]
+       [NEEDS INPUT — email: add  "email": "…"  once confirmed (domain may differ from the website).]
+       [NEEDS INPUT — hours: add "openingHoursSpecification" once route/contact hours are confirmed, e.g.
+         "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification",
+           "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "HH:MM", "closes": "HH:MM" }] ] -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "[BUSINESS @TYPE]",
-    "@id": "https://yourbusiness.com/#business",
-    "name": "Your Business Name",
-    "description": "Professional home services in [City], [ST] and across the [Region]. Serving homes and businesses with same-day appointments, free estimates, and mobile service.",
-    "url": "https://yourbusiness.com/",
-    "telephone": "+15550000000",
-    "email": "hello@yourbusiness.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "[Street Address]",
-      "addressLocality": "[City]",
-      "addressRegion": "[ST]",
-      "postalCode": "[ZIP]",
-      "addressCountry": "US"
-    },
-    "priceRange": "[priceRange]",
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "opens": "08:00",
-        "closes": "18:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "09:00",
-        "closes": "16:00"
-      }
-    ],
+    "@type": "LocalBusiness",
+    "@id": "https://www.toolcorgv.com/#business",
+    "name": "Tool Co",
+    "alternateName": "Tool Co — Authorized Cornwell Dealer",
+    "description": "Independent, authorized Cornwell Quality Tools franchise running a mobile tool truck to commercial shops in Edinburg, Weslaco, Pharr, Alamo, and San Juan, Texas. Mobile tool service, professional tool solutions, and tool financing and payment options.",
+    "url": "https://www.toolcorgv.com/",
+    "telephone": "+19564507963",
+    "image": "https://www.toolcorgv.com/brand_assets/logo.png",
+    "logo": "https://www.toolcorgv.com/brand_assets/logo.png",
+    "brand": { "@type": "Brand", "name": "Cornwell Quality Tools" },
     "areaServed": [
-      { "@type": "City", "name": "[City]",   "containedInPlace": { "@type": "State", "name": "[State]" } },
-      { "@type": "City", "name": "[City 2]",  "containedInPlace": { "@type": "State", "name": "[State]" } },
-      { "@type": "City", "name": "[City 3]",   "containedInPlace": { "@type": "State", "name": "[State]" } },
-      { "@type": "City", "name": "[City 4]",     "containedInPlace": { "@type": "State", "name": "[State]" } },
-      { "@type": "City", "name": "[City 5]",  "containedInPlace": { "@type": "State", "name": "[State]" } },
-      { "@type": "City", "name": "[City 6]", "containedInPlace": { "@type": "State", "name": "[State]" } }
+      { "@type": "City", "name": "Edinburg", "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "Weslaco",  "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "Pharr",    "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "Alamo",    "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "San Juan", "containedInPlace": { "@type": "State", "name": "Texas" } }
     ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Our Services",
+      "name": "Tool Co Services",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service One" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service Two" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service Three" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service Four" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service Five" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service Six" } }
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile Tool Service", "url": "https://www.toolcorgv.com/services/mobile-tool-service.html" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Professional Tool Solutions", "url": "https://www.toolcorgv.com/services/professional-tool-solutions.html" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tool Financing & Payment Options", "url": "https://www.toolcorgv.com/services/tool-financing.html" } }
       ]
     }
   }
@@ -508,28 +679,26 @@
   <!-- ============================================================
        STICKY NAVIGATION
   ============================================================ -->
-  <nav id="navbar">
+  <nav id="navbar" aria-label="Main navigation">
     <div class="nav-row max-w-6xl mx-auto px-5 flex items-center justify-between">
 
-      <!-- LOGO PLACEHOLDER — swap the <span> for <img class="nav-logo" ...>; height comes from --nav-logo-height in brand.css -->
-      <a href="/" class="flex items-center group" aria-label="Your Business Name home">
-        <span class="nav-wordmark">Your Business Name</span>
+      <!-- Client logo — height from --nav-logo-height in brand.css. File confirmed by ls: brand_assets/logo.png (1994×789, RGBA).
+           [PENDING — export a ~500px-wide optimized copy before launch; the source PNG is ~966KB] -->
+      <a href="/" class="flex items-center" aria-label="Tool Co home">
+        <img class="nav-logo" src="/brand_assets/logo.png" alt="Tool Co — authorized Cornwell Quality Tools dealer" width="1994" height="789" />
       </a>
 
-      <!-- Desktop Nav -->
-      <div class="hidden md:flex items-center gap-7">
+      <!-- Desktop Nav (from lg: — the wide logo + six items overflow at md) -->
+      <div class="hidden lg:flex items-center gap-7">
         <div class="nav-dropdown">
           <a href="/#services" class="nav-link nav-dropdown-trigger text-sm font-medium text-muted hover:text-white transition-colors duration-150">
             Services
-            <svg class="nav-chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            <svg class="nav-chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
           </a>
           <div class="nav-dropdown-menu" aria-label="Services">
-            <a href="/services/service-one.html">Service One</a>
-            <a href="/services/service-two.html">Service Two</a>
-            <a href="/services/service-three.html">Service Three</a>
-            <a href="/services/service-four.html">Service Four</a>
-            <a href="/services/service-five.html">Service Five</a>
-            <a href="/services/service-six.html">Service Six</a>
+            <a href="/services/mobile-tool-service.html">Mobile Tool Service</a>
+            <a href="/services/professional-tool-solutions.html">Professional Tool Solutions</a>
+            <a href="/services/tool-financing.html">Tool Financing &amp; Payment Options</a>
           </div>
         </div>
         <!-- SHARED ZONE: Areas We Serve dropdown — do NOT modify during
@@ -537,31 +706,30 @@
         <div class="nav-dropdown">
           <a href="/#service-area" class="nav-link nav-dropdown-trigger text-sm font-medium text-muted hover:text-white transition-colors duration-150">
             Areas We Serve
-            <svg class="nav-chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            <svg class="nav-chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
           </a>
           <div class="nav-dropdown-menu" aria-label="Areas We Serve">
-            <a href="/areas/city-one.html">[City]</a>
-            <a href="/areas/city-two.html">[City 2]</a>
-            <a href="/areas/city-three.html">[City 3]</a>
-            <a href="/areas/city-four.html">[City 4]</a>
-            <a href="/areas/city-five.html">[City 5]</a>
-            <a href="/areas/city-six.html">[City 6]</a>
+            <a href="/areas/edinburg.html">Edinburg</a>
+            <a href="/areas/weslaco.html">Weslaco</a>
+            <a href="/areas/pharr.html">Pharr</a>
+            <a href="/areas/alamo.html">Alamo</a>
+            <a href="/areas/san-juan.html">San Juan</a>
           </div>
         </div>
         <!-- END SHARED ZONE: Areas We Serve dropdown -->
-        <!-- OPTIONAL MODULE LINK (desktop nav, #insurance): re-enable with the Insurance module: <a href="/#insurance"   class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Insurance</a> -->
-        <a href="/about.html" class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">About</a>
-        <!-- OPTIONAL MODULE LINK (desktop nav, #reviews): re-enable with the Review widget module: <a href="/#reviews"     class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Reviews</a> -->
-        <a href="/#contact"     class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Contact</a>
-        <a href="tel:+15550000000" class="btn-primary text-sm py-2.5 px-5 phone-pulse ml-4">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          (555) 000-0000
+        <a href="/catalog.html"  class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Catalog</a>
+        <a href="/about.html"    class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">About</a>
+        <a href="/team.html"     class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Team</a>
+        <a href="/#contact"      class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Contact</a>
+        <a href="tel:+19564507963" class="btn-primary text-sm py-2.5 px-5 ml-4">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          (956) 450-7963
         </a>
       </div>
 
       <!-- Mobile hamburger -->
-      <button id="hamburger" class="md:hidden p-2 rounded-lg border border-white/10 text-white hover:border-white/30 transition-colors duration-150" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg id="hamburger-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <button id="hamburger" class="lg:hidden p-2 rounded-lg border border-white/10 text-white hover:border-white/30 transition-colors duration-150" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg id="hamburger-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
           <line x1="3" y1="6" x2="21" y2="6"/>
           <line x1="3" y1="12" x2="21" y2="12"/>
           <line x1="3" y1="18" x2="21" y2="18"/>
@@ -570,65 +738,76 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="md:hidden px-5 pb-4 mt-3 border-t border-white/10">
+    <div id="mobile-menu" class="lg:hidden px-5 pb-4 mt-3 border-t border-white/10">
       <div class="flex flex-col gap-1 pt-4">
         <button type="button" class="mobile-services-toggle py-3 px-3 rounded-lg font-medium" aria-expanded="false" aria-controls="mobile-services-submenu">
           Services
-          <svg class="nav-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          <svg class="nav-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div id="mobile-services-submenu" class="mobile-services-submenu">
-          <a href="/services/service-one.html">Service One</a>
-          <a href="/services/service-two.html">Service Two</a>
-          <a href="/services/service-three.html">Service Three</a>
-          <a href="/services/service-four.html">Service Four</a>
-          <a href="/services/service-five.html">Service Five</a>
-          <a href="/services/service-six.html">Service Six</a>
+          <a href="/services/mobile-tool-service.html">Mobile Tool Service</a>
+          <a href="/services/professional-tool-solutions.html">Professional Tool Solutions</a>
+          <a href="/services/tool-financing.html">Tool Financing &amp; Payment Options</a>
         </div>
         <!-- SHARED ZONE: Areas We Serve dropdown — do NOT modify during
              city-page clone-and-localize pass. All city entries constant. -->
         <button type="button" class="mobile-services-toggle py-3 px-3 rounded-lg font-medium" aria-expanded="false" aria-controls="mobile-areas-submenu">
           Areas We Serve
-          <svg class="nav-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          <svg class="nav-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div id="mobile-areas-submenu" class="mobile-services-submenu">
-          <a href="/areas/city-one.html">[City]</a>
-          <a href="/areas/city-two.html">[City 2]</a>
-          <a href="/areas/city-three.html">[City 3]</a>
-          <a href="/areas/city-four.html">[City 4]</a>
-          <a href="/areas/city-five.html">[City 5]</a>
-          <a href="/areas/city-six.html">[City 6]</a>
+          <a href="/areas/edinburg.html">Edinburg</a>
+          <a href="/areas/weslaco.html">Weslaco</a>
+          <a href="/areas/pharr.html">Pharr</a>
+          <a href="/areas/alamo.html">Alamo</a>
+          <a href="/areas/san-juan.html">San Juan</a>
         </div>
         <!-- END SHARED ZONE: Areas We Serve dropdown -->
-        <!-- OPTIONAL MODULE LINK (mobile nav, #insurance): re-enable with the Insurance module: <a href="/#insurance" class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Insurance</a> -->
-        <a href="/about.html" class="mobile-nav-link py-3 px-3 rounded-lg font-medium">About</a>
-        <!-- OPTIONAL MODULE LINK (mobile nav, #reviews): re-enable with the Review widget module: <a href="/#reviews"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Reviews</a> -->
-        <a href="/#contact"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Contact</a>
-        <a href="tel:+15550000000" class="btn-primary mt-3 justify-center">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          Call (555) 000-0000
+        <a href="/catalog.html" class="mobile-nav-link py-3 px-3 rounded-lg font-medium">This Month's Catalog</a>
+        <a href="/about.html"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium">About</a>
+        <a href="/team.html"    class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Meet the Team</a>
+        <a href="/#contact"     class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Contact</a>
+        <a href="tel:+19564507963" class="btn-primary mt-3 justify-center">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call (956) 450-7963
         </a>
       </div>
     </div>
   </nav>
 
   <!-- ============================================================
-       HERO
+       1. HERO — static hero-background slot + hero-video slot + route strip
   ============================================================ -->
-  <section class="hero-bg relative min-h-screen flex items-center overflow-hidden" style="padding-top: clamp(88px, 14vw, 128px); padding-bottom: clamp(56px, 8vw, 96px);" aria-label="Your Business Name Professional Home Services in [City] [ST]">
+  <section class="hero-bg relative min-h-screen flex items-center overflow-hidden" style="padding-top: calc(var(--nav-height) + clamp(36px, 5vw, 56px)); padding-bottom: clamp(56px, 8vw, 96px);" aria-label="Tool Co — authorized Cornwell mobile tool dealer serving Edinburg and the Rio Grande Valley">
 
     <!-- OFF-LIMITS: hero-background — dedicated named file only, never a content photo -->
+    <!-- brand_assets/hero-background.jpg = poster still (source frame 19.000s of hero-background.MOV, the loop's first frame),
+         so first paint and reduced-motion viewers see the same frame the video starts on. -->
     <img
-      src="https://placehold.co/1920x1080"
-      alt="Professional home services in [City] and across the [Region] — Your Business Name"
+      src="/brand_assets/hero-background.jpg"
+      alt="Tool Co Cornwell mobile tool truck serving shops in Edinburg and the Rio Grande Valley"
       fetchpriority="high"
+      width="1920" height="1080"
       style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; z-index: 0;"
     />
 
-    <!-- Dark overlay -->
-    <div style="position: absolute; inset: 0; z-index: 1; background:
-      linear-gradient(180deg, rgba(var(--color-dark-rgb), 0.72) 0%, rgba(var(--color-dark-rgb), 0.32) 25%, rgba(var(--color-dark-rgb), 0.28) 65%, rgba(var(--color-dark-rgb), 0.75) 100%),
-      radial-gradient(ellipse 65% 100% at 0% 50%, rgba(var(--color-dark-rgb), 0.78) 0%, transparent 65%);
-    "></div>
+    <!-- HERO VIDEO SLOT — [DEALER-BUILD] homepage only. INACTIVE until a clip is approved.
+         FROZEN sequence: trim only → save preview → client approves in/out → compress separately
+         (H.264, audio stripped, ~2–3MB) → wire in last. Commit only the final clip.
+         STATUS: WIRED. Source = brand_assets/hero-background.MOV (raw, gitignored), trim window 18.000–29.000s;
+         the loop plays 19.0→29.0s and its last second dissolves through 18.0–19.0s so it lands back on 19.0s
+         (seamless 10.0s loop). Files: hero-video.mp4 (H.264 High, 1920×1080, muted) + hero-video.webm (VP9).
+         [NEEDS INPUT — client approval of the in/out points; trim preview: brand_assets/hero-background-trim-preview.mov]
+         No autoplay attribute on purpose: JS starts playback (muted) only when a <source> exists and the viewer
+         has not asked for reduced motion, so reduced-motion viewers never download it. This is the ONLY video
+         that loads on first paint; the two section videos are lazy (preload="none", play in view only). -->
+    <video class="hero-video" muted loop playsinline preload="none" poster="/brand_assets/hero-background.jpg" aria-hidden="true" tabindex="-1">
+      <source src="/brand_assets/hero-video.mp4" type="video/mp4" />
+      <source src="/brand_assets/hero-video.webm" type="video/webm" />
+    </video>
+
+    <!-- Dark overlay (.hero-overlay — deepened past the template ~0.7: this footage is bright + busy) -->
+    <div class="hero-overlay" aria-hidden="true"></div>
 
     <!-- Edge vignette -->
     <div class="hero-vignette absolute inset-0 z-[2]"></div>
@@ -636,87 +815,123 @@
     <div class="hero-outer relative z-10 max-w-5xl mx-auto px-5 w-full">
       <div class="hero-text-block max-w-2xl fade-up">
 
-
         <!-- Eyebrow -->
-        <p style="font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-line); margin-bottom: 20px; text-shadow: 0 1px 8px rgba(0,0,0,0.45);">Trusted Local Home Services</p>
+        <p class="eyebrow" style="margin-bottom: 20px; text-shadow: 0 1px 8px rgba(0,0,0,0.45);">Authorized Cornwell Quality Tools Dealer · Rio Grande Valley</p>
 
-        <h1 class="font-display text-white mb-5" style="font-size: clamp(2.4rem, 6vw, 3.8rem); letter-spacing: -0.03em; line-height: 1.06; font-weight: 800; text-shadow: 0 2px 24px rgba(0,0,0,0.45);">
-          Professional<br />Home Services<br />
-          <span style="color: var(--color-accent-bright);">in [City], [ST].</span>
+        <h1 class="font-display text-white mb-5" style="font-size: clamp(2.5rem, 6.2vw, 4.25rem); letter-spacing: -0.03em; line-height: 1.04; font-weight: 800; text-shadow: 0 2px 24px rgba(0,0,0,0.45);">
+          Cornwell Tools,<br />Delivered to Your Bay.
+          <span class="hero-h1-accent" style="font-size: 0.62em; letter-spacing: -0.02em; margin-top: 0.35em;">Your mobile tool dealer in Edinburg &amp; the Valley.</span>
         </h1>
 
-        <p class="mb-8 max-w-xl" style="color: rgba(255,255,255,0.88); font-size: clamp(1rem, 2.2vw, 1.125rem); line-height: 1.72; text-shadow: 0 1px 8px rgba(0,0,0,0.35);">
-          When you need a job done right in [City], the last thing you want is the runaround. Our team comes to you, explains every step, and stands behind clean, careful work. Every job we take on is <strong style="color: var(--color-bg);">handled start to finish by our own crew</strong>.
+        <p class="mb-8 max-w-xl" style="color: rgba(255,255,255,0.90); font-size: clamp(1rem, 2.2vw, 1.125rem); line-height: 1.72; text-shadow: 0 1px 8px rgba(0,0,0,0.35);">
+          Tool Co is an authorized Cornwell Quality Tools dealer running a mobile tool truck to shops in Edinburg, Pharr, San Juan, Alamo, and Weslaco. Hand tools, power tools, tool storage, and diagnostics come to your door on a regular route, backed by <strong style="color: var(--color-bg);">30+ years of combined experience among our tool dealers</strong>.
         </p>
 
         <!-- CTAs -->
-        <div class="flex flex-wrap gap-4 mb-10">
-          <a href="tel:+15550000000" class="btn-primary text-base px-7 py-4">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            Call Now — (555) 000-0000
+        <div class="hero-ctas flex flex-wrap gap-4 mb-10">
+          <a href="/#contact" class="btn-primary text-base px-7 py-4">
+            Get on the Route
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
           </a>
-          <a href="/#contact" class="btn-outline text-base px-7 py-4">
-            Get a Free Quote
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+          <!-- Catalog = link-out to Cornwell's hosted webcat. Never rehosted. -->
+          <a href="https://webcat.cornwelltools.com/" target="_blank" rel="noopener" class="btn-outline text-base px-7 py-4">
+            View Inventory
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+            <span class="sr-only">(opens Cornwell's online catalog in a new tab)</span>
           </a>
         </div>
 
-        <!-- Stats row -->
-        <div class="flex flex-wrap gap-8">
-          <div>
-            <div class="font-display font-bold text-2xl text-white" style="text-shadow: 0 1px 8px rgba(0,0,0,0.4);">Upfront</div>
-            <div class="text-muted text-sm mt-0.5">Honest Pricing</div>
+        <!-- THE ROUTE — signature. Five stops on one line, in geographic order:
+             home base first, then east along I-2 / US-83. This is a map, not a schedule.
+             [VERIFY — geographic order: Edinburg (I-69C/US-281) joins I-2/US-83 at Pharr; then San Juan → Alamo → Weslaco eastbound] -->
+        <div class="route-block">
+          <div class="flex items-baseline justify-between gap-4 mb-4">
+            <span class="eyebrow" style="margin-bottom: 0;">The Route</span>
+            <span class="text-xs" style="color: var(--color-muted-light); font-weight: 500;">Hidalgo County · along I-2 / US-83</span>
           </div>
-          <div class="w-px" style="background: rgba(255,255,255,0.14);"></div>
-          <div>
-            <div class="font-display font-bold text-2xl text-white" style="text-shadow: 0 1px 8px rgba(0,0,0,0.4);">Mobile</div>
-            <div class="text-muted text-sm mt-0.5">Service Available</div>
-          </div>
-          <div class="w-px" style="background: rgba(255,255,255,0.14);"></div>
-          <div>
-            <div class="font-display font-bold text-2xl text-white" style="text-shadow: 0 1px 8px rgba(0,0,0,0.4);">Free</div>
-            <div class="text-muted text-sm mt-0.5">Free Estimates</div>
-          </div>
+          <ol class="route-strip" aria-label="Cities on the Tool Co route, in geographic order">
+            <li class="route-stop route-stop--home">
+              <span class="route-dot" aria-hidden="true"></span>
+              <span class="route-label"><span class="route-name">Edinburg</span><span class="route-tag">Home base</span></span>
+            </li>
+            <li class="route-stop">
+              <span class="route-dot" aria-hidden="true"></span>
+              <span class="route-label"><span class="route-name">Pharr</span></span>
+            </li>
+            <li class="route-stop">
+              <span class="route-dot" aria-hidden="true"></span>
+              <span class="route-label"><span class="route-name">San Juan</span></span>
+            </li>
+            <li class="route-stop">
+              <span class="route-dot" aria-hidden="true"></span>
+              <span class="route-label"><span class="route-name">Alamo</span></span>
+            </li>
+            <li class="route-stop">
+              <span class="route-dot" aria-hidden="true"></span>
+              <span class="route-label"><span class="route-name">Weslaco</span></span>
+            </li>
+          </ol>
         </div>
 
       </div>
     </div>
 
-    <!-- Ember accent bridge -->
+    <!-- Accent bridge -->
     <div class="absolute bottom-0 left-0 right-0 z-20" style="height: 4px; background: linear-gradient(90deg, transparent 0%, var(--color-accent) 18%, var(--color-accent) 82%, transparent 100%); opacity: 0.90;"></div>
   </section>
 
   <main id="main-content">
 
     <!-- ============================================================
-         2. INTRO SPLIT — text left / photo right (who we are, what we do)
+         2. INTRO SPLIT — text left / photo right (who we are, what we do) — LIGHT
     ============================================================ -->
-    <section class="section-dark atmo wash-navy-tr py-24" aria-label="About Your Business Name">
-      <div class="max-w-6xl mx-auto px-5">
-        <div class="grid lg:grid-cols-2 gap-14 items-center">
+    <section class="section-dark atmo wash-navy-tr py-24" aria-label="About Tool Co">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="split-grid">
 
           <!-- Text -->
           <div class="fade-up">
-            <p style="font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 14px;">Local &amp; Trusted</p>
+            <p class="eyebrow">Independent. Authorized. Local.</p>
             <h2 class="font-display text-4xl lg:text-[2.75rem] font-bold text-white mb-6" style="letter-spacing: -0.03em; line-height: 1.1;">
-              Your Local Home Services Team in [City]
+              A Cornwell Dealer Built Around the Route
             </h2>
             <p class="text-muted text-lg mb-5" style="line-height: 1.7;">
-              Your Business Name is a local home services company serving [City] and the surrounding [Region]. We handle everything from quick fixes to full installations — and our team comes to you, on your schedule.
+              A busy shop can't stop work to go tool shopping. So the store comes to the shop. Tool Co is an independent, authorized Cornwell Quality Tools franchise based in Edinburg, running a mobile tool truck to commercial shops across the Rio Grande Valley.
             </p>
             <p class="text-muted text-lg mb-7" style="line-height: 1.7;">
-              Every job is handled start to finish by our own crew. We explain each step, quote up front, and stand behind clean, careful work — the kind that keeps [City] neighbors sending us their friends.
+              There are 30+ years of combined experience among our tool dealers, and it shows at the truck: straight answers on which tool fits the job, help with Cornwell's warranty process when something breaks, and payment options that work with a shop's cash flow.
             </p>
+
+            <!-- 2x2 checklist -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mb-8">
+              <div class="check-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                The truck comes to your shop
+              </div>
+              <div class="check-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Authorized Cornwell Quality Tools
+              </div>
+              <div class="check-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Tool financing &amp; payment options
+              </div>
+              <div class="check-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Warranty &amp; service assistance
+              </div>
+            </div>
+
             <a href="/about.html" class="link-arrow">
-              Learn more about our team
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              More about Tool Co
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
             </a>
           </div>
 
-          <!-- Photo -->
+          <!-- Photo — brand_assets/intro-truck-exterior.jpg (client photo, 4:3 native so the uniform frame crops nothing; sRGB, EXIF/GPS stripped) -->
           <div class="fade-up" style="transition-delay: 0.1s;">
             <div class="photo-frame">
-              <img src="https://placehold.co/1200x900" alt="Your Business Name home services team in [City]" loading="lazy" />
+              <img src="/brand_assets/intro-truck-exterior.jpg" alt="Tool Co's Cornwell mobile tool truck parked in a shop bay, ready to run the route across the Rio Grande Valley" loading="lazy" width="1200" height="900" />
             </div>
           </div>
 
@@ -725,18 +940,18 @@
     </section>
 
     <!-- ============================================================
-         3. HOW IT WORKS — 4 numbered cards (no icons, numbers kept)
+         3. HOW THE ROUTE WORKS — 4 numbered cards (a real sequence) — DARK
     ============================================================ -->
-    <section id="how-it-works" class="dark-section py-24" aria-label="How working with Your Business Name works">
+    <section id="how-it-works" class="dark-section atmo dark-glow-tl py-24" aria-label="How getting on the Tool Co route works">
       <div class="max-w-6xl mx-auto px-5">
         <div class="text-center mb-12 fade-up">
           <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-          <p style="font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-accent-bright); margin-bottom: 14px;">How It Works</p>
+          <p class="eyebrow">How the Route Works</p>
           <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
-            Getting Started Is Simple
+            Getting the Truck to Your Shop
           </h2>
           <p class="text-muted text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
-            From your first call to a finished job, our team keeps it clear and easy — across [City] and the [Region].
+            No storefront, no drive across town. Here's how a shop in Edinburg, Pharr, San Juan, Alamo, or Weslaco gets on the route.
           </p>
         </div>
 
@@ -744,26 +959,27 @@
 
           <div class="feature-card text-center">
             <div class="font-display font-extrabold mb-3" style="font-size: 2.25rem; line-height: 1; color: var(--color-accent-bright);">01</div>
-            <h3 class="font-display font-bold text-white text-lg mb-2">Call or Message Us</h3>
-            <p class="text-muted text-sm" style="line-height: 1.7;">Tell us what you need anywhere in [City] or the [Region]. We answer your questions and get you a fast quote.</p>
+            <h3 class="font-display font-bold text-white text-lg mb-2">Reach Out</h3>
+            <p class="text-muted text-sm" style="line-height: 1.7;">Call, text, or send the form. Tell us where the shop is, how many techs you run, and what kind of work comes through the bays.</p>
           </div>
 
           <div class="feature-card text-center">
             <div class="font-display font-extrabold mb-3" style="font-size: 2.25rem; line-height: 1; color: var(--color-accent-bright);">02</div>
-            <h3 class="font-display font-bold text-white text-lg mb-2">Get Your Free Quote</h3>
-            <p class="text-muted text-sm" style="line-height: 1.7;">You get a clear, upfront price before any work begins — no surprises and no pressure.</p>
+            <h3 class="font-display font-bold text-white text-lg mb-2">We Add Your Stop</h3>
+            <!-- [NEEDS INPUT — how a new stop is confirmed (day/time), route cadence] -->
+            <p class="text-muted text-sm" style="line-height: 1.7;">Your shop goes on the route. You'll know which day the truck comes by, so your crew can plan around it.</p>
           </div>
 
           <div class="feature-card text-center">
             <div class="font-display font-extrabold mb-3" style="font-size: 2.25rem; line-height: 1; color: var(--color-accent-bright);">03</div>
-            <h3 class="font-display font-bold text-white text-lg mb-2">Book Your Time</h3>
-            <p class="text-muted text-sm" style="line-height: 1.7;">Pick a time that works for you. Same-day and mobile service are available across the [Region].</p>
+            <h3 class="font-display font-bold text-white text-lg mb-2">The Truck Pulls Up</h3>
+            <p class="text-muted text-sm" style="line-height: 1.7;">Step inside, handle the tools, and spec what you need with your dealer. This month's catalog rides along.</p>
           </div>
 
           <div class="feature-card text-center">
             <div class="font-display font-extrabold mb-3" style="font-size: 2.25rem; line-height: 1; color: var(--color-accent-bright);">04</div>
-            <h3 class="font-display font-bold text-white text-lg mb-2">We Handle It</h3>
-            <p class="text-muted text-sm" style="line-height: 1.7;">Our own crew shows up on time, does the job right, and cleans up before we leave.</p>
+            <h3 class="font-display font-bold text-white text-lg mb-2">Regular Shop Visits</h3>
+            <p class="text-muted text-sm" style="line-height: 1.7;">Same dealer, same stop, on a regular schedule. Questions, warranty help, and follow-ups are handled by the person who knows your shop.</p>
           </div>
 
         </div>
@@ -771,440 +987,390 @@
     </section>
 
     <!-- ============================================================
-         4. SERVICES — 6 cards, no icons, centered text, Learn more
+         4. SERVICES — 3 cards (icon-free, centered) + fold-in pills — LIGHT (tint)
     ============================================================ -->
-    <section id="services" class="section-mid atmo wash-navy-tr py-24" aria-label="Home services in [City] and the [Region]">
+    <section id="services" class="section-mid atmo wash-navy-tr py-24" aria-label="Tool services for shops in Edinburg and the Rio Grande Valley">
       <div class="max-w-6xl mx-auto px-5">
 
         <div class="text-center mb-12 fade-up">
           <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
+          <p class="eyebrow">What We Do</p>
           <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
-            Our Services in [City] &amp; the [Region]
+            Tool Services for Rio Grande Valley Shops
           </h2>
           <p class="text-muted text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
-            Quality home services in [City] shouldn't mean waiting a week to get on the schedule. Your Business Name handles everything from quick fixes to full installations — and our team comes to you, across [City], [City 2], [City 3], [City 4], [City 5], and [City 6].
+            Three things a commercial shop needs from a tool dealer: the tools show up, the tools are right, and paying for them doesn't stall the business.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 fade-up" style="transition-delay: 0.06s;">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 fade-up" style="transition-delay: 0.06s;">
 
-          <a href="/services/service-one.html" class="service-card block text-center">
-            <h3 class="font-display font-bold text-white text-xl mb-2">Service One</h3>
-            <p class="text-muted text-sm mb-5" style="line-height: 1.7;">Our most-requested service in [City]. We handle every job from start to finish with quality materials matched to the work and a clean, precise result — and most jobs are completed the same day.</p>
+          <a href="/services/mobile-tool-service.html" class="service-card block text-center">
+            <h3 class="font-display font-bold text-white text-xl mb-2">Mobile Tool Service</h3>
+            <p class="text-muted text-sm mb-5" style="line-height: 1.7;">The Cornwell truck comes to your shop on a regular route. Hand tools, power tools, tool storage, diagnostics, and shop equipment, on the spot, from a dealer who knows your bays.</p>
             <span class="link-arrow">
               Learn more
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
             </span>
           </a>
 
-          <a href="/services/service-two.html" class="service-card block text-center">
-            <h3 class="font-display font-bold text-white text-xl mb-2">Service Two</h3>
-            <p class="text-muted text-sm mb-5" style="line-height: 1.7;">A faster, smaller-scale fix handled the right way. Your Business Name takes care of it efficiently — often in about an hour — and the work in [City] is done with the same care.</p>
+          <a href="/services/professional-tool-solutions.html" class="service-card block text-center">
+            <h3 class="font-display font-bold text-white text-xl mb-2">Professional Tool Solutions</h3>
+            <p class="text-muted text-sm mb-5" style="line-height: 1.7;">Not sure which kit fits the work your shop actually sees? We help owners and technicians spec the right tools for the job, from a single socket set to a full bay setup.</p>
             <span class="link-arrow">
               Learn more
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
             </span>
           </a>
 
-          <a href="/services/service-three.html" class="service-card block text-center">
-            <h3 class="font-display font-bold text-white text-xl mb-2">Service Three</h3>
-            <p class="text-muted text-sm mb-5" style="line-height: 1.7;">Careful, thorough work you can count on. Our team gets it done right — often in about an hour — and you'll notice the difference right away.</p>
+          <a href="/services/tool-financing.html" class="service-card block text-center">
+            <h3 class="font-display font-bold text-white text-xl mb-2">Tool Financing &amp; Payment Options</h3>
+            <p class="text-muted text-sm mb-5" style="line-height: 1.7;">Equip a bay or a whole crew without draining cash. Financing and payment options are available on tool purchases, and the details are worked out with your dealer.</p>
             <span class="link-arrow">
               Learn more
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
             </span>
           </a>
 
-          <a href="/services/service-four.html" class="service-card block text-center">
-            <h3 class="font-display font-bold text-white text-xl mb-2">Service Four</h3>
-            <p class="text-muted text-sm mb-5" style="line-height: 1.7;">You don't have to come to us. Our team loads up and comes to your home, office, or wherever works for you — across all of [City], [City 2], [City 3], [City 4], [City 5], and [City 6].</p>
-            <span class="link-arrow">
-              Learn more
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-            </span>
-          </a>
+        </div>
 
-          <a href="/services/service-five.html" class="service-card block text-center">
-            <h3 class="font-display font-bold text-white text-xl mb-2">Service Five</h3>
-            <p class="text-muted text-sm mb-5" style="line-height: 1.7;">When you need it done right, our team handles it the same day across [City] and the [Region] — clean work, careful attention to detail, and a precise finish.</p>
-            <span class="link-arrow">
-              Learn more
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-            </span>
+        <!-- Fold-in services (sections/FAQ on the service pages, not their own pages) -->
+        <div class="flex flex-wrap items-center justify-center gap-3 mt-10 fade-up" style="transition-delay: 0.1s;">
+          <span class="text-sm font-semibold" style="color: var(--color-muted);">Also handled on the route:</span>
+          <a href="/services/mobile-tool-service.html#regular-shop-visits" class="foldin-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Regular Shop Visits
           </a>
-
-          <a href="/services/service-six.html" class="service-card block text-center">
-            <h3 class="font-display font-bold text-white text-xl mb-2">Service Six</h3>
-            <p class="text-muted text-sm mb-5" style="line-height: 1.7;">When you need it handled fast, our team responds quickly — using quality materials matched to the job and installed with the same care we bring to every job at Your Business Name.</p>
-            <span class="link-arrow">
-              Learn more
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-            </span>
+          <a href="/services/mobile-tool-service.html#warranty-service-assistance" class="foldin-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Warranty &amp; Service Assistance
           </a>
-
         </div>
       </div>
     </section>
 
     <!-- ============================================================
-         5. DIFFERENTIATOR SPLIT — photo left / text right, DARK
+         5. INSIDE THE TRUCK — one large horizontal video feature (replaced the 4-tile grid) — DARK
+         The hero carries its own clip (hero-video.*); this section carries a DIFFERENT clip (truck-interior.*).
     ============================================================ -->
-    <section id="why-us" class="dark-section py-24" aria-label="Why choose Your Business Name">
+    <section id="inside-the-truck" class="dark-section atmo dark-glow-br py-24" aria-label="Inside the Tool Co mobile tool truck">
       <div class="max-w-6xl mx-auto px-5">
-        <div class="grid lg:grid-cols-2 gap-14 items-center">
 
-          <!-- Photo (left) -->
+        <div class="text-center mb-12 fade-up">
+          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
+          <p class="eyebrow">Inside the Truck</p>
+          <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
+            A Tool Store on Wheels
+          </h2>
+          <p class="text-muted text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
+            The truck is the showroom. Walk the aisle, pick up the tool, and feel it in your hand before it goes in your box. Here's a look inside.
+          </p>
+        </div>
+
+        <!-- ONE large horizontal video feature (replaces the 4-tile grid). Source: brand_assets/toolsection1.mov
+             (raw, gitignored) → truck-interior.mp4 (H.264, 1280×720, muted) + truck-interior.webm (VP9) + truck-interior-poster.jpg.
+             Mode: muted · loop · playsinline · LAZY — preload="none", no autoplay attribute; JS plays it only when scrolled
+             into view and pauses it when out, so it never fetches on initial page load. Clip is 12.5s, room-noise audio only → stripped.
+             Loop plays source 1.25→12.545s; its last 0.75s dissolves through 0.5–1.25s so it lands back on the first frame.
+             Reduced motion: the <video> is hidden and the poster <img> shows instead (CSS), and JS never starts playback.
+             The Pause button satisfies WCAG 2.2.2 (auto-playing motion longer than 5s needs a user stop control). -->
+        <figure class="truck-feature fade-up" style="transition-delay: 0.06s;">
+          <div class="truck-stage">
+            <video class="truck-video lazy-video" muted loop playsinline preload="none"
+                   poster="/brand_assets/truck-interior-poster.jpg"
+                   aria-label="A slow walk down the aisle inside the Tool Co Cornwell truck: shelves of hand tools, socket sets, tool storage, and power tools">
+              <source src="/brand_assets/truck-interior.mp4" type="video/mp4" />
+              <source src="/brand_assets/truck-interior.webm" type="video/webm" />
+            </video>
+            <img class="video-poster" src="/brand_assets/truck-interior-poster.jpg" alt="Inside the Tool Co Cornwell mobile tool truck: shelves of hand tools, socket sets, and power tools along the aisle" loading="lazy" width="1280" height="720" />
+            <button type="button" class="video-toggle" aria-pressed="false" aria-label="Pause video">
+              <svg class="video-icon-pause" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>
+              <svg class="video-icon-play" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+              <span class="video-toggle-label">Pause</span>
+            </button>
+          </div>
+          <figcaption class="truck-caption">
+            <span class="truck-caption-eyebrow">The aisle, shelf by shelf</span>
+            <span class="truck-caption-text">Hand tools, socket sets, tool storage, diagnostics, and power tools, stocked and ready to hand across the counter at your shop.</span>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- FINANCING SECTION -->
+    <!-- ============================================================
+         6. FINANCING SPLIT — photo left / text right — LIGHT  [DEALER-BUILD: net-new, KEEP]
+         No rates, terms, "starting at," or dollar figures anywhere — route to contact.
+    ============================================================ -->
+    <section id="financing" class="section-dark atmo wash-accent-tl py-24" aria-label="Tool financing and payment options">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="split-grid split-grid--photo-left">
+
+          <!-- Photo (left) — brand_assets/toolboxes-stacked.jpg (Kim's photo, portrait 900×1600; the uniform 4:3 frame shows its middle band) -->
           <div class="fade-up order-2 lg:order-1">
             <div class="photo-frame">
-              <img src="https://placehold.co/1200x900" alt="Your Business Name crew at work in [City]" loading="lazy" />
+              <img src="/brand_assets/toolboxes-stacked.jpg" alt="Cornwell toolboxes in orange, green, purple, and blue stacked on display, the kind of tool storage Tool Co offers financing on for Rio Grande Valley shops" loading="lazy" width="900" height="1600" />
             </div>
           </div>
 
           <!-- Text (right) -->
           <div class="fade-up order-1 lg:order-2" style="transition-delay: 0.1s;">
-            <p style="font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-accent-bright); margin-bottom: 14px;">Why [City] Chooses Us</p>
+            <p class="eyebrow">Tool Financing &amp; Payment Options</p>
             <h2 class="font-display text-4xl lg:text-[2.75rem] font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
-              Honesty. Attention to Detail. Dedication.
+              Equip the Shop Without Draining It
             </h2>
+            <p class="text-muted text-lg mb-5" style="line-height: 1.7;">
+              Good tools cost real money, and a shop's cash needs to stay in the shop. Tool Co offers financing and payment options on Cornwell tool purchases, so a new toolbox or a bay full of power tools doesn't have to come out of one week's receipts.
+            </p>
+            <!-- [NEEDS INPUT — financing mechanics (Cornwell dealer program vs. in-house vs. third party); copy stays generic until confirmed] -->
             <p class="text-muted text-lg mb-7" style="line-height: 1.7;">
-              We built Your Business Name around a simple idea: do the job right, be honest about what it costs, show up when you say you will, and stand behind your work. No gimmicks, no upsell, no fine print.
+              There's no rate table here on purpose. Every shop is different, so the options are walked through with your dealer at the truck. Ask on your next stop, or reach out and we'll go over it before the truck comes by.
             </p>
 
             <!-- 2x2 checklist -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mb-8">
-              <div class="flex items-start gap-2.5 text-sm" style="color: var(--color-muted-light); line-height: 1.6;">
-                <svg class="mt-0.5 flex-shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Straight answers, every time
+              <div class="check-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Financing on tool purchases
               </div>
-              <div class="flex items-start gap-2.5 text-sm" style="color: var(--color-muted-light); line-height: 1.6;">
-                <svg class="mt-0.5 flex-shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Clear, upfront pricing
+              <div class="check-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Options for one tech or a whole crew
               </div>
-              <div class="flex items-start gap-2.5 text-sm" style="color: var(--color-muted-light); line-height: 1.6;">
-                <svg class="mt-0.5 flex-shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Mobile service to your door
+              <div class="check-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Worked out in person with your dealer
               </div>
-              <div class="flex items-start gap-2.5 text-sm" style="color: var(--color-muted-light); line-height: 1.6;">
-                <svg class="mt-0.5 flex-shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                Workmanship that lasts
+              <div class="check-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                No pressure, straight answers
               </div>
             </div>
 
-            <a href="/about.html" class="link-arrow">
-              Learn more about us
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            <a href="/services/tool-financing.html" class="link-arrow">
+              How tool financing works
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
             </a>
           </div>
 
         </div>
       </div>
     </section>
+    <!-- END FINANCING SECTION -->
 
     <!-- ============================================================
-         6. SERVICE AREAS — city list block + one photo
+         7. THIS MONTH'S CATALOG — feature that LINKS OUT to Cornwell's hosted catalog — DARK
+         Never hosts, embeds, or reproduces the flyer. Copy is original framing.
     ============================================================ -->
-    <section id="service-area" class="section-dark atmo wash-navy-bl py-24" aria-label="Serving [City] and the [Region]">
-      <div class="max-w-6xl mx-auto px-5">
+    <section id="catalog" class="dark-section atmo dark-glow-tl py-24" aria-label="This month's Cornwell catalog">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="split-grid">
 
-        <div class="text-center mb-12 fade-up">
-          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-          <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
-            Serving [City] &amp; the [Region]
-          </h2>
-          <p class="text-muted text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
-            Your Business Name is based in [City] — right in the heart of the [Region]. From here, our team dispatches mobile service to six cities across the [Region].
-          </p>
-        </div>
+          <!-- Text (left) -->
+          <div class="fade-up">
+            <p class="eyebrow">This Month's Catalog</p>
+            <h2 class="font-display text-4xl lg:text-[2.75rem] font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
+              See What's on the Truck This Month
+            </h2>
+            <p class="text-muted text-lg mb-5" style="line-height: 1.7;">
+              Cornwell puts out a new flyer every month, and the full online catalog stays live year-round. Browse it on your phone, note the part numbers, and your dealer will have them on the truck for your stop.
+            </p>
+            <!-- [NEEDS INPUT — GHL catalog automation: monthly flyer email/SMS is GHL's job; wire the opt-in copy once the form exists] -->
+            <p class="text-muted text-lg mb-8" style="line-height: 1.7;">
+              Want the monthly flyer sent to you? Ask at the truck, or leave your info on the contact form and we'll add you to the list.
+            </p>
 
-        <div class="grid lg:grid-cols-2 gap-12 items-center fade-up" style="transition-delay: 0.06s;">
-
-          <!-- Photo (right on desktop) -->
-          <div class="photo-frame lg:order-2">
-            <img src="https://placehold.co/1200x900" alt="Your Business Name serving [City] and the [Region]" loading="lazy" />
-          </div>
-
-          <!-- City list (left on desktop) -->
-          <div class="area-card lg:order-1">
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-8">
-
-              <div class="flex items-start gap-3">
-                <div class="area-dot mt-1"></div>
-                <div>
-                  <div class="flex items-center gap-2 mb-1">
-                    <a href="/areas/city-one.html" class="text-sm font-semibold hover:underline" style="color: var(--color-ink);">[City]</a>
-                    <span class="text-xs px-2 py-0.5 rounded-full font-semibold" style="background: rgba(var(--color-dark-rgb), 0.10); color: var(--color-accent);">Primary</span>
-                  </div>
-                  <p class="text-xs" style="color: var(--color-muted); line-height: 1.6;">Based in [City]. Same-day service throughout [City] and its neighborhoods.</p>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <div class="area-dot mt-1"></div>
-                <div>
-                  <a href="/areas/city-two.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--color-ink);">[City 2]</a>
-                  <p class="text-xs" style="color: var(--color-muted); line-height: 1.6;">Mobile service to [City 2] homes and businesses across the [Region].</p>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <div class="area-dot mt-1"></div>
-                <div>
-                  <a href="/areas/city-three.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--color-ink);">[City 3]</a>
-                  <p class="text-xs" style="color: var(--color-muted); line-height: 1.6;">Serving [City 3] with quick dispatch from [City], usually same morning.</p>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <div class="area-dot mt-1"></div>
-                <div>
-                  <a href="/areas/city-four.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--color-ink);">[City 4]</a>
-                  <p class="text-xs" style="color: var(--color-muted); line-height: 1.6;">[City 4] and [City 5] are covered in a single run when schedules align.</p>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <div class="area-dot mt-1"></div>
-                <div>
-                  <a href="/areas/city-five.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--color-ink);">[City 5]</a>
-                  <p class="text-xs" style="color: var(--color-muted); line-height: 1.6;">Mobile service in [City 5] — call ahead to confirm same-day availability.</p>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <div class="area-dot mt-1"></div>
-                <div>
-                  <a href="/areas/city-six.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--color-ink);">[City 6]</a>
-                  <p class="text-xs" style="color: var(--color-muted); line-height: 1.6;">Same mobile service available to [City 6] residents across the [Region].</p>
-                </div>
-              </div>
-
+            <div class="flex flex-wrap gap-4 mb-6">
+              <!-- LOCKED link target: Cornwell's generic online catalog (Lightspeed webcat). Swap to a dealer-specific storefront later only if the client obtains one. -->
+              <a href="https://webcat.cornwelltools.com/" target="_blank" rel="noopener" class="btn-primary text-base px-7 py-4">
+                View Inventory
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+                <span class="sr-only">(opens Cornwell's online catalog in a new tab)</span>
+              </a>
+              <a href="/catalog.html" class="btn-outline text-base px-7 py-4">
+                How the Catalog Works
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
             </div>
-            <p class="text-sm mt-6 pt-5 border-t" style="border-color: rgba(var(--color-dark-rgb), 0.12); color: var(--color-muted);">
-              Not sure if we cover your area?
-              <a href="tel:+15550000000" class="font-semibold hover:underline" style="color: var(--color-accent);">Call us — (555) 000-0000</a>.
+
+            <p class="catalog-note">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+              The catalog is hosted by Cornwell Quality Tools and opens in a new tab.
             </p>
           </div>
 
+          <!-- Photo (right) — brand_assets/catalog-new-ratchets.jpg (Kim's photo from the Cornwell dealer show; 4:3 center crop; metadata stripped).
+               NEVER Cornwell catalog/flyer artwork here. -->
+          <div class="fade-up" style="transition-delay: 0.1s;">
+            <div class="photo-frame">
+              <img src="/brand_assets/catalog-new-ratchets.jpg" alt="Cornwell ratchets with colored grips on a display stand, the kind of new release that shows up in this month's Cornwell catalog" loading="lazy" width="1200" height="900" />
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
-
-    <div class="divider"></div>
 
     <!-- ============================================================
-         7. GALLERY — dedicated uniform grid (8 tiles: 2 & 4 cols fill)
+         8. SERVICE AREAS — two columns: five cities as plain text (left) / portrait video (right) — LIGHT
+         No map embed (service-area business). No card/box around the cities.
+         List order follows CLAUDE.md city priority (Edinburg, then Weslaco · Pharr · Alamo · San Juan).
+         [DECIDE — order after Edinburg is soft; the hero route strip uses geographic order instead.]
+         MEDIA: portrait photo (areas-truck-loaded.jpg) in the 3:4 frame. The earlier portrait video + its source (areas.mov)
+         were removed; a HORIZONTAL driving reshoot can take this slot back as video (see the media-column comment).
     ============================================================ -->
-    <section id="gallery" class="dark-section atmo wash-ember-tl py-24" aria-label="Recent home services jobs in [City] and the [Region]">
-      <div class="max-w-7xl mx-auto px-5">
-
-        <div class="text-center mb-12 fade-up">
-          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-          <p style="font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-accent-bright); margin-bottom: 14px;">Our Work</p>
-          <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
-            Real Home Services Jobs From Around [City]
-          </h2>
-          <p class="text-muted text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
-            Real jobs from real customers across the [Region] — handled with the same care every time.
-          </p>
-        </div>
-
-        <!-- Uniform gallery grid — every cell is the standard .photo-frame (4:3).
-             8 tiles fill complete rows at 1 and 2 columns (no ragged row). -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 fade-up" style="transition-delay: 0.06s;">
-          <figure class="photo-frame">
-            <img src="https://placehold.co/1200x900" alt="Home services project in [City] by Your Business Name" loading="lazy" />
-          </figure>
-          <figure class="photo-frame">
-            <img src="https://placehold.co/1200x900" alt="Home services team at work in [City] by Your Business Name" loading="lazy" />
-          </figure>
-          <figure class="photo-frame">
-            <img src="https://placehold.co/1200x900" alt="Recent home services project in [City] by Your Business Name" loading="lazy" />
-          </figure>
-          <figure class="photo-frame">
-            <img src="https://placehold.co/1200x900" alt="Completed home services project in [City] by Your Business Name" loading="lazy" />
-          </figure>
-          <figure class="photo-frame">
-            <img src="https://placehold.co/1200x900" alt="Finished home services job in [City] by Your Business Name" loading="lazy" />
-          </figure>
-          <figure class="photo-frame">
-            <img src="https://placehold.co/1200x900" alt="Home services job completed in [City] by Your Business Name" loading="lazy" />
-          </figure>
-          <figure class="photo-frame">
-            <img src="https://placehold.co/1200x900" alt="Home services work in the [Region] by Your Business Name" loading="lazy" />
-          </figure>
-          <figure class="photo-frame">
-            <img src="https://placehold.co/1200x900" alt="Local home services job by Your Business Name in [City]" loading="lazy" />
-          </figure>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="divider"></div>
-
-    <!-- OPTIONAL MODULE: Insurance carrier row — delete this entire block if not used by this client -->
-    <!--
-    <section id="insurance" class="dark-section py-20" aria-label="Insurance for home services in [City]">
+    <section id="service-area" class="section-dark atmo wash-navy-bl py-24" aria-label="Areas Tool Co serves in the Rio Grande Valley">
       <div class="max-w-6xl mx-auto px-5">
+        <div class="areas-grid">
 
-        <div class="text-center mb-12 fade-up">
-          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-          <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
-            Insurance,<br />Made Simple
-          </h2>
-          <p class="text-muted text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
-            If your project is covered by your insurance, Your Business Name works directly with your carrier so you're not left figuring out the paperwork on your own. Not filing a claim? You'll still get a free, no-pressure estimate and clear, upfront pricing before any work begins — in [City] and across the [Region].
-          </p>
-        </div>
+          <!-- Text column: heading + five cities as plain styled text -->
+          <div class="fade-up">
+            <div class="section-title-accent"></div>
+            <p class="eyebrow">Areas We Serve</p>
+            <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em; line-height: 1.05;">
+              Running the Route Through Hidalgo County
+            </h2>
+            <p class="text-muted text-lg mb-8" style="line-height: 1.7;">
+              Tool Co is based in Edinburg and runs the truck along I-2 / US-83 through the Valley. If your shop is in one of these five cities, you're on the map.
+            </p>
 
-        <div class="fade-up" style="transition-delay: 0.06s;">
-          <div class="area-card mb-10">
-            <div class="text-center mb-5">
-              <span class="text-xs font-bold uppercase tracking-widest" style="color: var(--color-accent); font-family: 'Barlow', sans-serif;">We Work Directly With These Carriers</span>
-            </div>
-            <div class="flex flex-wrap justify-center gap-3">
-              <span class="insurer-pill">Allstate</span>
-              <span class="insurer-pill">USAA</span>
-              <span class="insurer-pill">Geico</span>
-              <span class="insurer-pill">Nationwide</span>
-              <span class="insurer-pill">Progressive</span>
-              <span class="insurer-pill">Liberty Mutual</span>
-              <span class="insurer-pill">Farmers Insurance</span>
-              <span class="insurer-pill">Assurance</span>
-            </div>
-            <p class="text-center mt-5 text-sm" style="color: var(--color-muted);">Don't see your carrier? Call us — we work with most major providers.</p>
+            <ol class="city-list" aria-label="Cities on the Tool Co route">
+              <li class="city-row">
+                <div class="city-head">
+                  <a href="/areas/edinburg.html" class="city-name">Edinburg</a>
+                  <span class="city-tag">Home base</span>
+                </div>
+                <!-- [VERIFY — I-69C / US-281 and the Closner corridor as Edinburg's commercial anchors] -->
+                <p class="city-note">The route starts here. Shops along I-69C / US-281 and the Closner corridor.</p>
+              </li>
+              <li class="city-row">
+                <div class="city-head"><a href="/areas/weslaco.html" class="city-name">Weslaco</a></div>
+                <!-- [VERIFY — Texas Blvd (Bus. 83) as Weslaco's commercial spine] -->
+                <p class="city-note">The eastern end of the route. Shops along I-2 / US-83 and Texas Boulevard.</p>
+              </li>
+              <li class="city-row">
+                <div class="city-head"><a href="/areas/pharr.html" class="city-name">Pharr</a></div>
+                <!-- [VERIFY — I-69C / I-2 interchange and the Pharr International Bridge truck corridor] -->
+                <p class="city-note">Where I-69C meets I-2. Truck and fleet shops around the international bridge corridor.</p>
+              </li>
+              <li class="city-row">
+                <div class="city-head"><a href="/areas/alamo.html" class="city-name">Alamo</a></div>
+                <!-- [VERIFY — FM 907 / Alamo Rd as the local commercial corridor] -->
+                <p class="city-note">Repair shops off I-2 / US-83 and the FM 907 corridor.</p>
+              </li>
+              <li class="city-row">
+                <div class="city-head"><a href="/areas/san-juan.html" class="city-name">San Juan</a></div>
+                <p class="city-note">Along I-2 / US-83 between Pharr and Alamo, a short run from home base.</p>
+              </li>
+            </ol>
+
+            <!-- [NEEDS INPUT — free-travel radius outside the five cities] -->
+            <p class="text-sm mt-6" style="color: var(--color-muted);">
+              Shop sits just outside these five?
+              <a href="/#contact" class="font-semibold hover:underline" style="color: var(--color-accent-deep);">Ask about the route</a>.
+            </p>
           </div>
 
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            <div class="text-center">
-              <div class="w-12 h-12 rounded-full flex items-center justify-center text-white font-display font-extrabold text-xl mx-auto mb-4" style="background: var(--color-accent); font-family: 'Barlow', sans-serif;">1</div>
-              <h3 class="font-display font-bold text-white text-base mb-2">Call or Book Online</h3>
-              <p class="text-sm text-muted" style="line-height: 1.65;">Tell us about the job and, if you're filing a claim, who your insurance carrier is. We can usually walk you through your options in just a few minutes over the phone.</p>
+          <!-- Media column: portrait photo in the system's 3:4 frame — brand_assets/areas-truck-loaded.jpg (Kim's photo, sign cropped out).
+               The portrait VIDEO that sat here (areas-route.mp4/.webm + poster, from areas.mov) was removed with its source; to restore it,
+               drop a horizontal driving reshoot in as areas-route.* and put back the <video class="lazy-video"> + .video-poster + .video-toggle
+               block (same lazy pattern as the truck feature). -->
+          <div class="fade-up areas-media-col" style="transition-delay: 0.1s;">
+            <div class="photo-frame photo-frame--portrait">
+              <img src="/brand_assets/areas-truck-loaded.jpg" alt="A new Cornwell tool cart loaded in the aisle of the Tool Co truck, ready for a stop on the Rio Grande Valley route" loading="lazy" width="900" height="1200" />
             </div>
-            <div class="text-center">
-              <div class="w-12 h-12 rounded-full flex items-center justify-center text-white font-display font-extrabold text-xl mx-auto mb-4" style="background: var(--color-accent); font-family: 'Barlow', sans-serif;">2</div>
-              <h3 class="font-display font-bold text-white text-base mb-2">We Work With Your Insurance</h3>
-              <p class="text-sm text-muted" style="line-height: 1.65;">Your Business Name reaches out to your carrier directly to verify your coverage and what's needed to move forward. We keep you in the loop the whole way through.</p>
-            </div>
-            <div class="text-center">
-              <div class="w-12 h-12 rounded-full flex items-center justify-center text-white font-display font-extrabold text-xl mx-auto mb-4" style="background: var(--color-accent); font-family: 'Barlow', sans-serif;">3</div>
-              <h3 class="font-display font-bold text-white text-base mb-2">Job Done, Stress-Free</h3>
-              <p class="text-sm text-muted" style="line-height: 1.65;">Once everything's confirmed, our team schedules the work at your location — your home, office, or wherever works for you. We handle the details so you don't have to.</p>
-            </div>
+            <p class="areas-media-caption">Loaded between stops. Every city above gets the same rig, the same dealer, the same stock.</p>
           </div>
-        </div>
 
+        </div>
       </div>
     </section>
-
-    <div class="divider"></div>
-    -->
-    <!-- END OPTIONAL MODULE: Insurance carrier row -->
-
-    <!-- OPTIONAL MODULE: Review widget (GHL review-widget embed goes inside this block) — delete this entire block if not used by this client -->
-    <!--
-    <section id="reviews" class="dark-section atmo wash-navy-br py-20" aria-label="Customer reviews">
-      <div class="max-w-6xl mx-auto px-5">
-
-        <div class="text-center mb-12 fade-up">
-          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-          <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
-            Reviews From Across<br />[City] &amp; the [Region]
-          </h2>
-          <p class="text-muted text-lg max-w-xl mx-auto" style="line-height: 1.7;">
-            Real customer reviews from across [City], [City 2], [City 3], [City 4], and the rest of the [Region]. Paste the GHL review widget below — never hardcode ratings or review counts.
-          </p>
-        </div>
-
-        <div class="fade-up" style="transition-delay: 0.06s;">
-          <div style="background: var(--color-bg); border-radius: 16px; padding: 20px 20px 12px; box-shadow: 0 24px 60px -20px rgba(0,0,0,0.55), 0 2px 0 rgba(255,255,255,0.04) inset; max-width: 1040px; margin: 0 auto;">
-            <div style="text-align: center; padding: 28px 20px;">
-              
-              <p class="font-display font-bold" style="color: var(--color-ink); font-size: 1rem; margin: 12px 0 6px;">Review widget goes here</p>
-              <p class="text-sm" style="color: var(--color-muted);">Paste the GHL review widget embed to show live customer reviews.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="divider"></div>
-    -->
-    <!-- END OPTIONAL MODULE: Review widget -->
 
     <!-- ============================================================
-         8. FAQ — accordion (matches service-page accordion styling)
+         9. FAQ — accordion, dark variant — DARK
     ============================================================ -->
-    <section id="faq" class="section-dark atmo wash-ember-tl py-24" aria-label="Home services FAQ for [City] and the [Region]">
+    <section id="faq" class="dark-section atmo dark-glow-br py-24" aria-label="Questions shops ask Tool Co">
       <div class="max-w-4xl mx-auto px-5">
         <div class="text-center mb-12 fade-up">
           <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-          <p style="font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 14px;">Good to Know</p>
+          <p class="eyebrow">Good to Know</p>
           <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
-            Common Questions
+            Questions Shops Ask Us
           </h2>
         </div>
 
         <div class="space-y-4 fade-up" style="transition-delay: 0.06s;">
 
-          <details class="rounded-2xl border overflow-hidden" style="border-color: rgba(var(--color-dark-rgb), 0.09); background: var(--color-bg);" open>
-            <summary class="flex items-center justify-between gap-4 px-7 py-5 cursor-pointer select-none list-none font-display font-bold text-lg" style="color: var(--color-ink);">
-              What areas do you serve?
-              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          <details class="faq-item" open>
+            <summary>
+              Does the tool truck really come to my shop?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
             </summary>
-            <div class="px-7 pb-6 text-sm" style="color: var(--color-muted); line-height: 1.75; border-top: 1px solid rgba(var(--color-dark-rgb), 0.06);">
-              <div class="pt-4">We serve [City] and the surrounding [Region], including [City 2], [City 3], [City 4], [City 5], and [City 6]. Mobile service comes to your home, office, or job site.</div>
+            <div class="faq-body">
+              <div>Yes. That's the whole model. Tool Co runs a mobile tool truck on a regular route through Edinburg, Pharr, San Juan, Alamo, and Weslaco. Get on the route and the truck stops at your shop, so you and your crew shop right there.</div>
             </div>
           </details>
 
-          <details class="rounded-2xl border overflow-hidden" style="border-color: rgba(var(--color-dark-rgb), 0.09); background: var(--color-bg);">
-            <summary class="flex items-center justify-between gap-4 px-7 py-5 cursor-pointer select-none list-none font-display font-bold text-lg" style="color: var(--color-ink);">
-              How fast can you get to my job?
-              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          <details class="faq-item">
+            <summary>
+              Are you a Cornwell store?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
             </summary>
-            <div class="px-7 pb-6 text-sm" style="color: var(--color-muted); line-height: 1.75; border-top: 1px solid rgba(var(--color-dark-rgb), 0.06);">
-              <div class="pt-4">Most jobs are same-day. Call in the morning and our team can usually take care of it that afternoon, depending on what the job needs.</div>
+            <div class="faq-body">
+              <div>Tool Co is an independent, authorized Cornwell Quality Tools franchise. The tools are Cornwell. The truck, the route, and the service are ours. We're not Cornwell corporate, and there's no storefront to visit; the truck is the store.</div>
             </div>
           </details>
 
-          <details class="rounded-2xl border overflow-hidden" style="border-color: rgba(var(--color-dark-rgb), 0.09); background: var(--color-bg);">
-            <summary class="flex items-center justify-between gap-4 px-7 py-5 cursor-pointer select-none list-none font-display font-bold text-lg" style="color: var(--color-ink);">
-              Do you offer free estimates?
-              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          <details class="faq-item">
+            <summary>
+              Which cities do you run?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
             </summary>
-            <div class="px-7 pb-6 text-sm" style="color: var(--color-muted); line-height: 1.75; border-top: 1px solid rgba(var(--color-dark-rgb), 0.06);">
-              <div class="pt-4">Yes. Every job gets a clear, upfront quote before any work begins — no hidden fees and no surprises at the end.</div>
+            <div class="faq-body">
+              <!-- [NEEDS INPUT — free-travel radius] -->
+              <div>Edinburg is home base, and the route covers Weslaco, Pharr, Alamo, and San Juan. If your shop sits just outside those cities, reach out and ask. The route has some give in it.</div>
             </div>
           </details>
 
-          <details class="rounded-2xl border overflow-hidden" style="border-color: rgba(var(--color-dark-rgb), 0.09); background: var(--color-bg);">
-            <summary class="flex items-center justify-between gap-4 px-7 py-5 cursor-pointer select-none list-none font-display font-bold text-lg" style="color: var(--color-ink);">
-              Do you come to me?
-              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          <details class="faq-item">
+            <summary>
+              How does tool financing work?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
             </summary>
-            <div class="px-7 pb-6 text-sm" style="color: var(--color-muted); line-height: 1.75; border-top: 1px solid rgba(var(--color-dark-rgb), 0.06);">
-              <div class="pt-4">We do. Mobile service is available across [City], [City 2], [City 3], [City 4], [City 5], and [City 6] — so most jobs happen wherever works for you.</div>
+            <div class="faq-body">
+              <div>Financing and payment options are available on tool purchases. The specifics depend on the shop and the purchase, so they're worked out with your dealer in person, with no pressure. Reach out and we'll go over the options before the truck comes by.</div>
             </div>
           </details>
 
-          <details class="rounded-2xl border overflow-hidden" style="border-color: rgba(var(--color-dark-rgb), 0.09); background: var(--color-bg);">
-            <summary class="flex items-center justify-between gap-4 px-7 py-5 cursor-pointer select-none list-none font-display font-bold text-lg" style="color: var(--color-ink);">
-              How much will my job cost?
-              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          <details class="faq-item">
+            <summary>
+              What happens if a tool needs warranty service?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
             </summary>
-            <div class="px-7 pb-6 text-sm" style="color: var(--color-muted); line-height: 1.75; border-top: 1px solid rgba(var(--color-dark-rgb), 0.06);">
-              <div class="pt-4">Every job is quoted up front. We look at what you need, explain your options, and give you a clear price before any work begins.</div>
+            <div class="faq-body">
+              <!-- No warranty scope/terms published until confirmed in writing. -->
+              <div>Tell your dealer at the next stop. We help you handle Cornwell's warranty and service process so you're not chasing it on your own. Coverage depends on the tool, and your dealer will walk you through what applies.</div>
             </div>
           </details>
 
-          <details class="rounded-2xl border overflow-hidden" style="border-color: rgba(var(--color-dark-rgb), 0.09); background: var(--color-bg);">
-            <summary class="flex items-center justify-between gap-4 px-7 py-5 cursor-pointer select-none list-none font-display font-bold text-lg" style="color: var(--color-ink);">
-              How do I get started?
-              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          <details class="faq-item">
+            <summary>
+              How do I see this month's catalog?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
             </summary>
-            <div class="px-7 pb-6 text-sm" style="color: var(--color-muted); line-height: 1.75; border-top: 1px solid rgba(var(--color-dark-rgb), 0.06);">
-              <div class="pt-4">Call or text us, or fill out the quote form below. Tell us what you need and we'll get you a price and a time that works.</div>
+            <div class="faq-body">
+              <div>Cornwell's online catalog is live year-round at the <a href="https://webcat.cornwelltools.com/" target="_blank" rel="noopener" class="font-semibold hover:underline" style="color: var(--color-accent-bright);">View Inventory</a> link, and a new flyer comes out every month. Browse ahead, note the part numbers, and your dealer will have them on the truck for your stop.</div>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              How do I get on the route?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body">
+              <div>Call, text, or send the <a href="/#contact" class="font-semibold hover:underline" style="color: var(--color-accent-bright);">contact form</a>. Tell us where the shop is and what your crew runs. We'll add your stop and let you know which day the truck comes by.</div>
             </div>
           </details>
 
@@ -1212,21 +1378,21 @@
       </div>
     </section>
 
-    <div class="divider"></div>
-
     <!-- ============================================================
-         9. CONTACT — quote form (target of every "Get a Free Quote" CTA)
+         10. CONTACT — GHL form (target of every "Get on the Route" CTA) — LIGHT (tint)
+         NO map embed (service-area business, no public address). NO "Visit Us" row.
     ============================================================ -->
-    <section id="contact" class="section-mid atmo wash-ember-tr py-20" aria-label="Request service or get a free quote">
+    <section id="contact" class="section-mid atmo wash-accent-tr py-20" aria-label="Contact Tool Co and get on the route">
       <div class="max-w-6xl mx-auto px-5">
 
         <div class="text-center mb-12 fade-up">
           <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
+          <p class="eyebrow">Contact</p>
           <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
-            Request Service or<br />Get a Free Quote
+            Get On the Route
           </h2>
           <p class="text-muted text-lg max-w-xl mx-auto" style="line-height: 1.7;">
-            The fastest way to get started is to call. Our team picks up, answers your questions, and can usually get you on the schedule same day. Prefer to fill out the form? We'll get back to you fast.
+            Tell us where your shop is and what your crew runs. We'll add your stop, and the truck comes to you. Prefer to talk it through? Call or text.
           </p>
         </div>
 
@@ -1235,69 +1401,72 @@
           <!-- Contact info -->
           <div>
             <div class="area-card h-full">
-              <h3 class="font-display font-bold text-white text-xl mb-6">Get in Touch</h3>
+              <h3 class="font-display font-bold text-white text-xl mb-6">Reach the Route</h3>
 
               <div class="space-y-5">
-                <a href="tel:+15550000000" class="flex items-start gap-4 group">
+                <a href="tel:+19564507963" class="flex items-start gap-4 group">
                   <div class="icon-wrap flex-shrink-0" style="margin-bottom: 0;">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-deep)" stroke-width="2.2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                   </div>
                   <div>
-                    <div class="text-xs font-bold uppercase tracking-widest mb-1" style="color: var(--color-accent); font-family: 'Barlow', sans-serif;">Call or Text</div>
-                    <div class="font-display font-bold text-white text-lg group-hover:text-accent transition-colors duration-150">(555) 000-0000</div>
+                    <div class="text-xs font-bold uppercase tracking-widest mb-1" style="color: var(--color-accent-deep); font-family: 'Barlow', sans-serif;">Call or Text</div>
+                    <div class="font-display font-bold text-white text-lg group-hover:underline">(956) 450-7963</div>
                   </div>
                 </a>
 
-                <a href="mailto:hello@yourbusiness.com" class="flex items-start gap-4 group">
+                <!-- [NEEDS INPUT — email address; its domain may differ from the website domain — never derive it] -->
+                <div class="flex items-start gap-4">
                   <div class="icon-wrap flex-shrink-0" style="margin-bottom: 0;">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2.2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-deep)" stroke-width="2.2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                   </div>
                   <div>
-                    <div class="text-xs font-bold uppercase tracking-widest mb-1" style="color: var(--color-accent); font-family: 'Barlow', sans-serif;">Email Us</div>
-                    <div class="font-display font-bold text-white text-base group-hover:underline">hello@yourbusiness.com</div>
+                    <div class="text-xs font-bold uppercase tracking-widest mb-1" style="color: var(--color-accent-deep); font-family: 'Barlow', sans-serif;">Email</div>
+                    <div class="font-display font-bold text-base" style="color: var(--color-muted);">[NEEDS INPUT — email]</div>
                   </div>
-                </a>
+                </div>
 
                 <div class="flex items-start gap-4">
                   <div class="icon-wrap flex-shrink-0" style="margin-bottom: 0;">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-deep)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
                   </div>
                   <div>
-                    <div class="text-xs font-bold uppercase tracking-widest mb-1" style="color: var(--color-accent); font-family: 'Barlow', sans-serif;">Visit Us</div>
-                    <div class="font-display font-bold text-white text-base">[Street Address]</div>
-                    <div class="text-muted text-sm">[City], [ST] [ZIP]</div>
+                    <div class="text-xs font-bold uppercase tracking-widest mb-1" style="color: var(--color-accent-deep); font-family: 'Barlow', sans-serif;">The Route</div>
+                    <div class="font-display font-bold text-white text-base">Edinburg · Weslaco · Pharr · Alamo · San Juan</div>
+                    <div class="text-muted text-sm">Mobile dealer, no storefront. The truck is the store.</div>
                   </div>
                 </div>
               </div>
 
               <div class="mt-8 pt-6 border-t" style="border-color: rgba(var(--color-dark-rgb), 0.14);">
-                <p class="text-muted text-sm" style="line-height: 1.7;">Serving [City], [City 2], [City 3], [City 4], [City 5], [City 6], and surrounding [Region] communities.</p>
+                <p class="text-muted text-sm" style="line-height: 1.7;">Independent, authorized Cornwell Quality Tools franchise serving commercial shops across Hidalgo County and the Rio Grande Valley.</p>
               </div>
             </div>
           </div>
 
-          <!-- GHL Form -->
-          <div class="area-card" style="background: rgba(var(--color-dark-rgb), 0.04); min-height: 720px; padding: 0; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-            <!-- GHL CONTACT FORM EMBED GOES HERE -->
-            <div style="text-align: center; padding: 48px 32px; color: var(--color-muted);">
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto 16px; opacity: 0.75;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg>
-              <p class="font-display font-bold" style="color: var(--color-ink); font-size: 1rem; margin-bottom: 6px;">Contact form goes here</p>
-              <p class="text-sm" style="color: var(--color-muted);">Paste the GHL contact form embed to activate this form.</p>
-            </div>
+          <!-- GHL CONTACT FORM EMBED — "Website Form" iIe3HWhzFwKdqSbAMIZu. GHL embed only, never a custom form.
+               The iframe is height:100% in GHL's snippet, so it sits in .ghl-form-wrap (defined 697px height from
+               data-height, responsive); form_embed.js resizes it as the form grows. Submit-button color is set in
+               GHL's builder (sky #4EA5F4 + navy text, or navy on light) — do not override embed styles here. -->
+          <div class="area-card ghl-form-wrap" style="padding: 0; overflow: hidden;">
+            <iframe
+              src="https://api.leadconnectorhq.com/widget/form/iIe3HWhzFwKdqSbAMIZu"
+              style="width:100%;height:100%;border:none;border-radius:18px"
+              id="inline-iIe3HWhzFwKdqSbAMIZu"
+              data-layout="{'id':'INLINE'}"
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-name="Website Form"
+              data-height="697"
+              data-layout-iframe-id="inline-iIe3HWhzFwKdqSbAMIZu"
+              data-form-id="iIe3HWhzFwKdqSbAMIZu"
+              title="Website Form — get on the Tool Co route"
+            ></iframe>
           </div>
 
-        </div>
-
-        <!-- Map -->
-        <div class="fade-up mt-12" style="transition-delay: 0.12s;">
-          <div style="border-radius: 16px; overflow: hidden; border: 1px solid rgba(var(--color-dark-rgb), 0.14); box-shadow: 0 24px 60px -24px rgba(var(--color-dark-rgb), 0.45); background: rgba(var(--color-dark-rgb), 0.04); height: 450px; display: flex; align-items: center; justify-content: center;">
-            <!-- GOOGLE MAPS EMBED GOES HERE -->
-            <div style="text-align: center; padding: 40px; color: var(--color-muted);">
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto 16px; opacity: 0.75;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              <p class="font-display font-bold" style="color: var(--color-ink); font-size: 1rem; margin-bottom: 6px;">Google Map goes here</p>
-              <p class="text-sm" style="color: var(--color-muted);">Paste the client's Google Maps embed for their service area.</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -1305,56 +1474,55 @@
     <div class="divider"></div>
 
     <!-- ============================================================
-         10. FINAL CTA — standard pattern: cta-background.jpg + dark overlay
+         11. FINAL CTA — standard pattern: cta-background slot + dark overlay
     ============================================================ -->
-    <section class="dark-section relative py-24 overflow-hidden" aria-label="Final call to action">
+    <section class="dark-section relative py-24 overflow-hidden" aria-label="Put your shop on the route">
       <!-- OFF-LIMITS: cta-background — dedicated named file only, never a content photo -->
-      <div class="absolute inset-0" style="background: url('https://placehold.co/1920x1080') center center / cover no-repeat;"></div>
-      <div class="absolute inset-0" style="background: rgba(var(--color-dark-rgb), 0.62);"></div>
+      <!-- AI-GENERATED STAND-IN (2026-09-13): cta-background.jpg (1376×768) is a generated navy/blue-flame background, not a
+           Tool Co photo. SWAP for Kim's real horizontal truck shot when it lands (same filename, 1920×1080). -->
+      <div class="absolute inset-0" style="background: url('/brand_assets/cta-background.jpg') center center / cover no-repeat;"></div>
+      <div class="absolute inset-0" style="background: rgba(var(--color-dark-rgb), 0.66);"></div>
       <div class="dark-cta-ramp"></div>
       <div class="absolute inset-0" style="background: radial-gradient(ellipse 70% 80% at 50% 40%, rgba(var(--color-dark-rgb), 0.44) 0%, transparent 65%);"></div>
-      <div class="absolute inset-0" style="background: radial-gradient(ellipse 50% 45% at 0% 100%, rgba(var(--color-accent-deep-rgb), 0.16) 0%, transparent 55%);"></div>
-      <div class="absolute inset-0" style="background: radial-gradient(ellipse 50% 45% at 100% 100%, rgba(var(--color-accent-deep-rgb), 0.12) 0%, transparent 55%);"></div>
-      <div class="absolute inset-0" style="background: radial-gradient(ellipse 45% 35% at 50% 78%, rgba(var(--color-accent-rgb), 0.12) 0%, transparent 55%);"></div>
+      <div class="absolute inset-0" style="background: radial-gradient(ellipse 50% 45% at 0% 100%, rgba(var(--color-accent-deep-rgb), 0.18) 0%, transparent 55%);"></div>
+      <div class="absolute inset-0" style="background: radial-gradient(ellipse 50% 45% at 100% 100%, rgba(var(--color-accent-deep-rgb), 0.14) 0%, transparent 55%);"></div>
+      <div class="absolute inset-0" style="background: radial-gradient(ellipse 45% 35% at 50% 78%, rgba(var(--color-accent-rgb), 0.14) 0%, transparent 55%);"></div>
       <div class="absolute inset-0" style="background: radial-gradient(ellipse 120% 110% at 50% 50%, transparent 35%, rgba(0,0,0,0.36) 100%); pointer-events: none;"></div>
 
       <div class="relative z-10 max-w-3xl mx-auto px-5 text-center fade-up">
         <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
         <h2 class="font-display text-4xl lg:text-5xl font-extrabold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
-          Ready When<br />You Are.<br /><span style="color: var(--color-accent-bright);">Get It Done Today.</span>
+          Put Your Shop<br />on the Route.<br /><span style="color: var(--color-accent-bright); font-style: italic;">The Truck Does the Driving.</span>
         </h2>
         <p class="text-muted text-lg mb-10 max-w-xl mx-auto" style="line-height: 1.7;">
-          Don't put it off any longer. Call Your Business Name — we offer same-day service across [City] and the [Region], we come to you, and every job is done with the same care.
+          One call and the Cornwell truck starts stopping at your door. Serving commercial shops in Edinburg, Weslaco, Pharr, Alamo, and San Juan.
         </p>
         <div class="flex flex-wrap gap-4 justify-center">
-          <a href="tel:+15550000000" class="btn-primary text-base px-8 py-4">
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            Call Now — (555) 000-0000
+          <a href="tel:+19564507963" class="btn-primary text-base px-8 py-4">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call (956) 450-7963
           </a>
           <a href="/#contact" class="btn-outline text-base px-8 py-4">
-            Get a Free Quote
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            Get on the Route
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
           </a>
         </div>
-        <div class="flex flex-wrap items-center justify-center gap-5 mt-10">
+        <div class="flex flex-wrap items-center justify-center gap-x-7 gap-y-3 mt-10">
           <span class="flex items-center gap-1.5 text-muted text-sm">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Free estimates
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            We come to you
           </span>
-          <span style="color: rgba(255,255,255,0.20);">·</span>
           <span class="flex items-center gap-1.5 text-muted text-sm">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Fair, honest pricing
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Authorized Cornwell dealer
           </span>
-          <span style="color: rgba(255,255,255,0.20);">·</span>
           <span class="flex items-center gap-1.5 text-muted text-sm">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Mobile service
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Financing available
           </span>
-          <span style="color: rgba(255,255,255,0.20);">·</span>
           <span class="flex items-center gap-1.5 text-muted text-sm">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Same-day availability
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Warranty &amp; service help
           </span>
         </div>
       </div>
@@ -1371,21 +1539,21 @@
 
         <!-- Brand -->
         <div class="col-span-2 md:col-span-1">
-          <!-- LOGO PLACEHOLDER — swap the <span> for <img class="footer-logo" ...>; height comes from --footer-logo-height in brand.css -->
-          <a href="/" class="flex items-center mb-2" aria-label="Your Business Name home">
-            <span class="footer-wordmark">Your Business Name</span>
+          <a href="/" class="inline-flex items-center mb-3" aria-label="Tool Co home">
+            <img class="footer-logo" src="/brand_assets/logo.png" alt="Tool Co — authorized Cornwell Quality Tools dealer" width="1994" height="789" loading="lazy" />
           </a>
-          <p style="font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: var(--color-accent-bright); margin-bottom: 14px; opacity: 0.85;">Trusted Local Home Services</p>
-          <p class="text-muted text-sm mb-5" style="line-height: 1.7;">Professional home services you can count on — serving [City] and the surrounding [Region].</p>
+          <p style="font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: var(--color-accent-bright); margin-bottom: 14px; opacity: 0.9;">Authorized Cornwell Quality Tools Dealer</p>
+          <p class="text-muted text-sm mb-5" style="line-height: 1.7;">An independent Cornwell franchise running a mobile tool truck to commercial shops across Edinburg and the Rio Grande Valley.</p>
           <div class="space-y-2">
-            <a href="tel:+15550000000" class="flex items-center gap-2 text-white text-sm font-medium hover:opacity-80 transition-opacity duration-150">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              (555) 000-0000
+            <a href="tel:+19564507963" class="flex items-center gap-2 text-white text-sm font-medium hover:opacity-80 transition-opacity duration-150">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              (956) 450-7963
             </a>
-            <a href="mailto:hello@yourbusiness.com" class="flex items-center gap-2 text-muted text-sm hover:text-white transition-colors duration-150">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              hello@yourbusiness.com
-            </a>
+            <!-- [NEEDS INPUT — email; swap this span for a mailto: link once confirmed] -->
+            <span class="flex items-center gap-2 text-muted text-sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent-bright)" stroke-width="2.2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              [NEEDS INPUT — email]
+            </span>
           </div>
         </div>
 
@@ -1393,12 +1561,9 @@
         <div>
           <h2 class="font-display font-bold text-white text-sm uppercase tracking-widest mb-4">Services</h2>
           <ul class="space-y-2.5">
-            <li><a href="/services/service-one.html"        class="text-muted text-sm hover:text-white transition-colors duration-150">Service One</a></li>
-            <li><a href="/services/service-two.html"  class="text-muted text-sm hover:text-white transition-colors duration-150">Service Two</a></li>
-            <li><a href="/services/service-three.html"         class="text-muted text-sm hover:text-white transition-colors duration-150">Service Three</a></li>
-            <li><a href="/services/service-four.html"     class="text-muted text-sm hover:text-white transition-colors duration-150">Service Four</a></li>
-            <li><a href="/services/service-five.html"            class="text-muted text-sm hover:text-white transition-colors duration-150">Service Five</a></li>
-            <li><a href="/services/service-six.html"   class="text-muted text-sm hover:text-white transition-colors duration-150">Service Six</a></li>
+            <li><a href="/services/mobile-tool-service.html"         class="text-muted text-sm hover:text-white transition-colors duration-150">Mobile Tool Service</a></li>
+            <li><a href="/services/professional-tool-solutions.html" class="text-muted text-sm hover:text-white transition-colors duration-150">Professional Tool Solutions</a></li>
+            <li><a href="/services/tool-financing.html"              class="text-muted text-sm hover:text-white transition-colors duration-150">Tool Financing &amp; Payment Options</a></li>
           </ul>
         </div>
 
@@ -1406,12 +1571,12 @@
         <div>
           <h2 class="font-display font-bold text-white text-sm uppercase tracking-widest mb-4">Company</h2>
           <ul class="space-y-2.5">
-            <li><a href="/about.html"   class="text-muted text-sm hover:text-white transition-colors duration-150">About Us</a></li>
-            <!-- OPTIONAL MODULE LINK (footer, #reviews): re-enable with the Review widget module: <li><a href="/#reviews"      class="text-muted text-sm hover:text-white transition-colors duration-150">Reviews</a></li> -->
-            <!-- OPTIONAL MODULE LINK (footer, #insurance): re-enable with the Insurance module: <li><a href="/#insurance"    class="text-muted text-sm hover:text-white transition-colors duration-150">Insurance Partners</a></li> -->
-            <li><a href="/#service-area" class="text-muted text-sm hover:text-white transition-colors duration-150">Service Areas</a></li>
-            <li><a href="/#contact"      class="text-muted text-sm hover:text-white transition-colors duration-150">Contact</a></li>
-            <li><a href="#"             class="text-muted text-sm hover:text-white transition-colors duration-150">Privacy Policy</a></li>
+            <li><a href="/about.html"     class="text-muted text-sm hover:text-white transition-colors duration-150">About Tool Co</a></li>
+            <li><a href="/team.html"      class="text-muted text-sm hover:text-white transition-colors duration-150">Meet the Team</a></li>
+            <li><a href="/catalog.html"   class="text-muted text-sm hover:text-white transition-colors duration-150">This Month's Catalog</a></li>
+            <li><a href="/#service-area"  class="text-muted text-sm hover:text-white transition-colors duration-150">Service Areas</a></li>
+            <li><a href="/#contact"       class="text-muted text-sm hover:text-white transition-colors duration-150">Contact</a></li>
+            <li><a href="#"               class="text-muted text-sm hover:text-white transition-colors duration-150">Privacy Policy</a></li>
           </ul>
         </div>
 
@@ -1419,12 +1584,11 @@
         <div>
           <h2 class="font-display font-bold text-white text-sm uppercase tracking-widest mb-4">Areas We Serve</h2>
           <ul class="space-y-2.5">
-            <li><a href="/areas/city-one.html" class="text-muted text-sm hover:text-white transition-colors duration-150">[City]</a></li>
-            <li><a href="/areas/city-two.html" class="text-muted text-sm hover:text-white transition-colors duration-150">[City 2]</a></li>
-            <li><a href="/areas/city-three.html" class="text-muted text-sm hover:text-white transition-colors duration-150">[City 3]</a></li>
-            <li><a href="/areas/city-four.html" class="text-muted text-sm hover:text-white transition-colors duration-150">[City 4]</a></li>
-            <li><a href="/areas/city-five.html" class="text-muted text-sm hover:text-white transition-colors duration-150">[City 5]</a></li>
-            <li><a href="/areas/city-six.html" class="text-muted text-sm hover:text-white transition-colors duration-150">[City 6]</a></li>
+            <li><a href="/areas/edinburg.html" class="text-muted text-sm hover:text-white transition-colors duration-150">Edinburg</a></li>
+            <li><a href="/areas/weslaco.html"  class="text-muted text-sm hover:text-white transition-colors duration-150">Weslaco</a></li>
+            <li><a href="/areas/pharr.html"    class="text-muted text-sm hover:text-white transition-colors duration-150">Pharr</a></li>
+            <li><a href="/areas/alamo.html"    class="text-muted text-sm hover:text-white transition-colors duration-150">Alamo</a></li>
+            <li><a href="/areas/san-juan.html" class="text-muted text-sm hover:text-white transition-colors duration-150">San Juan</a></li>
           </ul>
         </div>
 
@@ -1434,7 +1598,7 @@
 
       <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
         <p class="text-muted text-xs text-center sm:text-left">
-          © 2026 Your Business Name. All rights reserved. Serving [City] &amp; the [Region], [ST].
+          © 2026 Tool Co. All rights reserved. Serving Edinburg &amp; the Rio Grande Valley, TX.
         </p>
         <div class="flex items-center gap-4">
           <a href="#" class="text-xs text-muted hover:text-white transition-colors duration-150">Privacy Policy</a>
@@ -1442,6 +1606,10 @@
           <a href="#" class="text-xs text-muted hover:text-white transition-colors duration-150">Terms</a>
         </div>
       </div>
+      <!-- [NEEDS INPUT — Cornwell franchisee guidelines: a mandated disclaimer, if one exists, replaces this line] -->
+      <p class="text-xs mt-4 text-center sm:text-left" style="color: var(--color-muted-light); opacity: 0.70; line-height: 1.6;">
+        Tool Co is an independently owned and operated Cornwell Quality Tools franchise. Cornwell® and related marks are trademarks of Cornwell Quality Tools Company.
+      </p>
     </div>
   </footer>
 
@@ -1461,6 +1629,14 @@
     document.querySelectorAll('.mobile-nav-link').forEach(link => {
       link.addEventListener('click', () => mobileMenu.classList.remove('open'));
     });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
+        mobileMenu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+        hamburger.setAttribute('aria-label', 'Open menu');
+        hamburger.focus();
+      }
+    });
 
     document.querySelectorAll('.mobile-services-toggle').forEach(toggle => {
       const submenu = document.getElementById(toggle.getAttribute('aria-controls'));
@@ -1470,6 +1646,46 @@
           toggle.setAttribute('aria-expanded', open);
         });
       }
+    });
+
+    // Hero video slot — only goes live when a <source> has been wired in AND the viewer
+    // has not asked for reduced motion. Otherwise the static hero-background <img> stays.
+    const heroVideo = document.querySelector('.hero-video');
+    if (heroVideo && heroVideo.querySelector('source') && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      heroVideo.classList.add('is-live');
+      heroVideo.preload = 'auto';
+      heroVideo.load();
+      const p = heroVideo.play();
+      if (p && typeof p.catch === 'function') p.catch(() => heroVideo.classList.remove('is-live'));
+    }
+
+    // Lazy section videos (.lazy-video): preload="none" + no autoplay attribute, so nothing is fetched on
+    // page load. Each plays only while ≥25% on screen and pauses when scrolled out. Under reduced motion
+    // they never start (CSS shows the .video-poster instead). The .video-toggle is the WCAG 2.2.2 stop control.
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.querySelectorAll('.lazy-video').forEach((video) => {
+      const stage = video.parentElement;
+      const toggle = stage ? stage.querySelector('.video-toggle') : null;
+      let userPaused = false;
+      if (reducedMotion) { video.pause(); return; }
+      const setToggle = (paused) => {
+        if (!toggle) return;
+        toggle.setAttribute('aria-pressed', paused ? 'true' : 'false');
+        toggle.setAttribute('aria-label', paused ? 'Play video' : 'Pause video');
+        const label = toggle.querySelector('.video-toggle-label'); if (label) label.textContent = paused ? 'Play' : 'Pause';
+      };
+      if (toggle) toggle.addEventListener('click', () => {
+        userPaused = !video.paused;
+        if (userPaused) video.pause(); else video.play().catch(() => {});
+        setToggle(userPaused);
+      });
+      const vis = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) { if (!userPaused) video.play().catch(() => {}); }
+          else video.pause();
+        });
+      }, { threshold: 0.25 });
+      vis.observe(video);
     });
 
     const observer = new IntersectionObserver((entries) => {
@@ -1483,11 +1699,11 @@
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
   </script>
 
-  <!-- GHL CHAT WIDGET SCRIPT GOES HERE -->
+  <!-- GHL CHAT WIDGET SCRIPT (site-wide, shared footer block) -->
+  <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6a983977d3b1e172e082a76c"></script>
 
-  <!-- GHL EXTERNAL TRACKING SCRIPT GOES HERE -->
-
-  <!-- GHL FORM EMBED SCRIPT GOES HERE -->
+  <!-- GHL FORM EMBED SCRIPT (only the page that carries the Website Form) -->
+  <script src="https://link.msgsndr.com/js/form_embed.js"></script>
 
 </body>
 </html>

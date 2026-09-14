@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Tool Co | Cornwell Tool Truck, Rio Grande Valley</title>
-  <meta name="description" content="Tool Co is an independent, authorized Cornwell dealer running a mobile tool truck to shops in Edinburg and the Rio Grande Valley. Get your shop on the route." />
-  <meta name="keywords" content="about Tool Co, Cornwell tool dealer Edinburg TX, mobile tool truck Rio Grande Valley, authorized Cornwell franchise Hidalgo County, tool truck dealer near me" />
+  <title>Cornwell Tool Truck in Pharr, TX | Tool Co</title>
+  <meta name="description" content="The Tool Co Cornwell tool truck stops at Pharr, TX shops where I-69C meets I-2. Diesel, fleet, and repair shops on the bridge corridor: get on the route." />
+  <meta name="keywords" content="tool truck Pharr TX, Cornwell dealer Pharr, mobile tool dealer Pharr Texas, diesel shop tools Pharr, Cornwell tools Pharr, Tool Co Pharr" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <link rel="canonical" href="https://www.toolcorgv.com/about.html" />
+  <link rel="canonical" href="https://www.toolcorgv.com/areas/pharr.html" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="About Tool Co | Cornwell Tool Truck, Rio Grande Valley" />
-  <meta property="og:description" content="An independent, authorized Cornwell dealer running a mobile tool truck to commercial shops across the Rio Grande Valley. The store comes to the shop." />
-  <meta property="og:url" content="https://www.toolcorgv.com/about.html" />
+  <meta property="og:title" content="Cornwell Tool Truck in Pharr, TX | Tool Co" />
+  <meta property="og:description" content="Where I-69C meets I-2. The Cornwell tool truck stops at diesel, fleet, and repair shops across Pharr, TX. Get on the route." />
+  <meta property="og:url" content="https://www.toolcorgv.com/areas/pharr.html" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://placehold.co/1200x630" /><!-- PLACEHOLDER: brand_assets/og-image.jpg — [NEEDS INPUT — create 1200×630 before launch] -->
   <meta property="og:image:width" content="1200" />
@@ -22,8 +22,8 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="About Tool Co | Cornwell Tool Truck, Rio Grande Valley" />
-  <meta name="twitter:description" content="An independent, authorized Cornwell dealer running a mobile tool truck to commercial shops across the Rio Grande Valley. The store comes to the shop." />
+  <meta name="twitter:title" content="Cornwell Tool Truck in Pharr, TX | Tool Co" />
+  <meta name="twitter:description" content="Where I-69C meets I-2. The Cornwell tool truck stops at diesel, fleet, and repair shops across Pharr, TX. Get on the route." />
   <meta name="twitter:image" content="https://placehold.co/1200x630" /><!-- PLACEHOLDER: same 1200×630 image -->
 
   <!-- GHL EXTERNAL TRACKING SCRIPT (site-wide, shared head) -->
@@ -70,8 +70,9 @@
 
   <style>
     /* Color tokens live in /brand.css (single source of truth — logo-locked).
-       SHARED SYSTEM — cloned whole from the service-page template (services/tool-financing.html).
-       Page-specific additions sit at the end of this block, marked PAGE-SPECIFIC. */
+       CITY-PAGE TEMPLATE: shared system for all city pages — clone this file whole and change ONLY the four
+       CITY-SWAP zones (intro / local-anchors / why-city / faq), the one photo, the head metadata, the schema
+       values, and the aria-current links. The Areas We Serve dropdown is a protected SHARED ZONE. */
 
     *, *::before, *::after { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
@@ -348,11 +349,15 @@
       .split-grid--photo-left { grid-template-columns: minmax(0, 13fr) minmax(0, 11fr); }
     }
 
-    /* ── Full-width text block columns (condensed sections on lower-tier pages) ── */
-    .text-cols { display: grid; grid-template-columns: 1fr; gap: 28px; }
-    @media (min-width: 768px) { .text-cols { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; } }
-    .text-col { padding-top: 18px; border-top: 2px solid rgba(var(--color-dark-rgb), 0.12); }
-    .dark-section .text-col { border-top-color: rgba(var(--color-accent-bright-rgb), 0.35); }
+    /* ── City page: coverage anchors (coverage split) + why-city checklist (dark) ── */
+    .anchor-row { display: flex; align-items: flex-start; gap: 12px; }
+    .anchor-row svg { margin-top: 3px; flex-shrink: 0; stroke: var(--color-accent-deep); }
+    .anchor-title { font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 15px; color: var(--color-ink); margin-bottom: 2px; }
+    .anchor-note { font-size: 14px; line-height: 1.6; color: var(--color-muted); margin: 0; }
+    .why-row { display: flex; align-items: flex-start; gap: 12px; }
+    .why-row svg { margin-top: 3px; flex-shrink: 0; stroke: var(--color-accent-bright); }
+    .why-title { font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 15px; color: var(--color-bg); margin-bottom: 2px; }
+    .why-note { font-size: 14px; line-height: 1.6; color: var(--color-muted-light); margin: 0; }
 
     /* ── Cards (icon-free) ── */
     .feature-card {
@@ -445,77 +450,101 @@
     ::-webkit-scrollbar-track { background: var(--color-bg-2); }
     ::-webkit-scrollbar-thumb { background: var(--color-line); border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: var(--color-accent-deep); }
-
-    /* ── PAGE-SPECIFIC (About / Team / Catalog / Thank-you) ── */
-    .terms-row { display: grid; grid-template-columns: 1fr; gap: 6px 40px; padding: 22px 0; border-top: 1px solid rgba(255,255,255,0.10); }
-    .terms-row:last-child { border-bottom: 1px solid rgba(255,255,255,0.10); }
-    @media (min-width: 768px) { .terms-row { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 0 48px; } }
-    .terms-row dt { font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 1.25rem; letter-spacing: -0.01em; color: var(--color-bg); line-height: 1.3; }
-    .terms-row dd { margin: 0; color: var(--color-muted-light); line-height: 1.7; }
-    .city-chip {
-      display: inline-flex; align-items: center; gap: 9px; padding: 12px 18px; border-radius: 999px;
-      border: 1.5px solid rgba(var(--color-dark-rgb), 0.18); font-weight: 600; font-size: 15px; color: var(--color-ink);
-      transition: transform 0.18s cubic-bezier(0.4,0,0.2,1), border-color 0.18s cubic-bezier(0.4,0,0.2,1), background 0.18s cubic-bezier(0.4,0,0.2,1);
-    }
-    .city-chip:hover { border-color: var(--color-accent-deep); background: rgba(var(--color-dark-rgb), 0.05); transform: translateY(-2px); }
-    .city-chip:active { transform: translateY(0); }
-    .city-chip:focus-visible { outline: 2px solid var(--color-accent-deep); outline-offset: 3px; }
-    .city-chip .dot { width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent-deep); flex-shrink: 0; }
-    .city-chip .home { font-size: 12px; font-weight: 500; color: var(--color-muted); }
-    .driver-card h3 { font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 1.375rem; letter-spacing: -0.02em; color: var(--color-ink); margin-top: 18px; line-height: 1.2; }
-    .driver-role { font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent-deep); margin-top: 6px; }
-    .driver-bio { color: var(--color-muted); line-height: 1.7; margin-top: 10px; font-size: 0.95rem; }
-    .step-num { font-family: 'Barlow', sans-serif; font-weight: 800; font-size: 2.25rem; line-height: 1; color: var(--color-accent-bright); margin-bottom: 12px; }
-    .check-badge {
-      width: 76px; height: 76px; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center;
-      background: rgba(var(--color-accent-rgb), 0.14); border: 1.5px solid rgba(var(--color-accent-bright-rgb), 0.55);
-      box-shadow: 0 0 0 10px rgba(var(--color-accent-rgb), 0.06), 0 18px 40px rgba(0,0,0,0.30);
-    }
-    .next-link {
-      display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 16px 20px; border-radius: 12px;
-      border: 1px solid rgba(255,255,255,0.14); background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.90); font-weight: 600; font-size: 15px; text-align: left;
-      transition: transform 0.18s cubic-bezier(0.4,0,0.2,1), border-color 0.18s cubic-bezier(0.4,0,0.2,1), background 0.18s cubic-bezier(0.4,0,0.2,1);
-    }
-    .next-link:hover { border-color: rgba(var(--color-accent-bright-rgb), 0.70); background: rgba(255,255,255,0.09); transform: translateY(-2px); }
-    .next-link:active { transform: translateY(0); }
-    .next-link:focus-visible { outline: 2px solid var(--color-accent-bright); outline-offset: 3px; }
-    .next-link svg { flex-shrink: 0; stroke: var(--color-accent-bright); }
   </style>
 
-  <!-- 1/2 AboutPage — references the homepage LocalBusiness @id (NOT a re-declaration). No Person schema: owner names are not published. -->
+  <!-- 1/3 LocalBusiness REFERENCE — same @id as the homepage entity (not a re-declaration); areaServed = Pharr ONLY. -->
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  "@id": "https://www.toolcorgv.com/about.html#webpage",
-  "url": "https://www.toolcorgv.com/about.html",
-  "name": "About Tool Co",
-  "description": "Tool Co is an independent, authorized Cornwell Quality Tools franchise running a mobile tool truck to commercial shops in Edinburg, Weslaco, Pharr, Alamo, and San Juan, Texas.",
-  "about": {
-    "@id": "https://www.toolcorgv.com/#business"
-  }
-}
-  </script>
-  <!-- 2/2 BreadcrumbList schema — matches the visible breadcrumb in the hero. -->
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.toolcorgv.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "About Tool Co",
-      "item": "https://www.toolcorgv.com/about.html"
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.toolcorgv.com/#business",
+    "name": "Tool Co",
+    "url": "https://www.toolcorgv.com/areas/pharr.html",
+    "areaServed": {
+      "@type": "City",
+      "name": "Pharr",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Texas"
+      }
     }
-  ]
-}
+  }
+  </script>
+  <!-- 2/3 FAQPage schema — city-scoped; answers mirror the on-page FAQ text exactly. [CITY-SWAP: faq] -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does the Cornwell tool truck come to shops in Pharr?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Pharr is the first stop after home base, where the route leaves I-69C for I-2. Get your shop on the route and the truck stops at your lot on a set day, stocked for Pharr's heavier work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which parts of Pharr does the route cover?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All of it. Cage Boulevard, the I-69C / I-2 interchange frontage roads, and the corridor south toward the Pharr–Reynosa bridge are all on the route. If your shop is inside Pharr, you're covered."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get a Pharr shop on the route?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Call or text (956) 450-7963, or send the contact form. Tell us where the shop is and what your crew runs. We add your stop and let you know which day the truck comes by."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you stock tools for diesel and trailer work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Pharr stop is planned around fleet and diesel shops, so the bigger drives and impact tools ride along. Anything not on the truck is ordered from Cornwell's catalog and delivered on the next stop."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "My shop is in McAllen or Hidalgo. Can you still stop by?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Reach out and ask. The published route runs Edinburg, Weslaco, Pharr, Alamo, and San Juan, and there's some give in it for shops close to Pharr. If you're just across the city line, we'll tell you straight whether the truck can reach you."
+        }
+      }
+    ]
+  }
+  </script>
+  <!-- 3/3 BreadcrumbList schema — matches the visible breadcrumb in the hero. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.toolcorgv.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Areas We Serve",
+        "item": "https://www.toolcorgv.com/#service-area"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pharr",
+        "item": "https://www.toolcorgv.com/areas/pharr.html"
+      }
+    ]
+  }
   </script>
 </head>
 <body class="font-body leading-body">
@@ -561,7 +590,7 @@
         </div>
         <!-- END SHARED ZONE: Areas We Serve dropdown -->
         <a href="/catalog.html"  class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Catalog</a>
-        <a href="/about.html"    class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150" aria-current="page">About</a>
+        <a href="/about.html"    class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">About</a>
         <a href="/team.html"     class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Team</a>
         <a href="/#contact"      class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Contact</a>
         <a href="tel:+19564507963" class="btn-primary text-sm py-2.5 px-5 ml-4">
@@ -605,7 +634,7 @@
         </div>
         <!-- END SHARED ZONE: Areas We Serve dropdown -->
         <a href="/catalog.html" class="mobile-nav-link py-3 px-3 rounded-lg font-medium">This Month's Catalog</a>
-        <a href="/about.html"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium" aria-current="page">About</a>
+        <a href="/about.html"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium">About</a>
         <a href="/team.html"    class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Meet the Team</a>
         <a href="/#contact"     class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Contact</a>
         <a href="tel:+19564507963" class="btn-primary mt-3 justify-center">
@@ -617,9 +646,9 @@
   </nav>
 
   <!-- ============================================================
-       HERO — static hero-background slot (site-wide file), breadcrumb, one H1
+       HERO — static hero-background slot (site-wide file), breadcrumb, city H1
   ============================================================ -->
-  <section class="hero-bg relative min-h-screen flex items-center overflow-hidden" style="padding-top: calc(var(--nav-height) + clamp(36px, 5vw, 56px)); padding-bottom: clamp(56px, 8vw, 96px);" aria-label="About Tool Co, an independent Cornwell dealer in Edinburg and the Rio Grande Valley">
+  <section class="hero-bg relative min-h-screen flex items-center overflow-hidden" style="padding-top: calc(var(--nav-height) + clamp(36px, 5vw, 56px)); padding-bottom: clamp(56px, 8vw, 96px);" aria-label="Cornwell tool truck in Pharr, Texas">
 
     <!-- OFF-LIMITS: hero-background — dedicated named file only, never a content photo -->
     <!-- AI-GENERATED STAND-IN (2026-09-13): hero-background-interior.jpg (1376×768) is a generated navy/chrome-wrench
@@ -641,18 +670,20 @@
         <nav class="breadcrumb mb-5" aria-label="Breadcrumb">
           <a href="/">Home</a>
           <span class="sep" aria-hidden="true">/</span>
-          <span class="current" aria-current="page">About Tool Co</span>
+          <a href="/#service-area">Areas We Serve</a>
+          <span class="sep" aria-hidden="true">/</span>
+          <span class="current" aria-current="page">Pharr</span>
         </nav>
 
-        <p class="eyebrow" style="margin-bottom: 20px; text-shadow: 0 1px 8px rgba(0,0,0,0.45);">About Tool Co · Edinburg, TX</p>
+        <p class="eyebrow" style="margin-bottom: 20px; text-shadow: 0 1px 8px rgba(0,0,0,0.45);">Pharr, TX · Where <span class="whitespace-nowrap">I-69C</span> Meets <span class="whitespace-nowrap">I-2</span></p>
 
         <h1 class="font-display text-white mb-5" style="font-size: clamp(2.5rem, 6.2vw, 4.25rem); letter-spacing: -0.03em; line-height: 1.04; font-weight: 800; text-shadow: 0 2px 24px rgba(0,0,0,0.45);">
-          The Tool Store<br />That Comes to You.
-          <span class="hero-h1-accent" style="font-size: 0.62em; letter-spacing: -0.02em; margin-top: 0.35em;">An independent, authorized Cornwell dealer.</span>
+          The Cornwell Tool Truck<br />in Pharr, TX.
+          <span class="hero-h1-accent" style="font-size: 0.62em; letter-spacing: -0.02em; margin-top: 0.35em;">Built for the bridge corridor.</span>
         </h1>
 
         <p class="mb-8 max-w-xl" style="color: rgba(255,255,255,0.90); font-size: clamp(1rem, 2.2vw, 1.125rem); line-height: 1.72; text-shadow: 0 1px 8px rgba(0,0,0,0.35);">
-          Tool Co runs a Cornwell mobile tool truck out of Edinburg to commercial shops across the Rio Grande Valley. There's no storefront and no counter to drive to. The truck is the store, it comes by on a set day, and the people on it bring 30+ years of combined experience among our tool dealers to every stop.
+          Pharr is the crossroads of the route: the truck leaves Edinburg on <span class="whitespace-nowrap">I-69C</span>, and Pharr is where it meets <span class="whitespace-nowrap">I-2</span>. It's also the Valley's heavy-duty town, with the Pharr–Reynosa bridge feeding diesel shops, trailer yards, and cold-storage fleets. Hand tools, big drives, storage, and diagnostics on board, with <strong style="color: var(--color-bg);">30+ years of combined experience among our tool dealers</strong> behind the counter.
         </p>
 
         <div class="hero-ctas flex flex-wrap gap-4">
@@ -674,142 +705,204 @@
 
   <main id="main-content">
 
-    <!-- 1. WHO WE ARE — split, text left / photo right — LIGHT -->
-    <section id="who-we-are" class="section-dark atmo wash-navy-tr py-24" aria-label="Who Tool Co is">
+    <!-- ============================================================
+         1. INTRO — single column, no photo — LIGHT (white)
+    ============================================================ -->
+    <!-- CITY-SWAP: intro — unique opening for this city (hook, home-base / distance reference, route reality) -->
+    <section id="intro" class="section-dark atmo wash-navy-tr py-20" aria-label="Tool Co in Pharr, Texas">
+      <div class="max-w-3xl mx-auto px-5 text-center fade-up">
+        <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
+        <p class="eyebrow">Pharr, TX · The Crossroads</p>
+        <h2 class="text-balance font-display text-4xl lg:text-5xl font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
+          Pharr Is Where the Route Turns East
+        </h2>
+        <p class="text-muted text-lg mb-4" style="line-height: 1.7;">
+          Ten minutes south of home base, the route hits its first junction. Pharr is where <span class="whitespace-nowrap">I-69C</span> / <span class="whitespace-nowrap">US-281</span> meets <span class="whitespace-nowrap">I-2</span> / <span class="whitespace-nowrap">US-83</span>, and where the Tool Co truck turns east toward San Juan, Alamo, and Weslaco. It's the shortest run on the route and one of the busiest stops.
+        </p>
+        <p class="text-muted text-lg" style="line-height: 1.7;">
+          It's busy because Pharr runs on trucks. The Pharr–Reynosa International Bridge is one of the biggest produce crossings on the border, and the cold-storage warehouses, trailer yards, and diesel shops around it never really slow down. Those shops reach for heavier tools than a passenger-car bay, and the truck stocks the Pharr stop that way. <!-- [VERIFY — produce/cold-storage district and diesel-shop clusters near the bridge with the client] -->
+        </p>
+      </div>
+    </section>
+    <!-- END CITY-SWAP: intro -->
+
+    <!-- ============================================================
+         2. COVERAGE SPLIT — text left (local anchors) / one photo right — LIGHT (tint)
+    ============================================================ -->
+    <section id="coverage" class="section-mid atmo wash-navy-br py-24" aria-label="Where the Tool Co truck stops in Edinburg">
       <div class="max-w-7xl mx-auto px-5">
         <div class="split-grid">
           <div class="fade-up">
-            <p class="eyebrow">Who We Are</p>
+            <!-- CITY-SWAP: local-anchors — coverage heading + COMMERCIAL anchors only (corridors, repair clusters, route highways). Flag clustering claims [VERIFY]. -->
+            <p class="eyebrow">Coverage Across Pharr</p>
             <h2 class="text-balance font-display text-4xl lg:text-[2.5rem] font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.12;">
-              An Independent Cornwell Franchise, Run From Edinburg
+              Where the Truck Stops in Pharr
             </h2>
-            <p class="text-muted text-lg mb-5" style="line-height: 1.7;">
-              Tool Co is a locally owned Cornwell Quality Tools franchise. That means two things at once. The tools on the truck are Cornwell's line, backed by Cornwell's warranty process. And the business itself is independent: the route, the truck, and the relationship with your shop are ours to run.
+            <p class="text-muted text-lg mb-6" style="line-height: 1.7;">
+              Pharr's shops split between the old main street and the truck corridors feeding the bridge. These are the roads the route runs on the Pharr stop.
             </p>
-            <p class="text-muted text-lg mb-7" style="line-height: 1.7;">
-              We're based in Edinburg and run the route along <span class="whitespace-nowrap">I-2</span> / <span class="whitespace-nowrap">US-83</span> to Pharr, San Juan, Alamo, and Weslaco. Commercial shops are the whole customer list: repair shops, tire shops, fleet yards, diesel and trailer service, and the technicians who work in them.
-            </p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mb-8">
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Authorized Cornwell Quality Tools dealer</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Independently owned and operated</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Based in Edinburg, TX</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Commercial shops and their techs</div>
+            <!-- The I-69C/I-2 interchange, the international bridge, and Cage Blvd are established; the shop-cluster claims carry [VERIFY] -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-5">
+              <div class="anchor-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <div>
+                  <div class="anchor-title">Cage Boulevard (Business 281)</div>
+                  <p class="anchor-note">Pharr's main north–south street: independent repair shops, tire shops, and parts counters from downtown up to the expressway. <!-- [VERIFY — repair cluster along Cage Blvd] --></p>
+                </div>
+              </div>
+              <div class="anchor-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <div>
+                  <div class="anchor-title"><span class="whitespace-nowrap">I-69C</span> / <span class="whitespace-nowrap">I-2</span> interchange</div>
+                  <p class="anchor-note">The junction the route turns at. Shops along both expressways' frontage roads are on the Pharr stop. <!-- [VERIFY — frontage-road shops at the interchange] --></p>
+                </div>
+              </div>
+              <div class="anchor-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <div>
+                  <div class="anchor-title">Bridge corridor to Pharr–Reynosa</div>
+                  <p class="anchor-note">South toward the international bridge: cold-storage warehouses, trailer yards, and diesel and reefer service. <!-- [VERIFY — diesel/reefer shops along the bridge corridor] --></p>
+                </div>
+              </div>
+              <div class="anchor-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <div>
+                  <div class="anchor-title">Produce and cold-storage district</div>
+                  <p class="anchor-note">Forklift, dock, and fleet maintenance for the produce importers near the bridge, where the work runs in season around the clock. <!-- [VERIFY — produce district location and maintenance shops] --></p>
+                </div>
+              </div>
             </div>
-            <a href="/services/mobile-tool-service.html" class="link-arrow">
-              How mobile tool service works
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
-            </a>
+    <!-- END CITY-SWAP: local-anchors -->
           </div>
-          <!-- [PENDING — brand_assets/about-dealer-at-truck.jpg (1200×900): Kim's own service-in-action shot at the truck door.
-               Placeholder at final dimensions; alt text is final and must not change on swap. Never Cornwell/other-dealer imagery. -->
+          <!-- One photo (city tier = 1) — brand_assets/jump-starters.jpg (Kim's photo). [PENDING — swap for the truck on a Pharr street when the reshoot lands] -->
           <div class="fade-up" style="transition-delay: 0.1s;">
             <div class="photo-frame">
-              <img src="https://placehold.co/1200x900" alt="A Tool Co dealer at the open door of the Cornwell mobile tool truck, going over a tool with a technician at a Rio Grande Valley shop" loading="lazy" width="1200" height="900" />
+              <img src="/brand_assets/jump-starters.jpg" alt="Two Cornwell jump starters on a workbench, the kind of shop equipment the Tool Co truck delivers to Pharr fleet shops" loading="lazy" width="1440" height="1168" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 2. PLAIN TERMS — definition list; the page's signature block — DARK -->
-    <section id="plain-terms" class="dark-section atmo dark-glow-tl py-24" aria-label="What the words on this site mean">
-      <div class="max-w-5xl mx-auto px-5">
-        <div class="max-w-3xl mb-10 fade-up">
-          <div class="section-title-accent"></div>
-          <p class="eyebrow">Plain Terms</p>
-          <h2 class="text-balance font-display text-4xl lg:text-5xl font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
-            What the Words on This Site Mean
+    <!-- ============================================================
+         3. WHY EDINBURG'S SHOPS CHOOSE US — dark, 2-col checklist, no photo
+    ============================================================ -->
+    <!-- CITY-SWAP: why-city — the unique "why [City]'s shops choose us" angle for this city -->
+    <section id="why-pharr" class="dark-section atmo dark-glow-tl py-24" aria-label="Why Pharr shops choose Tool Co">
+      <div class="max-w-4xl mx-auto px-5">
+        <div class="text-center mb-10 fade-up">
+          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
+          <p class="eyebrow">Heavy-Duty Ready</p>
+          <h2 class="text-balance font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em; line-height: 1.1;">
+            Why Pharr's Shops Choose Tool Co
           </h2>
-          <p class="text-muted text-lg" style="line-height: 1.7;">
-            A mobile tool dealer has its own vocabulary. Here's what we mean when we use it.
+          <p class="text-muted text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
+            Pharr's work is bigger, heavier, and on a clock. The Pharr stop is stocked and scheduled for that.
           </p>
         </div>
-        <dl class="fade-up" style="transition-delay: 0.06s;">
-          <div class="terms-row">
-            <dt>Authorized Cornwell dealer</dt>
-            <dd>Tool Co is licensed by Cornwell Quality Tools to sell its line and to help with its warranty process. Tool Co is not Cornwell corporate. It's the local franchise that runs the truck.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>The route</dt>
-            <dd>The set path the truck drives through Edinburg, Pharr, San Juan, Alamo, and Weslaco. Shops on the route get a stop on a set day.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>A stop</dt>
-            <dd>Your shop, on the route, on your day. The truck pulls up, the door opens, and your crew shops from the shelves without leaving the bay.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>Regular Shop Visits</dt>
-            <dd>The same dealer coming back on the same day. Orders from the last visit ride in, and anything you ran out of gets restocked.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>Warranty &amp; Service Assistance</dt>
-            <dd>When a Cornwell tool breaks, we help you handle Cornwell's warranty and service process from the truck. No trip to a counter.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>Tool Financing &amp; Payment Options</dt>
-            <dd>Ways to pay for a tool purchase that fit how a shop's money comes in. Worked out in person with your dealer, never on a form.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>Get on the route</dt>
-            <dd>What we call getting started. Call, text, or send the form, and we add your shop as a stop.</dd>
-          </div>
-        </dl>
-      </div>
-    </section>
-
-    <!-- 3. EXPERIENCE — split, photo left / text right — LIGHT (tint) -->
-    <section id="experience" class="section-mid atmo wash-accent-tl py-24" aria-label="30+ years of combined experience among our tool dealers">
-      <div class="max-w-7xl mx-auto px-5">
-        <div class="split-grid split-grid--photo-left">
-          <!-- [PENDING — brand_assets/about-truck-exterior.jpg (1200×900): horizontal shot of Kim's own truck at a shop.
-               Placeholder at final dimensions; alt text is final and must not change on swap. -->
-          <div class="fade-up order-2 lg:order-1" style="transition-delay: 0.1s;">
-            <div class="photo-frame">
-              <img src="https://placehold.co/1200x900" alt="Tool Co's Cornwell mobile tool truck parked outside a commercial shop on a route day in the Rio Grande Valley" loading="lazy" width="1200" height="900" />
-            </div>
-          </div>
-          <div class="fade-up order-1 lg:order-2">
-            <p class="eyebrow">Experience, Not a Founding Date</p>
-            <h2 class="text-balance font-display text-4xl lg:text-[2.5rem] font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.12;">
-              30+ Years of Combined Experience Among Our Tool Dealers
-            </h2>
-            <p class="text-muted text-lg mb-5" style="line-height: 1.7;">
-              That number is the honest kind. It's the years our tool dealers have spent on trucks and at shop doors, added up across the team. It isn't a founding date, and it isn't a claim about how long the business has been around.
-            </p>
-            <p class="text-muted text-lg mb-7" style="line-height: 1.7;">
-              What it buys you at the truck is judgment. Which impact fits a diesel bay and which one is overkill. When a roll cab is worth the money and when a cart will do. What to try before you call a tool broken. That's the part of a tool dealer you can't order from a catalog.
-            </p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Show up on the day we said</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Straight answers, no upsell</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Stand behind the tools through Cornwell's process</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Payment options that fit the shop</div>
-            </div>
-          </div>
+        <div class="grid sm:grid-cols-2 gap-x-10 gap-y-5 max-w-3xl mx-auto fade-up" style="transition-delay: 0.06s;">
+              <div class="why-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <div>
+                  <div class="why-title">Big drives on the truck</div>
+                  <p class="why-note">Half-inch and three-quarter drives, impact sockets, and torque tools for diesel and trailer work ride along on the Pharr stop. <!-- [VERIFY — heavy-duty stock on the Pharr day] --></p>
+                </div>
+              </div>
+              <div class="why-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <div>
+                  <div class="why-title">Closest stop to home base</div>
+                  <p class="why-note">Pharr is minutes from Edinburg, so a tool ordered from the catalog or held between visits is never far away.</p>
+                </div>
+              </div>
+              <div class="why-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <div>
+                  <div class="why-title">Fleet shops, not just bays</div>
+                  <p class="why-note">Reefer trucks, forklifts, and dock equipment need a dealer who stocks for fleets. Tell your dealer what the yard runs.</p>
+                </div>
+              </div>
+              <div class="why-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <div>
+                  <div class="why-title">Same dealer, every stop</div>
+                  <p class="why-note">One person learns your shop, your crew, and what you keep running out of. That's who shows up each visit.</p>
+                </div>
+              </div>
+              <div class="why-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <div>
+                  <div class="why-title">Financing worked out at the truck</div>
+                  <p class="why-note">Financing and payment options on tool purchases are talked through in person on your Pharr stop, never on a form.</p>
+                </div>
+              </div>
+              <div class="why-row">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <div>
+                  <div class="why-title">Warranty handled here</div>
+                  <p class="why-note">A broken Cornwell tool goes back on the truck at your stop. We help you handle Cornwell's warranty and service process from there.</p>
+                </div>
+              </div>
         </div>
       </div>
     </section>
+    <!-- END CITY-SWAP: why-city -->
 
-    <!-- 4. WHERE THE TRUCK RUNS — five city links, no map (service-area business) — LIGHT -->
-    <section id="where-we-run" class="section-dark atmo wash-navy-bl py-20" aria-label="Where the Tool Co truck runs">
-      <div class="max-w-4xl mx-auto px-5 text-center fade-up">
-        <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-        <p class="eyebrow">Areas We Serve</p>
-        <h2 class="text-balance font-display text-4xl lg:text-5xl font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
-          Five Cities, One Route
-        </h2>
-        <p class="text-muted text-lg mb-9 max-w-2xl mx-auto" style="line-height: 1.7;">
-          Home base is Edinburg. From there the truck runs to shops in Pharr, San Juan, Alamo, and Weslaco. Each city has its own page with the corridors the route covers.
-        </p>
-        <div class="flex flex-wrap justify-center gap-3">
-          <a href="/areas/edinburg.html" class="city-chip"><span class="dot" aria-hidden="true"></span>Edinburg <span class="home">home base</span></a>
-          <a href="/areas/pharr.html" class="city-chip"><span class="dot" aria-hidden="true"></span>Pharr</a>
-          <a href="/areas/san-juan.html" class="city-chip"><span class="dot" aria-hidden="true"></span>San Juan</a>
-          <a href="/areas/alamo.html" class="city-chip"><span class="dot" aria-hidden="true"></span>Alamo</a>
-          <a href="/areas/weslaco.html" class="city-chip"><span class="dot" aria-hidden="true"></span>Weslaco</a>
+    <div class="divider"></div>
+
+    <!-- ============================================================
+         4. FAQ — city-scoped, light variant
+    ============================================================ -->
+    <!-- CITY-SWAP: faq — city-scoped Q&As (also mirrored in the FAQPage schema) -->
+    <section id="faq" class="section-dark atmo wash-navy-bl py-20" aria-label="Questions about the tool truck in Pharr">
+      <div class="max-w-4xl mx-auto px-5">
+        <div class="text-center mb-12 fade-up">
+          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
+          <p class="eyebrow">Good to Know</p>
+          <h2 class="text-balance font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
+            Questions About the Tool Truck in Pharr
+          </h2>
+        </div>
+        <div class="space-y-4 fade-up" style="transition-delay: 0.06s;">
+          <details class="faq-item" open>
+            <summary>
+              Does the Cornwell tool truck come to shops in Pharr?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body"><div>Yes. Pharr is the first stop after home base, where the route leaves <span class="whitespace-nowrap">I-69C</span> for <span class="whitespace-nowrap">I-2</span>. Get your shop on the route and the truck stops at your lot on a set day, stocked for Pharr's heavier work.</div></div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              Which parts of Pharr does the route cover?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body"><div>All of it. Cage Boulevard, the <span class="whitespace-nowrap">I-69C</span> / <span class="whitespace-nowrap">I-2</span> interchange frontage roads, and the corridor south toward the Pharr–Reynosa bridge are all on the route. If your shop is inside Pharr, you're covered.</div></div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              How do I get a Pharr shop on the route?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body"><div>Call or text <a href="tel:+19564507963" class="font-semibold hover:underline" style="color: var(--color-accent-deep);">(956) 450-7963</a>, or send the <a href="/#contact" class="font-semibold hover:underline" style="color: var(--color-accent-deep);">contact form</a>. Tell us where the shop is and what your crew runs. We add your stop and let you know which day the truck comes by.</div></div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              Do you stock tools for diesel and trailer work?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body"><div>The Pharr stop is planned around fleet and diesel shops, so the bigger drives and impact tools ride along. Anything not on the truck is ordered from Cornwell's catalog and delivered on the next stop.</div></div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              My shop is in McAllen or Hidalgo. Can you still stop by?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body"><div>Reach out and ask. The published route runs Edinburg, Weslaco, Pharr, Alamo, and San Juan, and there's some give in it for shops close to Pharr. If you're just across the city line, we'll tell you straight whether the truck can reach you.</div></div>
+          </details>
         </div>
       </div>
     </section>
+    <!-- END CITY-SWAP: faq -->
 
     <!-- ============================================================
          9. FINAL CTA — shared partial (identical on every page except thank-you)
@@ -906,7 +999,7 @@
         <div>
           <h2 class="font-display font-bold text-white text-sm uppercase tracking-widest mb-4">Company</h2>
           <ul class="space-y-2.5">
-            <li><a href="/about.html"     class="text-muted text-sm hover:text-white transition-colors duration-150" aria-current="page">About Tool Co</a></li>
+            <li><a href="/about.html"     class="text-muted text-sm hover:text-white transition-colors duration-150">About Tool Co</a></li>
             <li><a href="/team.html"      class="text-muted text-sm hover:text-white transition-colors duration-150">Meet the Team</a></li>
             <li><a href="/catalog.html"   class="text-muted text-sm hover:text-white transition-colors duration-150">This Month's Catalog</a></li>
             <li><a href="/#service-area"  class="text-muted text-sm hover:text-white transition-colors duration-150">Service Areas</a></li>
@@ -920,7 +1013,7 @@
           <ul class="space-y-2.5">
             <li><a href="/areas/edinburg.html" class="text-muted text-sm hover:text-white transition-colors duration-150">Edinburg</a></li>
             <li><a href="/areas/weslaco.html"  class="text-muted text-sm hover:text-white transition-colors duration-150">Weslaco</a></li>
-            <li><a href="/areas/pharr.html"    class="text-muted text-sm hover:text-white transition-colors duration-150">Pharr</a></li>
+            <li><a href="/areas/pharr.html"    class="text-muted text-sm hover:text-white transition-colors duration-150" aria-current="page">Pharr</a></li>
             <li><a href="/areas/alamo.html"    class="text-muted text-sm hover:text-white transition-colors duration-150">Alamo</a></li>
             <li><a href="/areas/san-juan.html" class="text-muted text-sm hover:text-white transition-colors duration-150">San Juan</a></li>
           </ul>
