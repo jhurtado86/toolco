@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Tool Co | Cornwell Tool Truck, Rio Grande Valley</title>
-  <meta name="description" content="Tool Co is an independent, authorized Cornwell dealer running a mobile tool truck to shops in Edinburg and the Rio Grande Valley. Get your shop on the route." />
-  <meta name="keywords" content="about Tool Co, Cornwell tool dealer Edinburg TX, mobile tool truck Rio Grande Valley, authorized Cornwell franchise Hidalgo County, tool truck dealer near me" />
+  <title>Mobile Tool Service in Edinburg, TX &amp; the Valley | Tool Co</title>
+  <meta name="description" content="Mobile tool service from Tool Co: the Cornwell truck stops at shops in Edinburg, Pharr, San Juan, Alamo & Weslaco on a regular route. Get on the route." />
+  <meta name="keywords" content="mobile tool service Edinburg TX, tool truck Edinburg, Cornwell tool truck Rio Grande Valley, mobile tool dealer Pharr, tool truck Weslaco, mobile tool service Hidalgo County, Tool Co Cornwell" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <link rel="canonical" href="https://www.toolcorgv.com/about.html" />
+  <link rel="canonical" href="https://www.toolcorgv.com/services/mobile-tool-service.html" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="About Tool Co | Cornwell Tool Truck, Rio Grande Valley" />
-  <meta property="og:description" content="An independent, authorized Cornwell dealer running a mobile tool truck to commercial shops across the Rio Grande Valley. The store comes to the shop." />
-  <meta property="og:url" content="https://www.toolcorgv.com/about.html" />
+  <meta property="og:title" content="Mobile Tool Service in Edinburg, TX &amp; the Valley | Tool Co" />
+  <meta property="og:description" content="The Cornwell truck stops at your shop on a regular route through Edinburg, Pharr, San Juan, Alamo &amp; Weslaco. Tools in hand the same visit. Get on the route." />
+  <meta property="og:url" content="https://www.toolcorgv.com/services/mobile-tool-service.html" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://placehold.co/1200x630" /><!-- PLACEHOLDER: brand_assets/og-image.jpg — [NEEDS INPUT — create 1200×630 before launch] -->
   <meta property="og:image:width" content="1200" />
@@ -22,8 +22,8 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="About Tool Co | Cornwell Tool Truck, Rio Grande Valley" />
-  <meta name="twitter:description" content="An independent, authorized Cornwell dealer running a mobile tool truck to commercial shops across the Rio Grande Valley. The store comes to the shop." />
+  <meta name="twitter:title" content="Mobile Tool Service in Edinburg, TX &amp; the Valley | Tool Co" />
+  <meta name="twitter:description" content="The Cornwell truck stops at your shop on a regular route through Edinburg, Pharr, San Juan, Alamo &amp; Weslaco. Get on the route." />
   <meta name="twitter:image" content="https://placehold.co/1200x630" /><!-- PLACEHOLDER: same 1200×630 image -->
 
   <!-- GHL EXTERNAL TRACKING SCRIPT (site-wide, shared head) -->
@@ -70,8 +70,8 @@
 
   <style>
     /* Color tokens live in /brand.css (single source of truth — logo-locked).
-       SHARED SYSTEM — cloned whole from the service-page template (services/tool-financing.html).
-       Page-specific additions sit at the end of this block, marked PAGE-SPECIFIC. */
+       SERVICE-PAGE TEMPLATE: this stylesheet is the shared system for all service pages —
+       clone this file whole; change copy, photos, schema, and the aria-current links only. */
 
     *, *::before, *::after { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
@@ -348,12 +348,6 @@
       .split-grid--photo-left { grid-template-columns: minmax(0, 13fr) minmax(0, 11fr); }
     }
 
-    /* ── Full-width text block columns (condensed sections on lower-tier pages) ── */
-    .text-cols { display: grid; grid-template-columns: 1fr; gap: 28px; }
-    @media (min-width: 768px) { .text-cols { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; } }
-    .text-col { padding-top: 18px; border-top: 2px solid rgba(var(--color-dark-rgb), 0.12); }
-    .dark-section .text-col { border-top-color: rgba(var(--color-accent-bright-rgb), 0.35); }
-
     /* ── Cards (icon-free) ── */
     .feature-card {
       background: var(--color-bg); border: 1px solid rgba(var(--color-dark-rgb), 0.07); border-radius: 16px; padding: 28px 24px;
@@ -445,77 +439,87 @@
     ::-webkit-scrollbar-track { background: var(--color-bg-2); }
     ::-webkit-scrollbar-thumb { background: var(--color-line); border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: var(--color-accent-deep); }
-
-    /* ── PAGE-SPECIFIC (About / Team / Catalog / Thank-you) ── */
-    .terms-row { display: grid; grid-template-columns: 1fr; gap: 6px 40px; padding: 22px 0; border-top: 1px solid rgba(255,255,255,0.10); }
-    .terms-row:last-child { border-bottom: 1px solid rgba(255,255,255,0.10); }
-    @media (min-width: 768px) { .terms-row { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 0 48px; } }
-    .terms-row dt { font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 1.25rem; letter-spacing: -0.01em; color: var(--color-bg); line-height: 1.3; }
-    .terms-row dd { margin: 0; color: var(--color-muted-light); line-height: 1.7; }
-    .city-chip {
-      display: inline-flex; align-items: center; gap: 9px; padding: 12px 18px; border-radius: 999px;
-      border: 1.5px solid rgba(var(--color-dark-rgb), 0.18); font-weight: 600; font-size: 15px; color: var(--color-ink);
-      transition: transform 0.18s cubic-bezier(0.4,0,0.2,1), border-color 0.18s cubic-bezier(0.4,0,0.2,1), background 0.18s cubic-bezier(0.4,0,0.2,1);
-    }
-    .city-chip:hover { border-color: var(--color-accent-deep); background: rgba(var(--color-dark-rgb), 0.05); transform: translateY(-2px); }
-    .city-chip:active { transform: translateY(0); }
-    .city-chip:focus-visible { outline: 2px solid var(--color-accent-deep); outline-offset: 3px; }
-    .city-chip .dot { width: 8px; height: 8px; border-radius: 999px; background: var(--color-accent-deep); flex-shrink: 0; }
-    .city-chip .home { font-size: 12px; font-weight: 500; color: var(--color-muted); }
-    .driver-card h3 { font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 1.375rem; letter-spacing: -0.02em; color: var(--color-ink); margin-top: 18px; line-height: 1.2; }
-    .driver-role { font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent-deep); margin-top: 6px; }
-    .driver-bio { color: var(--color-muted); line-height: 1.7; margin-top: 10px; font-size: 0.95rem; }
-    .step-num { font-family: 'Barlow', sans-serif; font-weight: 800; font-size: 2.25rem; line-height: 1; color: var(--color-accent-bright); margin-bottom: 12px; }
-    .check-badge {
-      width: 76px; height: 76px; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center;
-      background: rgba(var(--color-accent-rgb), 0.14); border: 1.5px solid rgba(var(--color-accent-bright-rgb), 0.55);
-      box-shadow: 0 0 0 10px rgba(var(--color-accent-rgb), 0.06), 0 18px 40px rgba(0,0,0,0.30);
-    }
-    .next-link {
-      display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 16px 20px; border-radius: 12px;
-      border: 1px solid rgba(255,255,255,0.14); background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.90); font-weight: 600; font-size: 15px; text-align: left;
-      transition: transform 0.18s cubic-bezier(0.4,0,0.2,1), border-color 0.18s cubic-bezier(0.4,0,0.2,1), background 0.18s cubic-bezier(0.4,0,0.2,1);
-    }
-    .next-link:hover { border-color: rgba(var(--color-accent-bright-rgb), 0.70); background: rgba(255,255,255,0.09); transform: translateY(-2px); }
-    .next-link:active { transform: translateY(0); }
-    .next-link:focus-visible { outline: 2px solid var(--color-accent-bright); outline-offset: 3px; }
-    .next-link svg { flex-shrink: 0; stroke: var(--color-accent-bright); }
   </style>
 
-  <!-- 1/2 AboutPage — references the homepage LocalBusiness @id (NOT a re-declaration). No Person schema: owner names are not published. -->
+  <!-- 1/3 Service schema — provider references the homepage LocalBusiness @id (not re-declared).
+       No Offer / price / priceRange anywhere. [NEEDS INPUT — telephone is the GHL number placeholder on the business entity.] -->
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  "@id": "https://www.toolcorgv.com/about.html#webpage",
-  "url": "https://www.toolcorgv.com/about.html",
-  "name": "About Tool Co",
-  "description": "Tool Co is an independent, authorized Cornwell Quality Tools franchise running a mobile tool truck to commercial shops in Edinburg, Weslaco, Pharr, Alamo, and San Juan, Texas.",
-  "about": {
-    "@id": "https://www.toolcorgv.com/#business"
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://www.toolcorgv.com/services/mobile-tool-service.html#service",
+    "name": "Mobile Tool Service",
+    "serviceType": "Mobile tool service",
+    "description": "Tool Co runs a Cornwell mobile tool truck on a regular route to commercial shops in Edinburg, Weslaco, Pharr, Alamo, and San Juan, Texas. Technicians shop hand tools, power tools, tool storage, diagnostics, and shop equipment at the truck, with Regular Shop Visits and Warranty & Service Assistance included.",
+    "url": "https://www.toolcorgv.com/services/mobile-tool-service.html",
+    "provider": { "@id": "https://www.toolcorgv.com/#business" },
+    "brand": { "@type": "Brand", "name": "Cornwell Quality Tools" },
+    "areaServed": [
+      { "@type": "City", "name": "Edinburg", "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "Weslaco",  "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "Pharr",    "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "Alamo",    "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "San Juan", "containedInPlace": { "@type": "State", "name": "Texas" } }
+    ],
+    "audience": { "@type": "Audience", "audienceType": "Commercial shop owners and professional technicians" }
   }
-}
   </script>
-  <!-- 2/2 BreadcrumbList schema — matches the visible breadcrumb in the hero. -->
+
+  <!-- 2/3 FAQPage schema — answers mirror the on-page FAQ text exactly. -->
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.toolcorgv.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "About Tool Co",
-      "item": "https://www.toolcorgv.com/about.html"
-    }
-  ]
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I get mobile tool service at my shop in Edinburg?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Call, text, or send the contact form and tell us where the shop is and what your crew runs. We add your stop to the route and let you know which day the truck comes by. From then on, your techs shop at the truck without leaving the lot." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which cities does the truck run?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Edinburg is home base, and the route covers Weslaco, Pharr, Alamo, and San Juan along I-2 / US-83. If your shop sits just outside those five, reach out and ask. The route has some give in it." }
+      },
+      {
+        "@type": "Question",
+        "name": "How often does the truck come by?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Shops on the route get Regular Shop Visits on a set schedule, with a day you can plan around. Your dealer confirms the day when your stop is added. Between visits, a call or text holds a tool or adds it to the next stop." }
+      },
+      {
+        "@type": "Question",
+        "name": "What if the tool I need isn't on the truck?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Tell your dealer or note the part number from Cornwell's online catalog. It gets ordered and rides along on your next stop. The truck carries the everyday line; the catalog covers the rest." }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if a Cornwell tool breaks?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Bring it to the truck on your next stop. Warranty & Service Assistance means we help you handle Cornwell's warranty and service process so you're not chasing it on your own. Coverage depends on the tool, and your dealer walks you through what applies." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can my techs buy for themselves, or is it just the shop?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Both. Owners buy for the shop and technicians buy for their own box, at the same stop. Financing and payment options are available on tool purchases, and the details are worked out with your dealer in person." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Tool Co part of Cornwell?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Tool Co is an independent, authorized Cornwell Quality Tools franchise. The tools are Cornwell. The truck, the route, and the service are ours. There's no storefront to visit; the truck is the store." }
+      }
+    ]
+  }
+  </script>
+
+  <!-- 3/3 BreadcrumbList schema — matches the visible breadcrumb in the hero. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.toolcorgv.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Mobile Tool Service", "item": "https://www.toolcorgv.com/services/mobile-tool-service.html" }
+    ]
+  }
   </script>
 </head>
 <body class="font-body leading-body">
@@ -539,7 +543,7 @@
             <svg class="nav-chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
           </a>
           <div class="nav-dropdown-menu" aria-label="Services">
-            <a href="/services/mobile-tool-service.html">Mobile Tool Service</a>
+            <a href="/services/mobile-tool-service.html" aria-current="page">Mobile Tool Service</a>
             <a href="/services/professional-tool-solutions.html">Professional Tool Solutions</a>
             <a href="/services/tool-financing.html">Tool Financing &amp; Payment Options</a>
           </div>
@@ -561,7 +565,7 @@
         </div>
         <!-- END SHARED ZONE: Areas We Serve dropdown -->
         <a href="/catalog.html"  class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Catalog</a>
-        <a href="/about.html"    class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150" aria-current="page">About</a>
+        <a href="/about.html"    class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">About</a>
         <a href="/team.html"     class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Team</a>
         <a href="/#contact"      class="nav-link text-sm font-medium text-muted hover:text-white transition-colors duration-150">Contact</a>
         <a href="tel:+19564507963" class="btn-primary text-sm py-2.5 px-5 ml-4">
@@ -586,7 +590,7 @@
           <svg class="nav-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div id="mobile-services-submenu" class="mobile-services-submenu">
-          <a href="/services/mobile-tool-service.html">Mobile Tool Service</a>
+          <a href="/services/mobile-tool-service.html" aria-current="page">Mobile Tool Service</a>
           <a href="/services/professional-tool-solutions.html">Professional Tool Solutions</a>
           <a href="/services/tool-financing.html">Tool Financing &amp; Payment Options</a>
         </div>
@@ -605,7 +609,7 @@
         </div>
         <!-- END SHARED ZONE: Areas We Serve dropdown -->
         <a href="/catalog.html" class="mobile-nav-link py-3 px-3 rounded-lg font-medium">This Month's Catalog</a>
-        <a href="/about.html"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium" aria-current="page">About</a>
+        <a href="/about.html"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium">About</a>
         <a href="/team.html"    class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Meet the Team</a>
         <a href="/#contact"     class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Contact</a>
         <a href="tel:+19564507963" class="btn-primary mt-3 justify-center">
@@ -617,9 +621,9 @@
   </nav>
 
   <!-- ============================================================
-       HERO — static hero-background slot (site-wide file), breadcrumb, one H1
+       HERO — static hero-background slot (site-wide file), breadcrumb, exact-match H1
   ============================================================ -->
-  <section class="hero-bg relative min-h-screen flex items-center overflow-hidden" style="padding-top: calc(var(--nav-height) + clamp(36px, 5vw, 56px)); padding-bottom: clamp(56px, 8vw, 96px);" aria-label="About Tool Co, an independent Cornwell dealer in Edinburg and the Rio Grande Valley">
+  <section class="hero-bg relative min-h-screen flex items-center overflow-hidden" style="padding-top: calc(var(--nav-height) + clamp(36px, 5vw, 56px)); padding-bottom: clamp(56px, 8vw, 96px);" aria-label="Mobile Tool Service in Edinburg and the Rio Grande Valley">
 
     <!-- OFF-LIMITS: hero-background — dedicated named file only, never a content photo -->
     <!-- AI-GENERATED STAND-IN (2026-09-13): hero-background-interior.jpg (1376×768) is a generated navy/chrome-wrench
@@ -641,18 +645,18 @@
         <nav class="breadcrumb mb-5" aria-label="Breadcrumb">
           <a href="/">Home</a>
           <span class="sep" aria-hidden="true">/</span>
-          <span class="current" aria-current="page">About Tool Co</span>
+          <span class="current" aria-current="page">Mobile Tool Service</span>
         </nav>
 
-        <p class="eyebrow" style="margin-bottom: 20px; text-shadow: 0 1px 8px rgba(0,0,0,0.45);">About Tool Co · Edinburg, TX</p>
+        <p class="eyebrow" style="margin-bottom: 20px; text-shadow: 0 1px 8px rgba(0,0,0,0.45);">Mobile Tool Service · Edinburg &amp; the Rio Grande Valley</p>
 
         <h1 class="font-display text-white mb-5" style="font-size: clamp(2.5rem, 6.2vw, 4.25rem); letter-spacing: -0.03em; line-height: 1.04; font-weight: 800; text-shadow: 0 2px 24px rgba(0,0,0,0.45);">
-          The Tool Store<br />That Comes to You.
-          <span class="hero-h1-accent" style="font-size: 0.62em; letter-spacing: -0.02em; margin-top: 0.35em;">An independent, authorized Cornwell dealer.</span>
+          Mobile Tool Service<br />in Edinburg.
+          <span class="hero-h1-accent" style="font-size: 0.62em; letter-spacing: -0.02em; margin-top: 0.35em;">The Cornwell truck stops at your bays.</span>
         </h1>
 
         <p class="mb-8 max-w-xl" style="color: rgba(255,255,255,0.90); font-size: clamp(1rem, 2.2vw, 1.125rem); line-height: 1.72; text-shadow: 0 1px 8px rgba(0,0,0,0.35);">
-          Tool Co runs a Cornwell mobile tool truck out of Edinburg to commercial shops across the Rio Grande Valley. There's no storefront and no counter to drive to. The truck is the store, it comes by on a set day, and the people on it bring 30+ years of combined experience among our tool dealers to every stop.
+          Tool Co runs a Cornwell mobile tool truck on a regular route through Edinburg, Pharr, San Juan, Alamo, and Weslaco. Your techs shop on the clock, the tools come off the truck, and the work in the bays never stops. That's mobile tool service, backed by <strong style="color: var(--color-bg);">30+ years of combined experience among our tool dealers</strong>.
         </p>
 
         <div class="hero-ctas flex flex-wrap gap-4">
@@ -674,139 +678,324 @@
 
   <main id="main-content">
 
-    <!-- 1. WHO WE ARE — split, text left / photo right — LIGHT -->
-    <section id="who-we-are" class="section-dark atmo wash-navy-tr py-24" aria-label="Who Tool Co is">
+    <!-- ============================================================
+         1. INTRO — single column, no photo — LIGHT (tint)
+    ============================================================ -->
+    <section class="section-mid atmo wash-navy-tr py-20" aria-label="About mobile tool service in Edinburg">
+      <div class="max-w-3xl mx-auto px-5 text-center fade-up">
+        <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
+        <p class="eyebrow">Mobile Tool Service · Hidalgo County</p>
+        <h2 class="text-balance font-display text-4xl lg:text-5xl font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
+          Mobile Tool Service, Explained in One Stop
+        </h2>
+        <p class="text-muted text-lg mb-4" style="line-height: 1.7;">
+          A shop can't send a tech across town every time a socket walks off or a ratchet gives out. Mobile tool service fixes that. The truck comes to the shop on a set route, the tech steps inside, finds the tool, and is back under the hood in minutes.
+        </p>
+        <p class="text-muted text-lg" style="line-height: 1.7;">
+          Tool Co is an independent, authorized Cornwell Quality Tools franchise running that route through Edinburg and the Valley along I-2 / US-83. This page covers how a stop works, what rides on the truck, how Regular Shop Visits and Warranty &amp; Service Assistance fit in, and the questions shop owners ask before they get on the route.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         2. SPLIT 1 — text left / photo right — DARK — How a stop works
+    ============================================================ -->
+    <section id="how-a-stop-works" class="dark-section atmo dark-glow-tl py-24" aria-label="How a mobile tool service stop works">
       <div class="max-w-7xl mx-auto px-5">
         <div class="split-grid">
           <div class="fade-up">
-            <p class="eyebrow">Who We Are</p>
+            <p class="eyebrow">How a Stop Works</p>
             <h2 class="text-balance font-display text-4xl lg:text-[2.5rem] font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.12;">
-              An Independent Cornwell Franchise, Run From Edinburg
+              The Store Pulls Up to Your Bay Door
             </h2>
             <p class="text-muted text-lg mb-5" style="line-height: 1.7;">
-              Tool Co is a locally owned Cornwell Quality Tools franchise. That means two things at once. The tools on the truck are Cornwell's line, backed by Cornwell's warranty process. And the business itself is independent: the route, the truck, and the relationship with your shop are ours to run.
+              Mobile tool service means the showroom is a truck and your shop is a stop on the route. On your day the truck pulls into the lot, the door opens, and your crew walks the aisle: hand tools, sockets, power tools, storage, diagnostics, all stocked and ready to hand over.
             </p>
             <p class="text-muted text-lg mb-7" style="line-height: 1.7;">
-              We're based in Edinburg and run the route along <span class="whitespace-nowrap">I-2</span> / <span class="whitespace-nowrap">US-83</span> to Pharr, San Juan, Alamo, and Weslaco. Commercial shops are the whole customer list: repair shops, tire shops, fleet yards, diesel and trailer service, and the technicians who work in them.
+              No appointment across town, no shipping wait, no guessing from a website photo. You handle the tool, ask the dealer what it's built for, and take it back to the bay.
             </p>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mb-8">
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Authorized Cornwell Quality Tools dealer</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Independently owned and operated</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Based in Edinburg, TX</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Commercial shops and their techs</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Stops in Edinburg, Weslaco, Pharr, Alamo, San Juan</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Techs shop without leaving the lot</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Tools in hand the same visit</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Same dealer every time</div>
             </div>
-            <a href="/services/mobile-tool-service.html" class="link-arrow">
-              How mobile tool service works
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            <a href="/#service-area" class="link-arrow">
+              See the route
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
             </a>
           </div>
-          <!-- [PENDING — brand_assets/about-dealer-at-truck.jpg (1200×900): Kim's own service-in-action shot at the truck door.
-               Placeholder at final dimensions; alt text is final and must not change on swap. Never Cornwell/other-dealer imagery. -->
           <div class="fade-up" style="transition-delay: 0.1s;">
             <div class="photo-frame">
-              <img src="https://placehold.co/1200x900" alt="A Tool Co dealer at the open door of the Cornwell mobile tool truck, going over a tool with a technician at a Rio Grande Valley shop" loading="lazy" width="1200" height="900" />
+              <img src="/brand_assets/service-cart-purple.jpg" alt="A Cornwell service cart delivered by the Tool Co truck, open in a working shop bay in the Rio Grande Valley" loading="lazy" width="1440" height="1574" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 2. PLAIN TERMS — definition list; the page's signature block — DARK -->
-    <section id="plain-terms" class="dark-section atmo dark-glow-tl py-24" aria-label="What the words on this site mean">
-      <div class="max-w-5xl mx-auto px-5">
-        <div class="max-w-3xl mb-10 fade-up">
-          <div class="section-title-accent"></div>
-          <p class="eyebrow">Plain Terms</p>
-          <h2 class="text-balance font-display text-4xl lg:text-5xl font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
-            What the Words on This Site Mean
-          </h2>
-          <p class="text-muted text-lg" style="line-height: 1.7;">
-            A mobile tool dealer has its own vocabulary. Here's what we mean when we use it.
-          </p>
-        </div>
-        <dl class="fade-up" style="transition-delay: 0.06s;">
-          <div class="terms-row">
-            <dt>Authorized Cornwell dealer</dt>
-            <dd>Tool Co is licensed by Cornwell Quality Tools to sell its line and to help with its warranty process. Tool Co is not Cornwell corporate. It's the local franchise that runs the truck.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>The route</dt>
-            <dd>The set path the truck drives through Edinburg, Pharr, San Juan, Alamo, and Weslaco. Shops on the route get a stop on a set day.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>A stop</dt>
-            <dd>Your shop, on the route, on your day. The truck pulls up, the door opens, and your crew shops from the shelves without leaving the bay.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>Regular Shop Visits</dt>
-            <dd>The same dealer coming back on the same day. Orders from the last visit ride in, and anything you ran out of gets restocked.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>Warranty &amp; Service Assistance</dt>
-            <dd>When a Cornwell tool breaks, we help you handle Cornwell's warranty and service process from the truck. No trip to a counter.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>Tool Financing &amp; Payment Options</dt>
-            <dd>Ways to pay for a tool purchase that fit how a shop's money comes in. Worked out in person with your dealer, never on a form.</dd>
-          </div>
-          <div class="terms-row">
-            <dt>Get on the route</dt>
-            <dd>What we call getting started. Call, text, or send the form, and we add your shop as a stop.</dd>
-          </div>
-        </dl>
-      </div>
-    </section>
-
-    <!-- 3. EXPERIENCE — split, photo left / text right — LIGHT (tint) -->
-    <section id="experience" class="section-mid atmo wash-accent-tl py-24" aria-label="30+ years of combined experience among our tool dealers">
+    <!-- ============================================================
+         3. SPLIT 2 — photo left / text right — LIGHT — What rides on the truck
+    ============================================================ -->
+    <section id="on-the-truck" class="section-dark atmo wash-navy-br py-24" aria-label="What rides on the Tool Co truck">
       <div class="max-w-7xl mx-auto px-5">
         <div class="split-grid split-grid--photo-left">
-          <!-- [PENDING — brand_assets/about-truck-exterior.jpg (1200×900): horizontal shot of Kim's own truck at a shop.
-               Placeholder at final dimensions; alt text is final and must not change on swap. -->
-          <div class="fade-up order-2 lg:order-1" style="transition-delay: 0.1s;">
+          <div class="fade-up order-2 lg:order-1">
             <div class="photo-frame">
-              <img src="https://placehold.co/1200x900" alt="Tool Co's Cornwell mobile tool truck parked outside a commercial shop on a route day in the Rio Grande Valley" loading="lazy" width="1200" height="900" />
+              <img src="/brand_assets/tool-trays-display.jpg" alt="Trays of Cornwell hand tools laid out on a workbench, the kind of stock that rides on the Tool Co truck" loading="lazy" width="1600" height="900" />
             </div>
           </div>
-          <div class="fade-up order-1 lg:order-2">
-            <p class="eyebrow">Experience, Not a Founding Date</p>
+          <div class="fade-up order-1 lg:order-2" style="transition-delay: 0.1s;">
+            <p class="eyebrow">What Rides on the Truck</p>
             <h2 class="text-balance font-display text-4xl lg:text-[2.5rem] font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.12;">
-              30+ Years of Combined Experience Among Our Tool Dealers
+              Stocked for the Work Your Bays Actually See
             </h2>
             <p class="text-muted text-lg mb-5" style="line-height: 1.7;">
-              That number is the honest kind. It's the years our tool dealers have spent on trucks and at shop doors, added up across the team. It isn't a founding date, and it isn't a claim about how long the business has been around.
+              The truck carries the Cornwell line a working shop reaches for every day: ratchets and sockets, wrenches, pliers, cordless power tools, tool storage from carts to roll cabs, diagnostics, and shop equipment like jacks and lights.
             </p>
             <p class="text-muted text-lg mb-7" style="line-height: 1.7;">
-              What it buys you at the truck is judgment. Which impact fits a diesel bay and which one is overkill. When a roll cab is worth the money and when a cart will do. What to try before you call a tool broken. That's the part of a tool dealer you can't order from a catalog.
+              What isn't on the truck this stop gets ordered from Cornwell's online catalog and rides along on the next one. Browse ahead, note the part numbers, and tell your dealer.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mb-8">
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Hand tools &amp; sockets</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Power tools &amp; cordless</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Tool storage, carts to roll cabs</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Diagnostics &amp; shop equipment</div>
+            </div>
+            <a href="/catalog.html" class="link-arrow">
+              Browse this month's catalog
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         4. SPLIT 3 — text left / photo right — DARK — FOLD-IN: Regular Shop Visits (exact-match H2; homepage links here)
+    ============================================================ -->
+    <section id="regular-shop-visits" class="dark-section atmo dark-glow-br py-24" aria-label="Regular Shop Visits">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="split-grid">
+          <div class="fade-up">
+            <p class="eyebrow">Part of Mobile Tool Service</p>
+            <h2 class="text-balance font-display text-4xl lg:text-[2.5rem] font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.12;">
+              Regular Shop Visits
+            </h2>
+            <!-- [NEEDS INPUT — route cadence (weekly? biweekly?) and how a stop day is confirmed; copy stays cadence-neutral until then] -->
+            <p class="text-muted text-lg mb-5" style="line-height: 1.7;">
+              Mobile tool service only works if the truck keeps coming back. Regular Shop Visits are the schedule behind the route: your shop gets a set day, the truck shows up, and your crew plans purchases around it instead of around a drive to a store.
+            </p>
+            <p class="text-muted text-lg mb-7" style="line-height: 1.7;">
+              Between visits, a call or text to your dealer holds a tool, adds a part number to the next stop, or sorts out a question. The stop stays short, the bays stay busy, and nothing gets forgotten.
             </p>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Show up on the day we said</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Straight answers, no upsell</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Stand behind the tools through Cornwell's process</div>
-              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Payment options that fit the shop</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>A set day for your shop</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Hold or order ahead by text</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Short stops that fit shop hours</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Schedule questions go to your dealer</div>
+            </div>
+          </div>
+          <div class="fade-up" style="transition-delay: 0.1s;">
+            <div class="photo-frame">
+              <img src="/brand_assets/floor-jacks.jpg" alt="Two Cornwell floor jacks on a shop floor, delivered on a regular Tool Co shop visit in the Rio Grande Valley" loading="lazy" width="1600" height="1600" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 4. WHERE THE TRUCK RUNS — five city links, no map (service-area business) — LIGHT -->
-    <section id="where-we-run" class="section-dark atmo wash-navy-bl py-20" aria-label="Where the Tool Co truck runs">
-      <div class="max-w-4xl mx-auto px-5 text-center fade-up">
-        <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-        <p class="eyebrow">Areas We Serve</p>
-        <h2 class="text-balance font-display text-4xl lg:text-5xl font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
-          Five Cities, One Route
-        </h2>
-        <p class="text-muted text-lg mb-9 max-w-2xl mx-auto" style="line-height: 1.7;">
-          Home base is Edinburg. From there the truck runs to shops in Pharr, San Juan, Alamo, and Weslaco. Each city has its own page with the corridors the route covers.
-        </p>
-        <div class="flex flex-wrap justify-center gap-3">
-          <a href="/areas/edinburg.html" class="city-chip"><span class="dot" aria-hidden="true"></span>Edinburg <span class="home">home base</span></a>
-          <a href="/areas/pharr.html" class="city-chip"><span class="dot" aria-hidden="true"></span>Pharr</a>
-          <a href="/areas/san-juan.html" class="city-chip"><span class="dot" aria-hidden="true"></span>San Juan</a>
-          <a href="/areas/alamo.html" class="city-chip"><span class="dot" aria-hidden="true"></span>Alamo</a>
-          <a href="/areas/weslaco.html" class="city-chip"><span class="dot" aria-hidden="true"></span>Weslaco</a>
+    <!-- ============================================================
+         5. SPLIT 4 — photo left / text right — LIGHT — FOLD-IN: Warranty & Service Assistance (exact-match H2; homepage links here)
+         No warranty scope/terms published until confirmed in writing.
+    ============================================================ -->
+    <section id="warranty-service-assistance" class="section-dark atmo wash-accent-tl py-24" aria-label="Warranty and Service Assistance">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="split-grid split-grid--photo-left">
+          <div class="fade-up order-2 lg:order-1">
+            <div class="photo-frame">
+              <img src="/brand_assets/hammer-closeup.jpg" alt="A Cornwell hammer in its foam tray, the kind of tool Tool Co helps you handle warranty and service on right at the truck" loading="lazy" width="1600" height="900" />
+            </div>
+          </div>
+          <div class="fade-up order-1 lg:order-2" style="transition-delay: 0.1s;">
+            <p class="eyebrow">Part of Mobile Tool Service</p>
+            <h2 class="text-balance font-display text-4xl lg:text-[2.5rem] font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.12;">
+              Warranty &amp; Service Assistance
+            </h2>
+            <p class="text-muted text-lg mb-5" style="line-height: 1.7;">
+              Tools break. When a Cornwell tool does, tell your dealer at the next stop. Warranty &amp; Service Assistance means we help you handle Cornwell's warranty and service process instead of leaving you to chase it on your own.
+            </p>
+            <p class="text-muted text-lg mb-7" style="line-height: 1.7;">
+              Bring the tool to the truck, we go over what applies to it, and we take it from there. Coverage depends on the tool and on Cornwell's terms, so your dealer walks you through what applies rather than guessing.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Bring it to the truck</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>We handle the Cornwell process</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Straight answers on what applies</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Follow-up on your next visit</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. SPLIT 5 — text left / photo right — DARK — Owners and technicians
+    ============================================================ -->
+    <section id="owners-and-techs" class="dark-section atmo dark-glow-tl py-24" aria-label="Mobile tool service for shop owners and technicians">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="split-grid">
+          <div class="fade-up">
+            <p class="eyebrow">Owners and Techs</p>
+            <h2 class="text-balance font-display text-4xl lg:text-[2.5rem] font-bold text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.12;">
+              Built for the Buyer and the Wrench
+            </h2>
+            <p class="text-muted text-lg mb-5" style="line-height: 1.7;">
+              Owners buy for the shop: the box for the new bay, the cordless set the whole crew shares, the diagnostic tool that earns its keep. Technicians buy for the hand: the ratchet that fits the gap, the pliers that don't slip. Mobile tool service serves both at the same stop.
+            </p>
+            <p class="text-muted text-lg mb-7" style="line-height: 1.7;">
+              With 30+ years of combined experience among our tool dealers, you get straight answers on which tool fits the job, and financing and payment options that keep the shop's cash in the shop.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mb-8">
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Spec the right kit, not the biggest</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Financing &amp; payment options at the truck</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Owner and tech questions at one stop</div>
+              <div class="check-row"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Authorized Cornwell Quality Tools</div>
+            </div>
+            <a href="/services/tool-financing.html" class="link-arrow">
+              Tool financing &amp; payment options
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          </div>
+          <div class="fade-up" style="transition-delay: 0.1s;">
+            <div class="photo-frame">
+              <img src="/brand_assets/drawer-pliers.jpg" alt="A technician's Cornwell toolbox drawer full of pliers and cutters, stocked from the Tool Co truck" loading="lazy" width="1440" height="1080" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         7. WHAT'S INCLUDED — 6 icon-free centered cards — LIGHT (tint)
+    ============================================================ -->
+    <section id="included" class="section-mid atmo wash-accent-tr py-24" aria-label="What's included with mobile tool service">
+      <div class="max-w-6xl mx-auto px-5">
+        <div class="text-center mb-12 fade-up">
+          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
+          <p class="eyebrow">Every Stop, Every City</p>
+          <h2 class="text-balance font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
+            What's Included with Mobile Tool Service
+          </h2>
+          <p class="text-muted text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
+            Every stop on the route covers the same ground, whether the shop is in Edinburg, Weslaco, Pharr, Alamo, or San Juan.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 fade-up" style="transition-delay: 0.06s;">
+          <div class="feature-card text-center">
+            <h3 class="font-display font-bold text-white text-lg mb-2">A Stop on the Route</h3>
+            <p class="text-muted text-sm" style="line-height: 1.7;">Your shop is added to the route with a set day and a dealer who gets to know your bays and your crew.</p>
+          </div>
+          <div class="feature-card text-center">
+            <h3 class="font-display font-bold text-white text-lg mb-2">Cornwell Tools on the Truck</h3>
+            <p class="text-muted text-sm" style="line-height: 1.7;">Hand tools, power tools, tool storage, diagnostics, and shop equipment, stocked in the aisle and handed over the same visit.</p>
+          </div>
+          <div class="feature-card text-center">
+            <h3 class="font-display font-bold text-white text-lg mb-2">Catalog Ordering</h3>
+            <p class="text-muted text-sm" style="line-height: 1.7;">Anything not on the truck this stop is ordered from the Cornwell catalog and rides along on the next one.</p>
+          </div>
+          <div class="feature-card text-center">
+            <h3 class="font-display font-bold text-white text-lg mb-2">Regular Shop Visits</h3>
+            <p class="text-muted text-sm" style="line-height: 1.7;">The same truck and the same dealer on a regular schedule, with a day your shop can plan around.</p>
+          </div>
+          <div class="feature-card text-center">
+            <h3 class="font-display font-bold text-white text-lg mb-2">Warranty &amp; Service Assistance</h3>
+            <p class="text-muted text-sm" style="line-height: 1.7;">Help handling Cornwell's warranty and service process, right at the truck, so a broken tool doesn't become a project.</p>
+          </div>
+          <div class="feature-card text-center">
+            <h3 class="font-display font-bold text-white text-lg mb-2">Financing &amp; Payment Options</h3>
+            <p class="text-muted text-sm" style="line-height: 1.7;">Payment options on tool purchases for one tech or a whole crew, worked out in person with your dealer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ============================================================
+         8. FAQ — accordion, light variant — LIGHT (white)
+    ============================================================ -->
+    <section id="faq" class="section-dark atmo wash-navy-bl py-20" aria-label="Mobile tool service questions">
+      <div class="max-w-4xl mx-auto px-5">
+        <div class="text-center mb-12 fade-up">
+          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
+          <p class="eyebrow">Good to Know</p>
+          <h2 class="text-balance font-display text-4xl lg:text-5xl font-bold text-white mb-4" style="letter-spacing: -0.03em;">
+            Questions About Mobile Tool Service
+          </h2>
+        </div>
+
+        <div class="space-y-4 fade-up" style="transition-delay: 0.06s;">
+
+          <details class="faq-item" open>
+            <summary>
+              How do I get mobile tool service at my shop in Edinburg?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body"><div>Call, text, or send the <a href="/#contact" class="font-semibold hover:underline" style="color: var(--color-accent-deep);">contact form</a> and tell us where the shop is and what your crew runs. We add your stop to the route and let you know which day the truck comes by. From then on, your techs shop at the truck without leaving the lot.</div></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              Which cities does the truck run?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <!-- [NEEDS INPUT — free-travel radius] -->
+            <div class="faq-body"><div>Edinburg is home base, and the route covers Weslaco, Pharr, Alamo, and San Juan along I-2 / US-83. If your shop sits just outside those five, reach out and ask. The route has some give in it.</div></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              How often does the truck come by?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <!-- [NEEDS INPUT — cadence; answer stays cadence-neutral] -->
+            <div class="faq-body"><div>Shops on the route get Regular Shop Visits on a set schedule, with a day you can plan around. Your dealer confirms the day when your stop is added. Between visits, a call or text holds a tool or adds it to the next stop.</div></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              What if the tool I need isn't on the truck?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body"><div>Tell your dealer or note the part number from Cornwell's online catalog. It gets ordered and rides along on your next stop. The truck carries the everyday line; the catalog covers the rest.</div></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              What happens if a Cornwell tool breaks?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body"><div>Bring it to the truck on your next stop. Warranty &amp; Service Assistance means we help you handle Cornwell's warranty and service process so you're not chasing it on your own. Coverage depends on the tool, and your dealer walks you through what applies.</div></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              Can my techs buy for themselves, or is it just the shop?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body"><div>Both. Owners buy for the shop and technicians buy for their own box, at the same stop. Financing and payment options are available on tool purchases, and the details are worked out with your dealer in person.</div></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              Is Tool Co part of Cornwell?
+              <svg class="faq-chevron flex-shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-body"><div>Tool Co is an independent, authorized Cornwell Quality Tools franchise. The tools are Cornwell. The truck, the route, and the service are ours. There's no storefront to visit; the truck is the store.</div></div>
+          </details>
+
         </div>
       </div>
     </section>
@@ -897,7 +1086,7 @@
         <div>
           <h2 class="font-display font-bold text-white text-sm uppercase tracking-widest mb-4">Services</h2>
           <ul class="space-y-2.5">
-            <li><a href="/services/mobile-tool-service.html"         class="text-muted text-sm hover:text-white transition-colors duration-150">Mobile Tool Service</a></li>
+            <li><a href="/services/mobile-tool-service.html"         class="text-muted text-sm hover:text-white transition-colors duration-150" aria-current="page">Mobile Tool Service</a></li>
             <li><a href="/services/professional-tool-solutions.html" class="text-muted text-sm hover:text-white transition-colors duration-150">Professional Tool Solutions</a></li>
             <li><a href="/services/tool-financing.html"              class="text-muted text-sm hover:text-white transition-colors duration-150">Tool Financing &amp; Payment Options</a></li>
           </ul>
@@ -906,7 +1095,7 @@
         <div>
           <h2 class="font-display font-bold text-white text-sm uppercase tracking-widest mb-4">Company</h2>
           <ul class="space-y-2.5">
-            <li><a href="/about.html"     class="text-muted text-sm hover:text-white transition-colors duration-150" aria-current="page">About Tool Co</a></li>
+            <li><a href="/about.html"     class="text-muted text-sm hover:text-white transition-colors duration-150">About Tool Co</a></li>
             <li><a href="/team.html"      class="text-muted text-sm hover:text-white transition-colors duration-150">Meet the Team</a></li>
             <li><a href="/catalog.html"   class="text-muted text-sm hover:text-white transition-colors duration-150">This Month's Catalog</a></li>
             <li><a href="/#service-area"  class="text-muted text-sm hover:text-white transition-colors duration-150">Service Areas</a></li>

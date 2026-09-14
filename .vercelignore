@@ -1,0 +1,22 @@
+*.md
+CLAUDE.md
+Claude.md
+CONTENT-VOICE.md
+CLAUDE-SKELETON.md
+SEO-CONTENT-PROMPT.md
+TEMPLATE-SPEC.md
+brand_assets/README.md
+.claude/
+.gitignore
+.vercelignore
+serve.mjs
+screenshot.mjs
+package.json
+package-lock.json
+node_modules/
+temporary screenshots/
+*.mov
+*.MOV
+*-raw.jpg
+*-trim-preview.*
+.DS_Store

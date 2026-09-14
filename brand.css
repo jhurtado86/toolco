@@ -1,50 +1,64 @@
 /* ============================================================
-   brand.css — single source of truth for the color system.
-   primary = derive from client logo.
-   Neutral graphite / slate placeholders — the template ships NO
-   brand color. Recolor a client by editing ONLY the tokens in the
-   first :root block below; everything else references these.
-   Recolor check (every build): accent-deep vs bg >=4.5:1 ·
-   accent-bright vs dark >=4.5:1 · muted vs bg-2 >=4.5:1.
+   brand.css — single source of truth for the Tool Co color system.
+   [DEALER-BUILD] Values LOCKED from brand_assets/logo.png (the
+   navy + sky-blue "Tool Co" flame/mascot mark). The blues below were
+   extracted from that file — not guessed, not default Tailwind.
+   Neutrals (silver/ink/muted) are [DERIVE]d to sit with the logo.
+   Recolor by editing ONLY the tokens in the first :root block;
+   every page references these. No red. No gold.
+   Contrast check (verified this build, WCAG luminance):
+     accent-deep #2768B1 vs bg #FFFFFF        = 5.7:1  (>=4.5 ok)
+     accent-bright #70B9FB vs dark #013074    = 6.0:1  (>=4.5 ok)
+     accent #4EA5F4 vs dark #013074           = 4.8:1  (>=4.5 ok)
+     muted #5A6472 vs bg-2 #F2F6FB            = 5.5:1  (>=4.5 ok)
+     muted-light #A5B6CC vs dark #013074      = 5.9:1  (>=4.5 ok)
+     primary #013074 vs accent #4EA5F4 (btn)  = 4.8:1  (>=4.5 ok)
+   NOTE: accent #4EA5F4 on WHITE is only 2.6:1 — never use the raw
+   accent for small text/strokes on light; use accent-deep.
    ============================================================ */
 :root {
   /* — Core palette (hex) — */
-  --color-primary:      #232838;  /* brand primary slot (= dark) */
-  --color-primary-mid:  #313749;  /* first dark-elevation step + primary hover */
-  --color-accent:       #5E6675;  /* the "pop" / CTA accent — replace per client */
-  --color-accent-deep:  #4A515E;  /* accent hover / pressed — the on-LIGHT accent fallback */
-  --color-accent-bright:#A2AEC3;  /* on-DARK accent — every accent use on --color-dark; keep >=4.5:1 vs dark */
-  --color-dark:         #232838;  /* single canonical dark-section bg (== primary) */
-  --color-dark-3:       #363D4E;  /* deepest dark-elevation surface */
-  --color-ink:          #1A1D28;  /* body + heading text */
-  --color-muted:        #666D79;  /* muted / secondary text — clears 4.5:1 vs bg-2 (4.74) & bg (5.21) */
-  --color-muted-light:  #8A929E;  /* lighter muted text */
-  --color-line:         #D8DAE2;  /* hairlines / borders */
+  --color-primary:      #013074;  /* logo navy — dark hero/sections, footer, nav, primary buttons */
+  --color-primary-mid:  #2768B1;  /* logo mid-blue — hover, secondary buttons, borders on dark */
+  --color-accent:       #4EA5F4;  /* logo sky blue — icons, highlights, on-dark accent, accent button fill */
+  --color-accent-deep:  #2768B1;  /* on-LIGHT fallback for the sky accent (small text/strokes on white) */
+  --color-accent-bright:#70B9FB;  /* logo light sky — on-DARK accent (eyebrows, spans, checks on --color-dark). CLAUDE.md calls this "accent-light". */
+  --color-tint:         #C7E4FA;  /* logo pale blue — subtle fills, dividers, glow on dark */
+  --color-dark:         #013074;  /* single canonical dark-section bg (== primary) */
+  --color-dark-3:       #0B3A84;  /* dark-elevation surface (cards on dark) */
+  --color-silver:       #8A94A3;  /* [DERIVE] tool-steel gray — hairlines, chrome, LARGE text on dark only (4.1:1) */
+  --color-ink:          #0E1726;  /* [DERIVE] near-black — headings + body */
+  --color-muted:        #5A6472;  /* [DERIVE] muted / secondary text on light */
+  --color-muted-light:  #A5B6CC;  /* muted / secondary text on dark */
+  --color-line:         #D5DEEA;  /* hairlines / borders on light */
   --color-bg:           #FFFFFF;  /* page background */
-  --color-bg-2:         #F3F4F7;  /* light section tint */
-  --color-rating:       #F59E0B;  /* star-rating gold — functional, not brand */
+  --color-bg-2:         #F2F6FB;  /* light section tint (cool, off the logo's pale blue) */
 
   /* — Channel triplets (R, G, B) for rgba() tinting — */
-  --color-primary-rgb:     35, 40, 56;
-  --color-primary-mid-rgb: 49, 55, 73;
-  --color-accent-rgb:      94, 102, 117;
-  --color-accent-deep-rgb: 74, 81, 94;
-  --color-accent-bright-rgb: 162, 174, 195;
-  --color-dark-rgb:        35, 40, 56;
-  --color-dark-3-rgb:      54, 61, 78;
-  --color-ink-rgb:         26, 29, 40;
+  --color-primary-rgb:       1, 48, 116;
+  --color-primary-mid-rgb:   39, 104, 177;
+  --color-accent-rgb:        78, 165, 244;
+  --color-accent-deep-rgb:   39, 104, 177;
+  --color-accent-bright-rgb: 112, 185, 251;
+  --color-tint-rgb:          199, 228, 250;
+  --color-dark-rgb:          1, 48, 116;
+  --color-dark-3-rgb:        11, 58, 132;
+  --color-ink-rgb:           14, 23, 38;
+  --color-silver-rgb:        138, 148, 163;
 
-  /* size the nav off the client logo — see CLAUDE.md logo rules */
-  --nav-height:         96px;   /* nav bar height — starting point, not fixed */
-  --nav-logo-height:    72px;   /* client logo <img> height in the nav */
-  --footer-logo-height: 116px;  /* client logo <img> height in the footer */
+  /* Nav sized off the client logo (brand_assets/logo.png, 1994x789 ≈ 2.53:1).
+     At 64px tall the mark renders ~162px wide — the wordmark under the flame
+     stays legible without crowding the nav row. See CLAUDE.md logo rules. */
+  --nav-height:         92px;   /* nav bar height */
+  --nav-logo-height:    64px;   /* client logo <img> height in the nav */
+  --footer-logo-height: 112px;  /* client logo <img> height in the footer */
 }
 
 /* ============================================================
    Uniform content-photo container — used for EVERY content photo
    site-wide. One ratio (4:3) so no photo differs in size from
    another. Never use a fixed h-[Npx]. The ONLY exception is
-   people/owner portraits: add --portrait (3:4, top-anchored).
+   people/driver portraits: add --portrait (3:4, top-anchored).
    ============================================================ */
 .photo-frame {
   position: relative;
